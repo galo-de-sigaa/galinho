@@ -3,6 +3,8 @@ from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
 from django.http import HttpResponse
 import json
+from selenium import webdriver
+from selenium.webdriver.common.by import By
 
 def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
@@ -19,8 +21,25 @@ def turmas(request, id):
 def turmas_disponiveis(request, id):
     return HttpResponse("GET para turmas disponíveis" + str(id))
 
+
 @csrf_exempt
 @require_http_methods(["POST"])
 def login(request):
+    driver = webdriver.Firefox()
+    url = 'https://sigaa.unb.br/sigaa/logar.do?dispatch=logOn'
     received_json_data = json.loads(request.body.decode("utf-8"))
-    return HttpResponse("Egg. (POST para login)" + received_json_data['nome'])
+    driver.get(url)
+
+    driver.find_element(By.XPATH, "//input[@name='user.login']").send_keys(received_json_data['user'])
+    driver.find_element(By.XPATH, "//input[@name='user.senha']").send_keys(received_json_data['senha'])
+    driver.find_element(By.XPATH, "//input[@value='Entrar']").click()
+    profile = driver.page_source
+
+    driver.find_element(By.XPATH, "//img[@src='/sigaa/img/icones/ensino_menu.gif']").click()
+    driver.find_element(By.XPATH, "//td[text()='Consultar Minhas Notas']").click()
+
+    source = driver.page_source
+    driver.close()
+    # return (profile, driver.page_source)
+
+    return HttpResponse(source)
