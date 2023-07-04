@@ -1,0 +1,1397 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class=" ext-strict"><head>
+	<meta http-equiv="Pragma" content="no-cache">
+	<title>SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</title>
+	<link class="component" href="/sigaa/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><link class="component" href="/sigaa/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js.jsf" type="text/javascript"></script><link rel="shortcut icon" href="/sigaa/img/sigaa.ico">
+	
+	<script type="text/javascript" src="/shared/jsBundles/jawr_loader.js"></script>
+	<script src="/sigaa/javascript/prevenir-duplo-clique.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		JAWR.loader.style('/javascript/ext-2.0.a.1/resources/css/ext-all.css', 'all');
+		JAWR.loader.style('/css/public.css','all');
+	 	JAWR.loader.script('/bundles/js/sigaa_base.js');
+	 	JAWR.loader.script('/bundles/js/ext2_all.js');
+
+	 	
+	</script> <link rel="stylesheet" type="text/css" media="all" href="/shared/cssBundles/gzip_086847611/javascript/ext-2.0.a.1/resources/css/ext-all.css">  <link rel="stylesheet" type="text/css" media="all" href="/shared/cssBundles/gzip_098577918/css/public.css">  <script type="text/javascript" src="/shared/jsBundles/gzip_404685069/bundles/js/sigaa_base.js"> </script>  <script type="text/javascript" src="/shared/jsBundles/gzip_203901949/bundles/js/ext2_all.js"> </script> 
+	<link rel="stylesheet" type="text/css" media="all" href="/sigaa/cssBundles/gzip_N1328554985/public/css/public.css">
+
+	
+	<link rel="stylesheet" type="text/css" href="/shared/beta/css/font-awesome.css" media="screen">
+	
+	<script src="/shared/javascript/STICookieConsent.js"></script>
+	<script>
+	    document.addEventListener("DOMContentLoaded", () => {
+	    	generateCookieConsentModal("SIGAA", "N&#243;s usamos cookies para melhorar sua experi&#234;ncia de navega&#231;&#227;o no portal. Ao utilizar o %sitename%, voc&#234; concorda com a pol&#237;tica de monitoramento de cookies. Para ter mais informa&#231;&#245;es sobre como isso &#233; feito e como remover, acesse a <a href=%cookie-policy%>Pol&#237;tica de Prote&#231;&#227;o de Dados Pessoais</a>. Para saber como a UnB trata os dados, acesse a <a href=%privacy-policy%> Pol&#237;tica de cookies</a>. Se voc&#234; concorda, clique em %button-text%.", "https://protecaodedados.unb.br", "https://sti.unb.br/doc-politicas");
+	    })
+	</script>
+	
+<style>
+.cookie-consent-modal {
+  /* Vars */
+  --background: #4e4e4e;
+  --link-color: #79cbf2;
+  --link-color-hover: #17e4ff;
+  --body-text-color: #fff;
+  --button-background: #fff;
+
+  box-shadow:0 0 10px rgba(0,0,0,.4);
+  position:fixed;
+  bottom:0;
+  margin-bottom:4.5rem;
+  z-index:10000;
+  width: 100vw;
+  max-width: 100%;
+  color:var(--body-text-color);
+  background:var(--background);
+  padding:2.5rem 0;
+  border: 0;
+}
+.cookie-consent-modal p{
+  width:inherit;
+  margin:auto
+}
+.cookie-consent-modal a{
+  color:var(--link-color);
+  text-decoration: none;
+}
+.cookie-consent-modal a:focus,.cookie-consent-modal a:hover{
+  text-decoration:underline
+}
+.cookie-consent-modal button{
+  cursor: pointer;
+  margin:1rem auto 0;
+  display:block;
+  font-weight:700;
+  color:var(--background);
+  background-color:var(--button-background);
+  border: 0;
+  padding: 8px 14px;
+  border-radius:4px;
+}
+.cookie-consent-modal button:active,.cookie-consent-modal button:focus,.cookie-consent-modal button:hover{
+  background-color:var(--link-color);
+}
+.cookie-consent-modal > .container {
+  margin:auto;
+  max-width:100%;
+  padding: 0 1.5em;
+}
+@media (min-width: 556px) {
+  .cookie-consent-modal > .container {
+    max-width:540px;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .cookie-consent-modal > .container {
+    max-width:720px;
+  }
+}
+@media (min-width: 992px) {
+  .cookie-consent-modal > .container {
+    max-width:960px;
+  }
+}
+@media (min-width: 1200px) {
+  .cookie-consent-modal > .container {
+    max-width:1140px;
+  }
+}
+</style></head>
+
+<body id="ext-gen6" class=" ext-gecko"><dialog open="true" class="cookie-consent-modal" id="sigaa-cookie-consent"><div class="container">Nós usamos cookies para melhorar sua experiência de navegação no portal. Ao utilizar o SIGAA, você concorda com a política de monitoramento de cookies. Para ter mais informações sobre como isso é feito e como remover, acesse a <a href="https://protecaodedados.unb.br">Política de Proteção de Dados Pessoais</a>. Para saber como a UnB trata os dados, acesse a <a href="https://sti.unb.br/doc-politicas"> Política de cookies</a>. Se você concorda, clique em Ciente.</div><button class="btn btn-primary">Ciente</button></dialog>
+	<div id="container">
+	
+
+	<div id="container-inner">
+
+	<div id="cabecalho">
+		<div id="logo">
+				<a href="/sigaa/public/"> <img src="https://sig.unb.br/shared/img/instituicao/brasao.png"> </a>		
+		</div>
+		<div id="identificacao">
+			<span class="ufrn"> Universidade de Brasília </span>
+			<span class="data">
+				 Brasília, 
+				 04 de Julho de 
+				 2023 
+			</span>
+			<a id="home" href="/sigaa/public/" title="Página inicial" style="width: 450px;"> </a>
+			<div id="menu_info">
+				<ul>
+					<li class="acessibilidade">
+						<a href="https://sigaa.unb.br/sigaa/verTelaLogin.do?acessibilidade=true" alt="Acessível para pessoas com deficiência visual" title="Acessível para pessoas com deficiência visual">
+							Acessível para pessoas com deficiência visual
+						</a>
+					</li>
+					
+					<li class="login">
+						<a href="/sigaa/" alt="Clique aqui para logar-se no SIGAA" title="Clique aqui para logar-se no SIGAA">
+							Login
+						<i class="fa fa-angle-right"></i></a>	
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<br clear="all">
+	</div>
+
+
+	<div id="corpo">
+	
+
+
+
+<style>
+	tr.tituloRelatorio td {padding: 19px 0 0; border-bottom: 1px solid #555 ; font-weight: bold; font-size: 13px; }
+	tr.header td {padding: 3px ; border-bottom: 1px solid #555; background-color: #eee;}
+	tr.componentes td {padding: 4px 2px 2px ; border-bottom: 1px dashed #888;}
+	.colCodigo{text-align:left !important;}
+</style>
+
+	
+
+	<!--  Scripts do YAHOO -->
+	<link rel="stylesheet" type="text/css" href="/shared/javascript/yui/tabview/assets/tabs.css">
+	<link rel="stylesheet" type="text/css" href="/shared/javascript/yui/tabview/assets/border_tabs.css">
+	<script type="text/javascript" src="/shared/javascript/yui/tabview-min.js"></script>
+
+	<style>
+		table.formulario th {
+			font-weight: bold;
+		}
+	</style>		
+	<script type="text/javascript">
+	var criarAbas = function() {
+	    var tabView = new YAHOO.widget.TabView('tabs-semestres');
+	};
+	criarAbas();
+	</script>
+	
+	
+	
+
+	
+	<h2 class="title">Estrutura Curricular </h2>
+
+	
+<form id="formulario" name="formulario" method="post" action="/sigaa/public/curso/relatorio_curriculo.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formulario" value="formulario">
+
+		<div class="legenda" style="width: 700px">
+			<img src="/sigaa/img/view.gif">:&nbsp;Visualizar Detalhes do Componente<img src="/sigaa/img/report.png">:&nbsp;Visualizar Programa
+			
+		</div>
+		<h3 class="tituloTabela" style="width: 700px">Estrutura Curricular</h3>
+		<table class="formulario" width="700px">
+			<tbody><tr>
+				<th>Código: </th>
+				<td>6912/2</td>
+			</tr>
+			
+				<tr>
+					<th>Matriz Curricular: </th>
+					<td>ENGENHARIA MECATRÔNICA - CONTROLE E AUTOMAÇÃO/FTD - Engenheiro de Controle e Automação - Presencial - D</td>
+				</tr>
+			
+			
+			<tr>
+				<th>Período Letivo de Entrada em Vigor: </th>
+				<td>2022.2</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="subFormulario">
+				 	Prazos e Cargas Horárias
+				</td>
+			</tr>	
+			<tr>
+				<th>Total Mínima: </th>
+				<td>3900h</td>					
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center; background-color: #EEEEEE">
+					<b>Carga Horária Obrigatória</b>
+				</td>								
+			</tr>
+			<tr>
+				<th>Subtotal de CH de Aula: </th>
+				<td>
+					2850h 
+				</td>
+			</tr>
+			<tr>
+				<th>Subtotal de CH de Orientação Acadêmica/Profissional: </th>
+				<td>
+					420h 
+				</td>
+			</tr>
+			<tr style="border-bottom: 1px solid #DDDDDD;">
+				<th>Total:</th>
+				<td>
+					3270h 
+				</td>
+			</tr>
+			<tr>
+				<th width="48%">Carga Horária Optativa Mínima: </th>
+				<td>630h</td>
+			</tr><tr>
+			</tr><tr>
+				<th width="48%">Carga Horária Complementar Mínima: </th>
+				<td>0h</td>										
+			</tr>
+			<tr>
+				<th>Carga Horária Obrigatória Atividade Acadêmica Específica: </th>
+				<td>
+					0h
+				</td>
+			</tr>
+			<tr>
+				<th>Carga Horária Máxima de Componentes Eletivos: </th>
+				<td>360h</td>
+			</tr>
+			
+			<tr>
+				<th>Carga Horária Máxima por Período Letivo: </th>
+				<td>480h</td>							
+			</tr>
+			
+			
+			<tr style="border-bottom: 1px solid #DDDDDD;">
+				<th>Carga Horária Mínima por Período Letivo: </th>
+				<td>225h</td>							
+			</tr>
+			
+			
+			<tr style="border-bottom: 1px solid #DDDDDD;">
+				<th>Prazo Para Conclusão (em semestres): </th>				
+				<td>
+			  		<table>
+			  			<tbody><tr>
+				  									
+								<th>Mínimo: </th>
+								<td>
+									9 &nbsp;
+								</td>
+								<th>Médio: </th>
+								<td>
+									10  &nbsp;
+								</td>
+								<th>Máximo: </th>
+								<td>
+									18  &nbsp;
+								</td>						
+				  			
+				  			
+			  			</tr>
+					</tbody></table>
+				</td>
+			</tr>
+			
+				<tr>			
+					<td colspan="2">
+						<table style="width: 100%">
+							<tbody><tr class="tituloRelatorio">
+								<td colspan="3">Optativas</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>ADM0023 - INTRODUÇÃO À ADMINISTRAÇÃO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											
+<script type="text/javascript" language="Javascript">function dpf(f) {var adp = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {f.removeChild(adp[i]);}}};function apf(f, pvp) {var adp = new Array();f.adp = adp;var i = 0;for (k in pvp) {var p = document.createElement("input");p.type = "hidden";p.name = k;p.value = pvp[k];f.appendChild(p);adp[i++] = p;}};function jsfcljs(f, pvp, t) {apf(f, pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>
+<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45':'formulario:j_id_jsp_687993592_45','id':'186731','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49':'formulario:j_id_jsp_687993592_49','idComponente':'186731'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CIC0104 - SOFTWARE BASICO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_1':'formulario:j_id_jsp_687993592_45j_id_1','id':'178387','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_1':'formulario:j_id_jsp_687993592_49j_id_1','idComponente':'178387'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CIC0130 - INTRODUÇÃO AOS SISTEMAS EMBARCADOS - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_2':'formulario:j_id_jsp_687993592_45j_id_2','id':'178413','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_2':'formulario:j_id_jsp_687993592_49j_id_2','idComponente':'178413'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CIC0135 - INTRODUCAO A INTELIGENCIA ARTIFICIAL - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_3':'formulario:j_id_jsp_687993592_45j_id_3','id':'178418','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_3':'formulario:j_id_jsp_687993592_49j_id_3','idComponente':'178418'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CIC0195 - PRINCÍPIOS DE VISÃO COMPUTACIONAL - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_4':'formulario:j_id_jsp_687993592_45j_id_4','id':'178539','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_4':'formulario:j_id_jsp_687993592_49j_id_4','idComponente':'178539'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CIC0197 - TECNICAS DE PROGRAMAÇÃO 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_5':'formulario:j_id_jsp_687993592_45j_id_5','id':'178570','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_5':'formulario:j_id_jsp_687993592_49j_id_5','idComponente':'178570'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CIC0233 - FUNDAMENTOS COMPUTACIONAIS DE ROBÓTICA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_6':'formulario:j_id_jsp_687993592_45j_id_6','id':'189052','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_6':'formulario:j_id_jsp_687993592_49j_id_6','idComponente':'189052'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ECO0019 - INTRODUÇÃO À ECONOMIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_7':'formulario:j_id_jsp_687993592_45j_id_7','id':'180523','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_7':'formulario:j_id_jsp_687993592_49j_id_7','idComponente':'180523'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0154 - INTELIGÊNCIA COMPUTACIONAL - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_8':'formulario:j_id_jsp_687993592_45j_id_8','id':'184565','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_8':'formulario:j_id_jsp_687993592_49j_id_8','idComponente':'184565'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0260 - IDENTIFICAÇÃO DE SISTEMAS DINÂMICOS - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_9':'formulario:j_id_jsp_687993592_45j_id_9','id':'184956','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_9':'formulario:j_id_jsp_687993592_49j_id_9','idComponente':'184956'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0326 - ELETRÔNICA DE POTÊNCIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_10':'formulario:j_id_jsp_687993592_45j_id_10','id':'185120','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_10':'formulario:j_id_jsp_687993592_49j_id_10','idComponente':'185120'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0328 - TOPICOS EM CONTROLE E AUTOMACAO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_11':'formulario:j_id_jsp_687993592_45j_id_11','id':'185132','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_11':'formulario:j_id_jsp_687993592_49j_id_11','idComponente':'185132'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0345 - PRINCÍPIOS DE CONTROLE DE ROBÔS - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_12':'formulario:j_id_jsp_687993592_45j_id_12','id':'189432','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_12':'formulario:j_id_jsp_687993592_49j_id_12','idComponente':'189432'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENM0066 - TÓPICOS ESPECIAIS EM ENGENHARIA MECATRÔNICA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_13':'formulario:j_id_jsp_687993592_45j_id_13','id':'184702','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_13':'formulario:j_id_jsp_687993592_49j_id_13','idComponente':'184702'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENM0119 - SEGURANCA EM SISTEMAS DE CONTROLE E AUTOMACAO - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_14':'formulario:j_id_jsp_687993592_45j_id_14','id':'185029','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_14':'formulario:j_id_jsp_687993592_49j_id_14','idComponente':'185029'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENM0168 - ROBOTICA INDUSTRIAL 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_15':'formulario:j_id_jsp_687993592_45j_id_15','id':'185144','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_15':'formulario:j_id_jsp_687993592_49j_id_15','idComponente':'185144'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENM0178 - SISTEMAS RECONFIGURÁVEIS PARA AUTOMAÇÃO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_16':'formulario:j_id_jsp_687993592_45j_id_16','id':'185278','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_16':'formulario:j_id_jsp_687993592_49j_id_16','idComponente':'185278'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FDD0155 - NOÇÕES DE DIREITO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_17':'formulario:j_id_jsp_687993592_45j_id_17','id':'187294','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_17':'formulario:j_id_jsp_687993592_49j_id_17','idComponente':'187294'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>LIP0174 - LÍNGUA DE SINAIS BRASILEIRA - BÁSICO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_18':'formulario:j_id_jsp_687993592_45j_id_18','id':'183355','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_18':'formulario:j_id_jsp_687993592_49j_id_18','idComponente':'183355'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>SOL0042 - INTRODUÇÃO À SOCIOLOGIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_19':'formulario:j_id_jsp_687993592_45j_id_19','id':'180803','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_19':'formulario:j_id_jsp_687993592_49j_id_19','idComponente':'180803'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+								
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 1170h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						</tbody></table>
+					
+					
+						<table>
+							<tbody><tr class="tituloRelatorio">
+								<td colspan="3">Complementares</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+							
+								<tr>
+									<td>Esta estrutura curricular não possui componentes complementares.</td>
+									<td width="8%">&nbsp;</td>
+									<td width="8%">&nbsp;</td>
+								</tr>
+								
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 0h &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						</tbody></table>
+						
+					
+					
+						<table>
+						
+							<tbody><tr class="tituloRelatorio">
+								<td colspan="3">1º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>CIC0004 - ALGORITMOS E PROGRAMAÇÃO DE COMPUTADORES - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62':'formulario:j_id_jsp_687993592_62','id':'177944','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66':'formulario:j_id_jsp_687993592_66','idComponente':'177944'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FTD0021 - INTRODUÇÃO À ENGENHARIA MECATRÔNICA - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_1':'formulario:j_id_jsp_687993592_62j_id_1','id':'303350','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_1':'formulario:j_id_jsp_687993592_66j_id_1','idComponente':'303350'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>IQD0125 - QUIMICA GERAL TEORICA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_2':'formulario:j_id_jsp_687993592_62j_id_2','id':'178094','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_2':'formulario:j_id_jsp_687993592_66j_id_2','idComponente':'178094'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>IQD0126 - QUIMICA GERAL EXPERIMENTAL - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_3':'formulario:j_id_jsp_687993592_62j_id_3','id':'178095','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_3':'formulario:j_id_jsp_687993592_66j_id_3','idComponente':'178095'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>MAT0025 - CÁLCULO 1 - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_4':'formulario:j_id_jsp_687993592_62j_id_4','id':'177891','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_4':'formulario:j_id_jsp_687993592_66j_id_4','idComponente':'177891'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>MAT0031 - INTRODUCAO A ALGEBRA LINEAR - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_5':'formulario:j_id_jsp_687993592_62j_id_5','id':'177898','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_5':'formulario:j_id_jsp_687993592_66j_id_5','idComponente':'177898'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 360h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">2º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>CIC0090 - ESTRUTURAS DE DADOS - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_6':'formulario:j_id_jsp_687993592_62j_id_6','id':'178368','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_6':'formulario:j_id_jsp_687993592_66j_id_6','idComponente':'178368'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENM0190 - DESENHO MECÂNICO PARA ENGENHARIA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_7':'formulario:j_id_jsp_687993592_62j_id_7','id':'189800','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_7':'formulario:j_id_jsp_687993592_66j_id_7','idComponente':'189800'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>EST0023 - PROBABILIDADE E ESTATÍSTICA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_8':'formulario:j_id_jsp_687993592_62j_id_8','id':'178161','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_8':'formulario:j_id_jsp_687993592_66j_id_8','idComponente':'178161'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FTD0018 - IMPACTOS SOCIAIS DA TECNOLOGIA - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_9':'formulario:j_id_jsp_687993592_62j_id_9','id':'259394','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_9':'formulario:j_id_jsp_687993592_66j_id_9','idComponente':'259394'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>IFD0171 - FISICA 1 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_10':'formulario:j_id_jsp_687993592_62j_id_10','id':'178581','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_10':'formulario:j_id_jsp_687993592_66j_id_10','idComponente':'178581'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>IFD0173 - FISICA 1 EXPERIMENTAL - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_11':'formulario:j_id_jsp_687993592_62j_id_11','id':'178583','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_11':'formulario:j_id_jsp_687993592_66j_id_11','idComponente':'178583'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>MAT0026 - CÁLCULO 2 - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_12':'formulario:j_id_jsp_687993592_62j_id_12','id':'177892','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_12':'formulario:j_id_jsp_687993592_66j_id_12','idComponente':'177892'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 390h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">3º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>ENE0066 - INTRODUÇÃO AOS CIRCUITOS ELÉTRICOS - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_13':'formulario:j_id_jsp_687993592_62j_id_13','id':'178030','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_13':'formulario:j_id_jsp_687993592_66j_id_13','idComponente':'178030'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0067 - SINAIS E SISTEMAS EM TEMPO CONTÍNUO - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_14':'formulario:j_id_jsp_687993592_62j_id_14','id':'178048','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_14':'formulario:j_id_jsp_687993592_66j_id_14','idComponente':'178048'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENM0126 - INTRODUÇÃO À CIÊNCIA DOS MATERIAIS - 45h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_15':'formulario:j_id_jsp_687993592_62j_id_15','id':'185036','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_15':'formulario:j_id_jsp_687993592_66j_id_15','idComponente':'185036'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENM0203 - ESTÁTICA APLICADA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_16':'formulario:j_id_jsp_687993592_62j_id_16','id':'257207','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_16':'formulario:j_id_jsp_687993592_66j_id_16','idComponente':'257207'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>IFD0175 - FISICA 2 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_17':'formulario:j_id_jsp_687993592_62j_id_17','id':'178585','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_17':'formulario:j_id_jsp_687993592_66j_id_17','idComponente':'178585'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>IFD0177 - FISICA 2 EXPERIMENTAL - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_18':'formulario:j_id_jsp_687993592_62j_id_18','id':'178587','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_18':'formulario:j_id_jsp_687993592_66j_id_18','idComponente':'178587'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>MAT0027 - CÁLCULO 3 - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_19':'formulario:j_id_jsp_687993592_62j_id_19','id':'177893','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_19':'formulario:j_id_jsp_687993592_66j_id_19','idComponente':'177893'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 405h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">4º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>ENE0068 - SINAIS E SISTEMAS EM TEMPO DISCRETO - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_20':'formulario:j_id_jsp_687993592_62j_id_20','id':'178049','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_20':'formulario:j_id_jsp_687993592_66j_id_20','idComponente':'178049'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0282 - LABORATÓRIO DE CIRCUITOS ELÉTRICOS - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_21':'formulario:j_id_jsp_687993592_62j_id_21','id':'185062','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_21':'formulario:j_id_jsp_687993592_66j_id_21','idComponente':'185062'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0304 - CIRCUITOS ELÉTRICOS - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_22':'formulario:j_id_jsp_687993592_62j_id_22','id':'185084','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_22':'formulario:j_id_jsp_687993592_66j_id_22','idComponente':'185084'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENM0164 - MECANICA DOS MATERIAIS 1 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_23':'formulario:j_id_jsp_687993592_62j_id_23','id':'185129','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_23':'formulario:j_id_jsp_687993592_66j_id_23','idComponente':'185129'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENM0217 - DINÂMICA APLICADA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_24':'formulario:j_id_jsp_687993592_62j_id_24','id':'257208','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_24':'formulario:j_id_jsp_687993592_66j_id_24','idComponente':'257208'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>IFD0179 - FISICA 3 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_25':'formulario:j_id_jsp_687993592_62j_id_25','id':'178589','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_25':'formulario:j_id_jsp_687993592_66j_id_25','idComponente':'178589'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>MAT0053 - CALCULO NUMERICO - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_26':'formulario:j_id_jsp_687993592_62j_id_26','id':'177938','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_26':'formulario:j_id_jsp_687993592_66j_id_26','idComponente':'177938'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 390h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">5º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>CIC0229 - CIRCUITOS LÓGICOS - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_27':'formulario:j_id_jsp_687993592_62j_id_27','id':'180218','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_27':'formulario:j_id_jsp_687993592_66j_id_27','idComponente':'180218'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CIC0231 - LABORATÓRIO DE CIRCUITOS LÓGICOS - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_28':'formulario:j_id_jsp_687993592_62j_id_28','id':'180220','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_28':'formulario:j_id_jsp_687993592_66j_id_28','idComponente':'180220'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0045 - ELETRÔNICA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_29':'formulario:j_id_jsp_687993592_62j_id_29','id':'177612','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_29':'formulario:j_id_jsp_687993592_66j_id_29','idComponente':'177612'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0046 - LABORATÓRIO DE ELETRÔNICA - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_30':'formulario:j_id_jsp_687993592_62j_id_30','id':'177613','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_30':'formulario:j_id_jsp_687993592_66j_id_30','idComponente':'177613'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0047 - CONVERSÃO ELETROMECÂNICA DE ENERGIA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_31':'formulario:j_id_jsp_687993592_62j_id_31','id':'177614','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_31':'formulario:j_id_jsp_687993592_66j_id_31','idComponente':'177614'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENM0127 - TECNOLOGIA DE FABRICACAO 1 - 45h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_32':'formulario:j_id_jsp_687993592_62j_id_32','id':'185037','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_32':'formulario:j_id_jsp_687993592_66j_id_32','idComponente':'185037'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENM0128 - TRANSPORTE DE CALOR E MASSA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_33':'formulario:j_id_jsp_687993592_62j_id_33','id':'185038','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_33':'formulario:j_id_jsp_687993592_66j_id_33','idComponente':'185038'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 345h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">6º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>CIC0099 - ORGANIZAÇÃO E ARQUITETURA DE COMPUTADORES - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_34':'formulario:j_id_jsp_687993592_62j_id_34','id':'178380','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_34':'formulario:j_id_jsp_687993592_66j_id_34','idComponente':'178380'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0048 - LABORATÓRIO DE CONVERSÃO ELETROMECÂNICA DE ENERGIA - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_35':'formulario:j_id_jsp_687993592_62j_id_35','id':'177615','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_35':'formulario:j_id_jsp_687993592_66j_id_35','idComponente':'177615'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0077 - CONTROLE DE SISTEMAS DINÂMICOS - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_36':'formulario:j_id_jsp_687993592_62j_id_36','id':'180176','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_36':'formulario:j_id_jsp_687993592_66j_id_36','idComponente':'180176'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENM0027 - TECNOLOGIAS DE COMANDO NUMERICO - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_37':'formulario:j_id_jsp_687993592_62j_id_37','id':'184606','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_37':'formulario:j_id_jsp_687993592_66j_id_37','idComponente':'184606'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENM0084 - SISTEMAS HIDRAULICOS E PNEUMATICOS - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_38':'formulario:j_id_jsp_687993592_62j_id_38','id':'184991','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_38':'formulario:j_id_jsp_687993592_66j_id_38','idComponente':'184991'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FTD0019 - ATIVIDADE DE EXTENSÃO 1 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_39':'formulario:j_id_jsp_687993592_62j_id_39','id':'259395','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_39':'formulario:j_id_jsp_687993592_66j_id_39','idComponente':'259395'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 330h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">7º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>CIC0124 - REDES DE COMPUTADORES - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_40':'formulario:j_id_jsp_687993592_62j_id_40','id':'178407','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_40':'formulario:j_id_jsp_687993592_66j_id_40','idComponente':'178407'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CIC0256 - PRÁTICA EXTENSIONISTA EM COMPUTAÇÃO A - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_41':'formulario:j_id_jsp_687993592_62j_id_41','id':'254953','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_41':'formulario:j_id_jsp_687993592_66j_id_41','idComponente':'254953'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0078 - LABORATÓRIO DE CONTROLE DE SISTEMAS DINÂMICOS - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_42':'formulario:j_id_jsp_687993592_62j_id_42','id':'180177','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_42':'formulario:j_id_jsp_687993592_66j_id_42','idComponente':'180177'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0079 - CONTROLE NO ESPAÇO DE ESTADOS - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_43':'formulario:j_id_jsp_687993592_62j_id_43','id':'180290','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_43':'formulario:j_id_jsp_687993592_66j_id_43','idComponente':'180290'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0438 - PROJETO INTEGRADOR DE TECNOLOGIAS - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_44':'formulario:j_id_jsp_687993592_62j_id_44','id':'303351','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_44':'formulario:j_id_jsp_687993592_66j_id_44','idComponente':'303351'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENM0134 - SISTEMAS INTEGRADOS DE MANUFATURA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_45':'formulario:j_id_jsp_687993592_62j_id_45','id':'185044','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_45':'formulario:j_id_jsp_687993592_66j_id_45','idComponente':'185044'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 330h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">8º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>CIC0248 - SISTEMAS DE TEMPO REAL - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_46':'formulario:j_id_jsp_687993592_62j_id_46','id':'254715','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_46':'formulario:j_id_jsp_687993592_66j_id_46','idComponente':'254715'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ECL0014 - CIENCIAS DO AMBIENTE - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_47':'formulario:j_id_jsp_687993592_62j_id_47','id':'179235','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_47':'formulario:j_id_jsp_687993592_66j_id_47','idComponente':'179235'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0167 - CONTROLE DIGITAL - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_48':'formulario:j_id_jsp_687993592_62j_id_48','id':'184645','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_48':'formulario:j_id_jsp_687993592_66j_id_48','idComponente':'184645'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENE0355 - INSTRUMENTAÇÃO ELETRÔNICA E SENSORES - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_49':'formulario:j_id_jsp_687993592_62j_id_49','id':'254628','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_49':'formulario:j_id_jsp_687993592_66j_id_49','idComponente':'254628'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENM0195 - MODELAGEM E IMPLEMENTAÇÃO DE SISTEMAS A EVENTOS DISCRETOS - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_50':'formulario:j_id_jsp_687993592_62j_id_50','id':'254710','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_50':'formulario:j_id_jsp_687993592_66j_id_50','idComponente':'254710'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ENM0289 - PROJETO DE MÁQUINAS CONTROLADAS POR COMPUTADOR - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_51':'formulario:j_id_jsp_687993592_62j_id_51','id':'303356','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_51':'formulario:j_id_jsp_687993592_66j_id_51','idComponente':'303356'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 360h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">9º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>FTD0015 - ESTÁGIO CURRICULAR EM ENGENHARIA MECATRÔNICA - 180h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_52':'formulario:j_id_jsp_687993592_62j_id_52','id':'254712','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_52':'formulario:j_id_jsp_687993592_66j_id_52','idComponente':'254712'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FTD0020 - ATIVIDADE DE EXTENSÃO 2 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_53':'formulario:j_id_jsp_687993592_62j_id_53','id':'259396','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_53':'formulario:j_id_jsp_687993592_66j_id_53','idComponente':'259396'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FTD0022 - PROJETO FINAL DE CURSO 1 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_54':'formulario:j_id_jsp_687993592_62j_id_54','id':'303352','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_54':'formulario:j_id_jsp_687993592_66j_id_54','idComponente':'303352'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 270h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">10º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>FTD0023 - PROJETO FINAL DE CURSO 2 - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_55':'formulario:j_id_jsp_687993592_62j_id_55','id':'303353','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_55':'formulario:j_id_jsp_687993592_66j_id_55','idComponente':'303353'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 90h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+						</tbody></table>
+						
+					</td>
+				</tr>
+				
+					<tr>
+						<td colspan="2">&nbsp;<br><br>
+							<table width="100%">
+							<tbody><tr class="tituloRelatorio"><td>Grupos de Componentes Optativos</td></tr>
+							
+							<tr class="header"><td>CADEIA 1</td></tr>
+							
+							<tr class="componentes"><td>ADM0023 - INTRODUÇÃO À ADMINISTRAÇÃO - 60h</td></tr>
+							
+							<tr class="componentes"><td>ECO0019 - INTRODUÇÃO À ECONOMIA - 60h</td></tr>
+							
+							<tr class="componentes"><td>FDD0155 - NOÇÕES DE DIREITO - 60h</td></tr>
+							
+							<tr class="componentes"><td>SOL0042 - INTRODUÇÃO À SOCIOLOGIA - 60h</td></tr>
+							
+							<tr>
+								<td><b>CH Total:</b> 240h &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+							<tr>
+								<td><b>CH Mínima:</b> 60h &nbsp;&nbsp;&nbsp;<br>&nbsp; </td>
+							</tr>
+							
+							<tr class="header"><td>CADEIA 2</td></tr>
+							
+							<tr class="componentes"><td>CIC0104 - SOFTWARE BASICO - 60h</td></tr>
+							
+							<tr class="componentes"><td>CIC0130 - INTRODUÇÃO AOS SISTEMAS EMBARCADOS - 60h</td></tr>
+							
+							<tr>
+								<td><b>CH Total:</b> 120h &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+							<tr>
+								<td><b>CH Mínima:</b> 60h &nbsp;&nbsp;&nbsp;<br>&nbsp; </td>
+							</tr>
+							
+							</tbody></table>
+						</td>
+					</tr>
+				
+			
+			
+			</tbody><tfoot>
+				<tr>
+					<td colspan="2">&nbsp;</td>
+				</tr>
+			</tfoot>
+		</table>
+	<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id133">
+</form>
+	<br>
+	<center>
+	<a href="javascript: history.go(-1);"> &lt;&lt; Voltar </a>
+	</center>
+
+	
+	<div class="clear"></div>
+	</div>
+
+	<div id="rodape">
+		<p>	
+			SIGAA | Secretaria de Tecnologia da Informação - STI - (61)  3107-0102 | Copyright © 2006-2023 - UFRN - app22_Prod.sigaa16
+			 
+				<a onclick="javascript:versao();">v4.9.10.3</a>
+			
+		</p>
+	</div>
+
+	<!-- Fim dos containers -->
+	</div>
+	</div>
+	
+
+
+
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', '0', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>	
+
+
+<!-- MYFACES JAVASCRIPT -->
+
+
+
+
+
+ 
+	<script type="text/javascript" charset="UTF-8">
+		function versao(){
+			var msg='';
+			msg+='SIGAA 4.9.10.3,  publicado em: 30/06/2023 12:11\n\n';
+			msg+='Depend\u00eancias:\n';
+			msg+='Arquitetura 4.4.0\n';
+			msg+='Entidades Comuns 2.3.3\n';
+			msg+='Servicos Integrados 2.0.8\n';
+			msg+='SharedResources 2.1.2\n';
+			msg+='Servicos Remoto Biblioteca null\n';
+			msg+='SIGAA Mobile Objects 1.0.0\n\n';
+			msg+='Copyright SINFO/UFRN';
+			alert(msg);
+		}	
+	</script>
+
+<style>
+a.linkMobile:link {
+	color: #003395;
+	font-weight: bold;
+	font-size: inherit;
+	text-decoration: none;
+}
+
+a.linkMobile:visited {
+	color: #003390;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.linkMobile:active {
+	color: #444444;
+	text-decoration: none;
+	font-weight: bold;
+}
+</style>
+
+</body></html>

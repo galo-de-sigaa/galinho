@@ -1,0 +1,2273 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class=" ext-strict"><head>
+	<meta http-equiv="Pragma" content="no-cache">
+	<title>SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</title>
+	<link class="component" href="/sigaa/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><link class="component" href="/sigaa/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js.jsf" type="text/javascript"></script><link rel="shortcut icon" href="/sigaa/img/sigaa.ico">
+	
+	<script type="text/javascript" src="/shared/jsBundles/jawr_loader.js"></script>
+	<script src="/sigaa/javascript/prevenir-duplo-clique.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		JAWR.loader.style('/javascript/ext-2.0.a.1/resources/css/ext-all.css', 'all');
+		JAWR.loader.style('/css/public.css','all');
+	 	JAWR.loader.script('/bundles/js/sigaa_base.js');
+	 	JAWR.loader.script('/bundles/js/ext2_all.js');
+
+	 	
+	</script> <link rel="stylesheet" type="text/css" media="all" href="/shared/cssBundles/gzip_086847611/javascript/ext-2.0.a.1/resources/css/ext-all.css">  <link rel="stylesheet" type="text/css" media="all" href="/shared/cssBundles/gzip_098577918/css/public.css">  <script type="text/javascript" src="/shared/jsBundles/gzip_404685069/bundles/js/sigaa_base.js"> </script>  <script type="text/javascript" src="/shared/jsBundles/gzip_203901949/bundles/js/ext2_all.js"> </script> 
+	<link rel="stylesheet" type="text/css" media="all" href="/sigaa/cssBundles/gzip_N1328554985/public/css/public.css">
+
+	
+	<link rel="stylesheet" type="text/css" href="/shared/beta/css/font-awesome.css" media="screen">
+	
+	<script src="/shared/javascript/STICookieConsent.js"></script>
+	<script>
+	    document.addEventListener("DOMContentLoaded", () => {
+	    	generateCookieConsentModal("SIGAA", "N&#243;s usamos cookies para melhorar sua experi&#234;ncia de navega&#231;&#227;o no portal. Ao utilizar o %sitename%, voc&#234; concorda com a pol&#237;tica de monitoramento de cookies. Para ter mais informa&#231;&#245;es sobre como isso &#233; feito e como remover, acesse a <a href=%cookie-policy%>Pol&#237;tica de Prote&#231;&#227;o de Dados Pessoais</a>. Para saber como a UnB trata os dados, acesse a <a href=%privacy-policy%> Pol&#237;tica de cookies</a>. Se voc&#234; concorda, clique em %button-text%.", "https://protecaodedados.unb.br", "https://sti.unb.br/doc-politicas");
+	    })
+	</script>
+	
+<style>
+.cookie-consent-modal {
+  /* Vars */
+  --background: #4e4e4e;
+  --link-color: #79cbf2;
+  --link-color-hover: #17e4ff;
+  --body-text-color: #fff;
+  --button-background: #fff;
+
+  box-shadow:0 0 10px rgba(0,0,0,.4);
+  position:fixed;
+  bottom:0;
+  margin-bottom:4.5rem;
+  z-index:10000;
+  width: 100vw;
+  max-width: 100%;
+  color:var(--body-text-color);
+  background:var(--background);
+  padding:2.5rem 0;
+  border: 0;
+}
+.cookie-consent-modal p{
+  width:inherit;
+  margin:auto
+}
+.cookie-consent-modal a{
+  color:var(--link-color);
+  text-decoration: none;
+}
+.cookie-consent-modal a:focus,.cookie-consent-modal a:hover{
+  text-decoration:underline
+}
+.cookie-consent-modal button{
+  cursor: pointer;
+  margin:1rem auto 0;
+  display:block;
+  font-weight:700;
+  color:var(--background);
+  background-color:var(--button-background);
+  border: 0;
+  padding: 8px 14px;
+  border-radius:4px;
+}
+.cookie-consent-modal button:active,.cookie-consent-modal button:focus,.cookie-consent-modal button:hover{
+  background-color:var(--link-color);
+}
+.cookie-consent-modal > .container {
+  margin:auto;
+  max-width:100%;
+  padding: 0 1.5em;
+}
+@media (min-width: 556px) {
+  .cookie-consent-modal > .container {
+    max-width:540px;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .cookie-consent-modal > .container {
+    max-width:720px;
+  }
+}
+@media (min-width: 992px) {
+  .cookie-consent-modal > .container {
+    max-width:960px;
+  }
+}
+@media (min-width: 1200px) {
+  .cookie-consent-modal > .container {
+    max-width:1140px;
+  }
+}
+</style></head>
+
+<body id="ext-gen6" class=" ext-gecko"><dialog open="true" class="cookie-consent-modal" id="sigaa-cookie-consent"><div class="container">Nós usamos cookies para melhorar sua experiência de navegação no portal. Ao utilizar o SIGAA, você concorda com a política de monitoramento de cookies. Para ter mais informações sobre como isso é feito e como remover, acesse a <a href="https://protecaodedados.unb.br">Política de Proteção de Dados Pessoais</a>. Para saber como a UnB trata os dados, acesse a <a href="https://sti.unb.br/doc-politicas"> Política de cookies</a>. Se você concorda, clique em Ciente.</div><button class="btn btn-primary">Ciente</button></dialog>
+	<div id="container">
+	
+
+	<div id="container-inner">
+
+	<div id="cabecalho">
+		<div id="logo">
+				<a href="/sigaa/public/"> <img src="https://sig.unb.br/shared/img/instituicao/brasao.png"> </a>		
+		</div>
+		<div id="identificacao">
+			<span class="ufrn"> Universidade de Brasília </span>
+			<span class="data">
+				 Brasília, 
+				 04 de Julho de 
+				 2023 
+			</span>
+			<a id="home" href="/sigaa/public/" title="Página inicial" style="width: 450px;"> </a>
+			<div id="menu_info">
+				<ul>
+					<li class="acessibilidade">
+						<a href="https://sigaa.unb.br/sigaa/verTelaLogin.do?acessibilidade=true" alt="Acessível para pessoas com deficiência visual" title="Acessível para pessoas com deficiência visual">
+							Acessível para pessoas com deficiência visual
+						</a>
+					</li>
+					
+					<li class="login">
+						<a href="/sigaa/" alt="Clique aqui para logar-se no SIGAA" title="Clique aqui para logar-se no SIGAA">
+							Login
+						<i class="fa fa-angle-right"></i></a>	
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<br clear="all">
+	</div>
+
+
+	<div id="corpo">
+	
+
+
+
+<style>
+	tr.tituloRelatorio td {padding: 19px 0 0; border-bottom: 1px solid #555 ; font-weight: bold; font-size: 13px; }
+	tr.header td {padding: 3px ; border-bottom: 1px solid #555; background-color: #eee;}
+	tr.componentes td {padding: 4px 2px 2px ; border-bottom: 1px dashed #888;}
+	.colCodigo{text-align:left !important;}
+</style>
+
+	
+
+	<!--  Scripts do YAHOO -->
+	<link rel="stylesheet" type="text/css" href="/shared/javascript/yui/tabview/assets/tabs.css">
+	<link rel="stylesheet" type="text/css" href="/shared/javascript/yui/tabview/assets/border_tabs.css">
+	<script type="text/javascript" src="/shared/javascript/yui/tabview-min.js"></script>
+
+	<style>
+		table.formulario th {
+			font-weight: bold;
+		}
+	</style>		
+	<script type="text/javascript">
+	var criarAbas = function() {
+	    var tabView = new YAHOO.widget.TabView('tabs-semestres');
+	};
+	criarAbas();
+	</script>
+	
+	
+	
+
+	
+	<h2 class="title">Estrutura Curricular </h2>
+
+	
+<form id="formulario" name="formulario" method="post" action="/sigaa/public/curso/relatorio_curriculo.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formulario" value="formulario">
+
+		<div class="legenda" style="width: 700px">
+			<img src="/sigaa/img/view.gif">:&nbsp;Visualizar Detalhes do Componente<img src="/sigaa/img/report.png">:&nbsp;Visualizar Programa
+			
+		</div>
+		<h3 class="tituloTabela" style="width: 700px">Estrutura Curricular</h3>
+		<table class="formulario" width="700px">
+			<tbody><tr>
+				<th>Código: </th>
+				<td>60828/2</td>
+			</tr>
+			
+				<tr>
+					<th>Matriz Curricular: </th>
+					<td>TEORIA, CRÍTICA E HISTÓRIA DA ARTE/VIS - Bacharel - Presencial - N</td>
+				</tr>
+			
+			
+			<tr>
+				<th>Período Letivo de Entrada em Vigor: </th>
+				<td>2020.1</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="subFormulario">
+				 	Prazos e Cargas Horárias
+				</td>
+			</tr>	
+			<tr>
+				<th>Total Mínima: </th>
+				<td>2610h</td>					
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center; background-color: #EEEEEE">
+					<b>Carga Horária Obrigatória</b>
+				</td>								
+			</tr>
+			<tr>
+				<th>Subtotal de CH de Aula: </th>
+				<td>
+					930h 
+				</td>
+			</tr>
+			<tr>
+				<th>Subtotal de CH de Orientação Acadêmica/Profissional: </th>
+				<td>
+					0h 
+				</td>
+			</tr>
+			<tr style="border-bottom: 1px solid #DDDDDD;">
+				<th>Total:</th>
+				<td>
+					930h 
+				</td>
+			</tr>
+			<tr>
+				<th width="48%">Carga Horária Optativa Mínima: </th>
+				<td>1680h</td>
+			</tr><tr>
+			</tr><tr>
+				<th width="48%">Carga Horária Complementar Mínima: </th>
+				<td>0h</td>										
+			</tr>
+			<tr>
+				<th>Carga Horária Obrigatória Atividade Acadêmica Específica: </th>
+				<td>
+					0h
+				</td>
+			</tr>
+			<tr>
+				<th>Carga Horária Máxima de Componentes Eletivos: </th>
+				<td>360h</td>
+			</tr>
+			
+			<tr>
+				<th>Carga Horária Máxima por Período Letivo: </th>
+				<td>360h</td>							
+			</tr>
+			
+			
+			<tr style="border-bottom: 1px solid #DDDDDD;">
+				<th>Carga Horária Mínima por Período Letivo: </th>
+				<td>240h</td>							
+			</tr>
+			
+			
+			<tr style="border-bottom: 1px solid #DDDDDD;">
+				<th>Prazo Para Conclusão (em semestres): </th>				
+				<td>
+			  		<table>
+			  			<tbody><tr>
+				  									
+								<th>Mínimo: </th>
+								<td>
+									8 &nbsp;
+								</td>
+								<th>Médio: </th>
+								<td>
+									9  &nbsp;
+								</td>
+								<th>Máximo: </th>
+								<td>
+									12  &nbsp;
+								</td>						
+				  			
+				  			
+			  			</tr>
+					</tbody></table>
+				</td>
+			</tr>
+			
+				<tr>			
+					<td colspan="2">
+						<table style="width: 100%">
+							<tbody><tr class="tituloRelatorio">
+								<td colspan="3">Optativas</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>CEN0031 - OFICINA BASICA DE ARTES CENICAS 1 - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											
+<script type="text/javascript" language="Javascript">function dpf(f) {var adp = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {f.removeChild(adp[i]);}}};function apf(f, pvp) {var adp = new Array();f.adp = adp;var i = 0;for (k in pvp) {var p = document.createElement("input");p.type = "hidden";p.name = k;p.value = pvp[k];f.appendChild(p);adp[i++] = p;}};function jsfcljs(f, pvp, t) {apf(f, pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>
+<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45':'formulario:j_id_jsp_687993592_45','id':'183512','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49':'formulario:j_id_jsp_687993592_49','idComponente':'183512'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CEN0032 - OFICINA BASICA DE ARTES CENICAS 2 - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_1':'formulario:j_id_jsp_687993592_45j_id_1','id':'183514','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_1':'formulario:j_id_jsp_687993592_49j_id_1','idComponente':'183514'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CEN0036 - HISTORIA DO TEATRO 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_2':'formulario:j_id_jsp_687993592_45j_id_2','id':'183553','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_2':'formulario:j_id_jsp_687993592_49j_id_2','idComponente':'183553'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CEN0038 - CORPO E MOVIMENTO 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_3':'formulario:j_id_jsp_687993592_45j_id_3','id':'183556','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_3':'formulario:j_id_jsp_687993592_49j_id_3','idComponente':'183556'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CEN0049 - HISTORIA DO TEATRO 2 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_4':'formulario:j_id_jsp_687993592_45j_id_4','id':'183575','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_4':'formulario:j_id_jsp_687993592_49j_id_4','idComponente':'183575'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CEN0052 - TECNICAS DE DANCA - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_5':'formulario:j_id_jsp_687993592_45j_id_5','id':'183580','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_5':'formulario:j_id_jsp_687993592_49j_id_5','idComponente':'183580'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CEN0066 - CORPO E MOVIMENTO 2 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_6':'formulario:j_id_jsp_687993592_45j_id_6','id':'183980','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_6':'formulario:j_id_jsp_687993592_49j_id_6','idComponente':'183980'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CEN0067 - CORPO E MOVIMENTO 3 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_7':'formulario:j_id_jsp_687993592_45j_id_7','id':'183982','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_7':'formulario:j_id_jsp_687993592_49j_id_7','idComponente':'183982'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CEN0068 - EXPRESSAO CORPORAL 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_8':'formulario:j_id_jsp_687993592_45j_id_8','id':'183984','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_8':'formulario:j_id_jsp_687993592_49j_id_8','idComponente':'183984'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CEN0109 - CRITICA TEATRAL - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_9':'formulario:j_id_jsp_687993592_45j_id_9','id':'184052','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_9':'formulario:j_id_jsp_687993592_49j_id_9','idComponente':'184052'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>CEN0164 - POÉTICAS TEATRAIS - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_10':'formulario:j_id_jsp_687993592_45j_id_10','id':'184213','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_10':'formulario:j_id_jsp_687993592_49j_id_10','idComponente':'184213'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DAN0022 - INTRODUÇÃO À ANTROPOLOGIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_11':'formulario:j_id_jsp_687993592_45j_id_11','id':'180867','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_11':'formulario:j_id_jsp_687993592_49j_id_11','idComponente':'180867'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DAN0041 - TEORIA ANTROPOLÓGICA 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_12':'formulario:j_id_jsp_687993592_45j_id_12','id':'180886','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_12':'formulario:j_id_jsp_687993592_49j_id_12','idComponente':'180886'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DAP0067 - HISTORIA DO CINEMA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_13':'formulario:j_id_jsp_687993592_45j_id_13','id':'182314','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_13':'formulario:j_id_jsp_687993592_49j_id_13','idComponente':'182314'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DAP0079 - INTRODUÇÃO A FOTOGRAFIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_14':'formulario:j_id_jsp_687993592_45j_id_14','id':'182338','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_14':'formulario:j_id_jsp_687993592_49j_id_14','idComponente':'182338'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DAP0096 - OFICINA BÁSICA DE AUDIOVISUAL - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_15':'formulario:j_id_jsp_687993592_45j_id_15','id':'182403','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_15':'formulario:j_id_jsp_687993592_49j_id_15','idComponente':'182403'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0200 - ATIVIDADE COMPLEMENTAR - 15h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_16':'formulario:j_id_jsp_687993592_45j_id_16','id':'206383','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_16':'formulario:j_id_jsp_687993592_49j_id_16','idComponente':'206383'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0201 - ATIVIDADE COMPLEMENTAR - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_17':'formulario:j_id_jsp_687993592_45j_id_17','id':'206384','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_17':'formulario:j_id_jsp_687993592_49j_id_17','idComponente':'206384'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0202 - ATIVIDADE COMPLEMENTAR - 45h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_18':'formulario:j_id_jsp_687993592_45j_id_18','id':'206385','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_18':'formulario:j_id_jsp_687993592_49j_id_18','idComponente':'206385'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0203 - ATIVIDADE COMPLEMENTAR - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_19':'formulario:j_id_jsp_687993592_45j_id_19','id':'206386','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_19':'formulario:j_id_jsp_687993592_49j_id_19','idComponente':'206386'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0205 - ATIVIDADE COMPLEMENTAR - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_20':'formulario:j_id_jsp_687993592_45j_id_20','id':'252311','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_20':'formulario:j_id_jsp_687993592_49j_id_20','idComponente':'252311'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0206 - ATIVIDADE COMPLEMENTAR - 120h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_21':'formulario:j_id_jsp_687993592_45j_id_21','id':'252313','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_21':'formulario:j_id_jsp_687993592_49j_id_21','idComponente':'252313'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0207 - ATIVIDADE COMPLEMENTAR - 150h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_22':'formulario:j_id_jsp_687993592_45j_id_22','id':'252314','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_22':'formulario:j_id_jsp_687993592_49j_id_22','idComponente':'252314'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0208 - ATIVIDADE COMPLEMENTAR - 180h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_23':'formulario:j_id_jsp_687993592_45j_id_23','id':'252315','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_23':'formulario:j_id_jsp_687993592_49j_id_23','idComponente':'252315'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0209 - ATIVIDADE COMPLEMENTAR - 210h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_24':'formulario:j_id_jsp_687993592_45j_id_24','id':'252316','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_24':'formulario:j_id_jsp_687993592_49j_id_24','idComponente':'252316'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0210 - ATIVIDADE COMPLEMENTAR - 240h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_25':'formulario:j_id_jsp_687993592_45j_id_25','id':'252317','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_25':'formulario:j_id_jsp_687993592_49j_id_25','idComponente':'252317'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0211 - ATIVIDADE COMPLEMENTAR - 270h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_26':'formulario:j_id_jsp_687993592_45j_id_26','id':'252318','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_26':'formulario:j_id_jsp_687993592_49j_id_26','idComponente':'252318'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0212 - ATIVIDADE COMPLEMENTAR - 300h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_27':'formulario:j_id_jsp_687993592_45j_id_27','id':'252319','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_27':'formulario:j_id_jsp_687993592_49j_id_27','idComponente':'252319'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0213 - ATIVIDADE COMPLEMENTAR - 330h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_28':'formulario:j_id_jsp_687993592_45j_id_28','id':'252329','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_28':'formulario:j_id_jsp_687993592_49j_id_28','idComponente':'252329'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0214 - ATIVIDADE COMPLEMENTAR - 360h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_29':'formulario:j_id_jsp_687993592_45j_id_29','id':'252330','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_29':'formulario:j_id_jsp_687993592_49j_id_29','idComponente':'252330'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0215 - ATIVIDADE COMPLEMENTAR - 390h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_30':'formulario:j_id_jsp_687993592_45j_id_30','id':'252331','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_30':'formulario:j_id_jsp_687993592_49j_id_30','idComponente':'252331'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0216 - ATIVIDADE COMPLEMENTAR - 420h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_31':'formulario:j_id_jsp_687993592_45j_id_31','id':'252332','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_31':'formulario:j_id_jsp_687993592_49j_id_31','idComponente':'252332'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0217 - ATIVIDADE COMPLEMENTAR - 450h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_32':'formulario:j_id_jsp_687993592_45j_id_32','id':'252333','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_32':'formulario:j_id_jsp_687993592_49j_id_32','idComponente':'252333'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0218 - ATIVIDADE COMPLEMENTAR - 480h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_33':'formulario:j_id_jsp_687993592_45j_id_33','id':'252334','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_33':'formulario:j_id_jsp_687993592_49j_id_33','idComponente':'252334'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DEG0219 - ATIVIDADE COMPLEMENTAR - 510h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_34':'formulario:j_id_jsp_687993592_45j_id_34','id':'252335','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_34':'formulario:j_id_jsp_687993592_49j_id_34','idComponente':'252335'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DIN0011 - EXPRESSAO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_35':'formulario:j_id_jsp_687993592_45j_id_35','id':'191299','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_35':'formulario:j_id_jsp_687993592_49j_id_35','idComponente':'191299'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DIN0020 - HISTORIA DA ARTE E DA TECNOLOGIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_36':'formulario:j_id_jsp_687993592_45j_id_36','id':'191357','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_36':'formulario:j_id_jsp_687993592_49j_id_36','idComponente':'191357'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DIN0021 - INTRODUCAO AO DESENHO INDUSTRIAL - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_37':'formulario:j_id_jsp_687993592_45j_id_37','id':'191275','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_37':'formulario:j_id_jsp_687993592_49j_id_37','idComponente':'191275'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>DIN0022 - INTRODUCAO A PROGRAMACAO VISUAL - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_38':'formulario:j_id_jsp_687993592_45j_id_38','id':'191338','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_38':'formulario:j_id_jsp_687993592_49j_id_38','idComponente':'191338'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FEF0105 - PRÁTICA DESPORTIVA - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_39':'formulario:j_id_jsp_687993592_45j_id_39','id':'185873','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_39':'formulario:j_id_jsp_687993592_49j_id_39','idComponente':'185873'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FIL0034 - HISTÓRIA DA FILOSOFIA ANTIGA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_40':'formulario:j_id_jsp_687993592_45j_id_40','id':'181068','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_40':'formulario:j_id_jsp_687993592_49j_id_40','idComponente':'181068'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FIL0039 - HISTÓRIA DA FILOSOFIA MEDIEVAL - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_41':'formulario:j_id_jsp_687993592_45j_id_41','id':'181073','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_41':'formulario:j_id_jsp_687993592_49j_id_41','idComponente':'181073'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FIL0044 - HISTÓRIA DA FILOSOFIA MODERNA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_42':'formulario:j_id_jsp_687993592_45j_id_42','id':'181078','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_42':'formulario:j_id_jsp_687993592_49j_id_42','idComponente':'181078'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FIL0049 - HISTÓRIA DA FILOSOFIA CONTEMPORÂNEA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_43':'formulario:j_id_jsp_687993592_45j_id_43','id':'181083','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_43':'formulario:j_id_jsp_687993592_49j_id_43','idComponente':'181083'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FIL0068 - ESTÉTICA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_44':'formulario:j_id_jsp_687993592_45j_id_44','id':'181102','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_44':'formulario:j_id_jsp_687993592_49j_id_44','idComponente':'181102'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FIL0069 - INTRODUÇÃO À FILOSOFIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_45':'formulario:j_id_jsp_687993592_45j_id_45','id':'181103','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_45':'formulario:j_id_jsp_687993592_49j_id_45','idComponente':'181103'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FIL0124 - FILOSOFIA DA ARTE - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_46':'formulario:j_id_jsp_687993592_45j_id_46','id':'181158','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_46':'formulario:j_id_jsp_687993592_49j_id_46','idComponente':'181158'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FIL0134 - MITO E FILOSOFIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_47':'formulario:j_id_jsp_687993592_45j_id_47','id':'181168','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_47':'formulario:j_id_jsp_687993592_49j_id_47','idComponente':'181168'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FIL0149 - METAFILOSOFIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_48':'formulario:j_id_jsp_687993592_45j_id_48','id':'181356','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_48':'formulario:j_id_jsp_687993592_49j_id_48','idComponente':'181356'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FIL0158 - IDEIAS FILOSOFICAS EM FORMA LITERARIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_49':'formulario:j_id_jsp_687993592_45j_id_49','id':'181370','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_49':'formulario:j_id_jsp_687993592_49j_id_49','idComponente':'181370'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>HIS0084 - INTRODUÇÃO AO ESTUDO DA HISTÓRIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_50':'formulario:j_id_jsp_687993592_45j_id_50','id':'181285','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_50':'formulario:j_id_jsp_687993592_49j_id_50','idComponente':'181285'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>HIS0088 - HISTÓRIA ANTIGA 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_51':'formulario:j_id_jsp_687993592_45j_id_51','id':'181289','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_51':'formulario:j_id_jsp_687993592_49j_id_51','idComponente':'181289'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>HIS0091 - HISTÓRIA MEDIEVAL 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_52':'formulario:j_id_jsp_687993592_45j_id_52','id':'181292','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_52':'formulario:j_id_jsp_687993592_49j_id_52','idComponente':'181292'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>HIS0093 - HISTÓRIA MODERNA 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_53':'formulario:j_id_jsp_687993592_45j_id_53','id':'181294','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_53':'formulario:j_id_jsp_687993592_49j_id_53','idComponente':'181294'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>HIS0106 - HISTÓRIA CONTEMPORÂNEA 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_54':'formulario:j_id_jsp_687993592_45j_id_54','id':'181307','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_54':'formulario:j_id_jsp_687993592_49j_id_54','idComponente':'181307'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>HIS0113 - TEORIA DA HISTÓRIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_55':'formulario:j_id_jsp_687993592_45j_id_55','id':'181314','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_55':'formulario:j_id_jsp_687993592_49j_id_55','idComponente':'181314'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>HIS0115 - METODOLOGIA DA HISTÓRIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_56':'formulario:j_id_jsp_687993592_45j_id_56','id':'181316','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_56':'formulario:j_id_jsp_687993592_49j_id_56','idComponente':'181316'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>JOR0045 - TEORIAS DA COMUNICAÇÃO 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_57':'formulario:j_id_jsp_687993592_45j_id_57','id':'182270','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_57':'formulario:j_id_jsp_687993592_49j_id_57','idComponente':'182270'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>JOR0078 - INTRODUÇÃO A COMUNICAÇÃO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_58':'formulario:j_id_jsp_687993592_45j_id_58','id':'182482','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_58':'formulario:j_id_jsp_687993592_49j_id_58','idComponente':'182482'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>LET0076 - FRANCES INSTRUMENTAL 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_59':'formulario:j_id_jsp_687993592_45j_id_59','id':'181632','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_59':'formulario:j_id_jsp_687993592_49j_id_59','idComponente':'181632'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>LET0101 - LÍNGUA ALEMÃ 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_60':'formulario:j_id_jsp_687993592_45j_id_60','id':'181657','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_60':'formulario:j_id_jsp_687993592_49j_id_60','idComponente':'181657'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>LET0118 - LÍNGUA ESPANHOLA 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_61':'formulario:j_id_jsp_687993592_45j_id_61','id':'181674','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_61':'formulario:j_id_jsp_687993592_49j_id_61','idComponente':'181674'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>LET0162 - INGLÊS INSTRUMENTAL 2 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_62':'formulario:j_id_jsp_687993592_45j_id_62','id':'181718','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_62':'formulario:j_id_jsp_687993592_49j_id_62','idComponente':'181718'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>LET0331 - INGLÊS INSTRUMENTAL 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_63':'formulario:j_id_jsp_687993592_45j_id_63','id':'182428','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_63':'formulario:j_id_jsp_687993592_49j_id_63','idComponente':'182428'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>LIP0084 - INTRODUCAO A SEMIOTICA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_64':'formulario:j_id_jsp_687993592_45j_id_64','id':'181465','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_64':'formulario:j_id_jsp_687993592_49j_id_64','idComponente':'181465'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>LIP0174 - LÍNGUA DE SINAIS BRASILEIRA - BÁSICO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_65':'formulario:j_id_jsp_687993592_45j_id_65','id':'183355','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_65':'formulario:j_id_jsp_687993592_49j_id_65','idComponente':'183355'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>MUS0139 - CANTO CORAL 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_66':'formulario:j_id_jsp_687993592_45j_id_66','id':'182069','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_66':'formulario:j_id_jsp_687993592_49j_id_66','idComponente':'182069'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>MUS0206 - INTRODUCAO A MUSICOLOGIA - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_67':'formulario:j_id_jsp_687993592_45j_id_67','id':'182163','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_67':'formulario:j_id_jsp_687993592_49j_id_67','idComponente':'182163'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>MUS0236 - MUSICA E SOCIEDADE 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_68':'formulario:j_id_jsp_687993592_45j_id_68','id':'182221','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_68':'formulario:j_id_jsp_687993592_49j_id_68','idComponente':'182221'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>MUS0244 - EVOLUÇÃO DA MÚSICA 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_69':'formulario:j_id_jsp_687993592_45j_id_69','id':'182234','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_69':'formulario:j_id_jsp_687993592_49j_id_69','idComponente':'182234'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>MUS0246 - EVOLUCAO DA MUSICA 2 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_70':'formulario:j_id_jsp_687993592_45j_id_70','id':'182237','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_70':'formulario:j_id_jsp_687993592_49j_id_70','idComponente':'182237'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>PCL0015 - PSICOLOGIA DA PERSONALIDADE 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_71':'formulario:j_id_jsp_687993592_45j_id_71','id':'179523','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_71':'formulario:j_id_jsp_687993592_49j_id_71','idComponente':'179523'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>PST0010 - PSICOLOGIA SOCIAL 1 - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_72':'formulario:j_id_jsp_687993592_45j_id_72','id':'179521','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_72':'formulario:j_id_jsp_687993592_49j_id_72','idComponente':'179521'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>SOL0042 - INTRODUÇÃO À SOCIOLOGIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_73':'formulario:j_id_jsp_687993592_45j_id_73','id':'180803','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_73':'formulario:j_id_jsp_687993592_49j_id_73','idComponente':'180803'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>SOL0044 - TEORIA SOCIOLÓGICA 1 - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_74':'formulario:j_id_jsp_687993592_45j_id_74','id':'180805','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_74':'formulario:j_id_jsp_687993592_49j_id_74','idComponente':'180805'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>TAU0029 - SEMIÓTICA DA  CULTURA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_75':'formulario:j_id_jsp_687993592_45j_id_75','id':'183846','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_75':'formulario:j_id_jsp_687993592_49j_id_75','idComponente':'183846'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>TEL0014 - INTRODUCAO A TEORIA DA LITERATURA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_76':'formulario:j_id_jsp_687993592_45j_id_76','id':'181525','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_76':'formulario:j_id_jsp_687993592_49j_id_76','idComponente':'181525'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>TEL0021 - LITERATURA BRASILEIRA - ROMANTISMO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_77':'formulario:j_id_jsp_687993592_45j_id_77','id':'181532','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_77':'formulario:j_id_jsp_687993592_49j_id_77','idComponente':'181532'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0002 - ARTE E SOCIOLOGIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_78':'formulario:j_id_jsp_687993592_45j_id_78','id':'176359','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_78':'formulario:j_id_jsp_687993592_49j_id_78','idComponente':'176359'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0003 - ARTE E PENSAMENTO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_79':'formulario:j_id_jsp_687993592_45j_id_79','id':'176633','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_79':'formulario:j_id_jsp_687993592_49j_id_79','idComponente':'176633'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0004 - ARTE E CIÊNCIAS DA LINGUAGEM - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_80':'formulario:j_id_jsp_687993592_45j_id_80','id':'176634','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_80':'formulario:j_id_jsp_687993592_49j_id_80','idComponente':'176634'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0007 - ARTE E PSICANÁLISE - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_81':'formulario:j_id_jsp_687993592_45j_id_81','id':'176775','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_81':'formulario:j_id_jsp_687993592_49j_id_81','idComponente':'176775'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0009 - TEORIA E HISTÓRIA DA ARTE E DA IMAGEM NO ESPAÇO/TEMPO 2 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_82':'formulario:j_id_jsp_687993592_45j_id_82','id':'177009','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_82':'formulario:j_id_jsp_687993592_49j_id_82','idComponente':'177009'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0010 - CRÍTICA E HISTÓRIA DA ARTE NO BRASIL 3 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_83':'formulario:j_id_jsp_687993592_45j_id_83','id':'177064','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_83':'formulario:j_id_jsp_687993592_49j_id_83','idComponente':'177064'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0012 - ARTE E ANTROPOLOGIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_84':'formulario:j_id_jsp_687993592_45j_id_84','id':'177067','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_84':'formulario:j_id_jsp_687993592_49j_id_84','idComponente':'177067'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0013 - TEORIA E HISTÓRIA DA ARTE E DA IMAGEM NO ESPAÇO/TEMPO 4 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_85':'formulario:j_id_jsp_687993592_45j_id_85','id':'177068','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_85':'formulario:j_id_jsp_687993592_49j_id_85','idComponente':'177068'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0015 - CRÍTICA E HISTÓRIA DA ARTE NO BRASIL 4 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_86':'formulario:j_id_jsp_687993592_45j_id_86','id':'177239','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_86':'formulario:j_id_jsp_687993592_49j_id_86','idComponente':'177239'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0017 - TEORIA E HISTÓRIA DA ARTE E DA IMAGEM NO ESPAÇO/TEMPO 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_87':'formulario:j_id_jsp_687993592_45j_id_87','id':'177241','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_87':'formulario:j_id_jsp_687993592_49j_id_87','idComponente':'177241'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0019 - INTRODUÇÃO A CURADORIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_88':'formulario:j_id_jsp_687993592_45j_id_88','id':'177392','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_88':'formulario:j_id_jsp_687993592_49j_id_88','idComponente':'177392'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0020 - TEORIA E HISTÓRIA DA ARTE E DA IMAGEM NO ESPAÇO/TEMPO 3 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_89':'formulario:j_id_jsp_687993592_45j_id_89','id':'177399','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_89':'formulario:j_id_jsp_687993592_49j_id_89','idComponente':'177399'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0021 - CRÍTICA E HISTÓRIA DA ARTE NO BRASIL 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_90':'formulario:j_id_jsp_687993592_45j_id_90','id':'177400','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_90':'formulario:j_id_jsp_687993592_49j_id_90','idComponente':'177400'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0022 - CRÍTICA E HISTÓRIA DA ARTE NO BRASIL 2 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_91':'formulario:j_id_jsp_687993592_45j_id_91','id':'177551','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_91':'formulario:j_id_jsp_687993592_49j_id_91','idComponente':'177551'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0025 - HISTÓRIA DA ARTE NO BRASIL, MEMÓRIA E PATRIMÔNIO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_92':'formulario:j_id_jsp_687993592_45j_id_92','id':'177554','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_92':'formulario:j_id_jsp_687993592_49j_id_92','idComponente':'177554'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0026 - TEORIA E HISTÓRIA DA ARTE E DA IMAGEM NO ESPAÇO/TEMPO 5 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_93':'formulario:j_id_jsp_687993592_45j_id_93','id':'177555','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_93':'formulario:j_id_jsp_687993592_49j_id_93','idComponente':'177555'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0027 - TEORIA E HISTÓRIA DA ARTE E DA IMAGEM NO ESPAÇO/TEMPO 6 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_94':'formulario:j_id_jsp_687993592_45j_id_94','id':'177556','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_94':'formulario:j_id_jsp_687993592_49j_id_94','idComponente':'177556'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0060 - ELEMENTOS DE LINGUAGEM, ESTÉTICA E HISTÓRIA DA ARTE 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_95':'formulario:j_id_jsp_687993592_45j_id_95','id':'183382','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_95':'formulario:j_id_jsp_687993592_49j_id_95','idComponente':'183382'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0063 - DESENHO 1 - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_96':'formulario:j_id_jsp_687993592_45j_id_96','id':'183391','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_96':'formulario:j_id_jsp_687993592_49j_id_96','idComponente':'183391'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0065 - DESENHO 2 - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_97':'formulario:j_id_jsp_687993592_45j_id_97','id':'183394','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_97':'formulario:j_id_jsp_687993592_49j_id_97','idComponente':'183394'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0067 - ESCULTURA 1 - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_98':'formulario:j_id_jsp_687993592_45j_id_98','id':'183397','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_98':'formulario:j_id_jsp_687993592_49j_id_98','idComponente':'183397'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0085 - OFICINA BASICA DE ARTES PLASTICAS 1 - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_99':'formulario:j_id_jsp_687993592_45j_id_99','id':'183442','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_99':'formulario:j_id_jsp_687993592_49j_id_99','idComponente':'183442'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0088 - OFICINA DE FOTOGRAFIA 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_100':'formulario:j_id_jsp_687993592_45j_id_100','id':'183446','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_100':'formulario:j_id_jsp_687993592_49j_id_100','idComponente':'183446'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0090 - OFICINA DE FOTOGRAFIA 2 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_101':'formulario:j_id_jsp_687993592_45j_id_101','id':'183449','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_101':'formulario:j_id_jsp_687993592_49j_id_101','idComponente':'183449'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0104 - ANALISE DO FILME 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_102':'formulario:j_id_jsp_687993592_45j_id_102','id':'183474','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_102':'formulario:j_id_jsp_687993592_49j_id_102','idComponente':'183474'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0122 - ELEMENTOS DE LINGUAGEM, ARTE E CULTURA POPULAR - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_103':'formulario:j_id_jsp_687993592_45j_id_103','id':'183509','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_103':'formulario:j_id_jsp_687993592_49j_id_103','idComponente':'183509'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0127 - FUNDAMENTOS DE LINGUAGEM - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_104':'formulario:j_id_jsp_687993592_45j_id_104','id':'183523','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_104':'formulario:j_id_jsp_687993592_49j_id_104','idComponente':'183523'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0129 - FUNDAMENTOS DA LINGUAGEM VISUAL - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_105':'formulario:j_id_jsp_687993592_45j_id_105','id':'183526','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_105':'formulario:j_id_jsp_687993592_49j_id_105','idComponente':'183526'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0163 - MATERIAIS EM ARTE 2 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_106':'formulario:j_id_jsp_687993592_45j_id_106','id':'183898','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_106':'formulario:j_id_jsp_687993592_49j_id_106','idComponente':'183898'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0185 - ARTE ELETRONICA 1 - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_107':'formulario:j_id_jsp_687993592_45j_id_107','id':'183933','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_107':'formulario:j_id_jsp_687993592_49j_id_107','idComponente':'183933'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0187 - PINTURA 1 - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_108':'formulario:j_id_jsp_687993592_45j_id_108','id':'183936','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_108':'formulario:j_id_jsp_687993592_49j_id_108','idComponente':'183936'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0188 - INTRODUCAO A GRAVURA - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_109':'formulario:j_id_jsp_687993592_45j_id_109','id':'183938','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_109':'formulario:j_id_jsp_687993592_49j_id_109','idComponente':'183938'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0212 - DESENHO 3 - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_110':'formulario:j_id_jsp_687993592_45j_id_110','id':'184094','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_110':'formulario:j_id_jsp_687993592_49j_id_110','idComponente':'184094'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0230 - INTERVENCAO/PERFORMANCE/INSTALACAO - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_111':'formulario:j_id_jsp_687993592_45j_id_111','id':'184131','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_111':'formulario:j_id_jsp_687993592_49j_id_111','idComponente':'184131'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0231 - SEMINARIO EM TEORIA,CRITICA E HISTORIA DA ARTE 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_112':'formulario:j_id_jsp_687993592_45j_id_112','id':'184132','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_112':'formulario:j_id_jsp_687993592_49j_id_112','idComponente':'184132'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0232 - SEMINARIO EM TEORIA,CRITICA E HISTORIA DA ARTE 2 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_113':'formulario:j_id_jsp_687993592_45j_id_113','id':'184133','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_113':'formulario:j_id_jsp_687993592_49j_id_113','idComponente':'184133'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0235 - SEMINARIO EM TEORIA,CRITICA E HISTORIA DA ARTE 3 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_114':'formulario:j_id_jsp_687993592_45j_id_114','id':'184136','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_114':'formulario:j_id_jsp_687993592_49j_id_114','idComponente':'184136'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0237 - SEMINARIO EM TEORIA,CRITICA E HISTORIA DA ARTE 4 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_115':'formulario:j_id_jsp_687993592_45j_id_115','id':'184138','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_115':'formulario:j_id_jsp_687993592_49j_id_115','idComponente':'184138'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0239 - SERIGRAFIA - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_116':'formulario:j_id_jsp_687993592_45j_id_116','id':'184140','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_116':'formulario:j_id_jsp_687993592_49j_id_116','idComponente':'184140'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0240 - PINTURA 2 - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_117':'formulario:j_id_jsp_687993592_45j_id_117','id':'184141','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_117':'formulario:j_id_jsp_687993592_49j_id_117','idComponente':'184141'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0241 - ESCULTURA 2 - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_118':'formulario:j_id_jsp_687993592_45j_id_118','id':'184142','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_118':'formulario:j_id_jsp_687993592_49j_id_118','idComponente':'184142'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0244 - ANIMAÇÃO - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_119':'formulario:j_id_jsp_687993592_45j_id_119','id':'184145','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_119':'formulario:j_id_jsp_687993592_49j_id_119','idComponente':'184145'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0245 - DESENHO 4 - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_120':'formulario:j_id_jsp_687993592_45j_id_120','id':'184146','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_120':'formulario:j_id_jsp_687993592_49j_id_120','idComponente':'184146'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0246 - ARTE ELETRONICA 2 - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_121':'formulario:j_id_jsp_687993592_45j_id_121','id':'184147','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_121':'formulario:j_id_jsp_687993592_49j_id_121','idComponente':'184147'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0247 - XILOGRAVURA - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_122':'formulario:j_id_jsp_687993592_45j_id_122','id':'184148','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_122':'formulario:j_id_jsp_687993592_49j_id_122','idComponente':'184148'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0248 - LITOGRAFIA - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_123':'formulario:j_id_jsp_687993592_45j_id_123','id':'184149','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_123':'formulario:j_id_jsp_687993592_49j_id_123','idComponente':'184149'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0249 - CALCOGRAVURA - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_124':'formulario:j_id_jsp_687993592_45j_id_124','id':'184150','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_124':'formulario:j_id_jsp_687993592_49j_id_124','idComponente':'184150'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0253 - HISTORIA DA ARTE MEDIEVAL - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_125':'formulario:j_id_jsp_687993592_45j_id_125','id':'184156','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_125':'formulario:j_id_jsp_687993592_49j_id_125','idComponente':'184156'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0254 - HISTORIA DA ARTE MODERNA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_126':'formulario:j_id_jsp_687993592_45j_id_126','id':'184157','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_126':'formulario:j_id_jsp_687993592_49j_id_126','idComponente':'184157'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0255 - HISTORIA DA ARTE CONTEMPORANEA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_127':'formulario:j_id_jsp_687993592_45j_id_127','id':'184158','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_127':'formulario:j_id_jsp_687993592_49j_id_127','idComponente':'184158'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0256 - HISTÓRIA DA ARTE NO BRASIL - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_128':'formulario:j_id_jsp_687993592_45j_id_128','id':'184159','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_128':'formulario:j_id_jsp_687993592_49j_id_128','idComponente':'184159'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0258 - SEMINARIO EM TEORIA,CRITICA E HISTORIA DA ARTE 6 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_129':'formulario:j_id_jsp_687993592_45j_id_129','id':'184166','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_129':'formulario:j_id_jsp_687993592_49j_id_129','idComponente':'184166'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0260 - SEMINARIO EM TEORIA,CRITICA E HISTORIA DA ARTE 7 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_130':'formulario:j_id_jsp_687993592_45j_id_130','id':'184168','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_130':'formulario:j_id_jsp_687993592_49j_id_130','idComponente':'184168'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0262 - SEMINARIO EM TEORIA,CRITICA E HISTORIA DA ARTE 8 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_131':'formulario:j_id_jsp_687993592_45j_id_131','id':'184170','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_131':'formulario:j_id_jsp_687993592_49j_id_131','idComponente':'184170'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0264 - SEMINARIO EM TEORIA,CRITICA E HISTORIA DA ARTE 9 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_132':'formulario:j_id_jsp_687993592_45j_id_132','id':'184172','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_132':'formulario:j_id_jsp_687993592_49j_id_132','idComponente':'184172'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0266 - SEMINARIO EM TEORIA,CRITICA E HISTORIA DA ARTE 10 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_133':'formulario:j_id_jsp_687993592_45j_id_133','id':'184174','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_133':'formulario:j_id_jsp_687993592_49j_id_133','idComponente':'184174'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0268 - PRODUÇÃO CULTURAL - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_134':'formulario:j_id_jsp_687993592_45j_id_134','id':'184179','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_134':'formulario:j_id_jsp_687993592_49j_id_134','idComponente':'184179'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0270 - SEMINÁRIO EM TEORIA, CRÍTICA E HISTÓRIA DA ARTE 11 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_135':'formulario:j_id_jsp_687993592_45j_id_135','id':'184194','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_135':'formulario:j_id_jsp_687993592_49j_id_135','idComponente':'184194'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0272 - SEMINÁRIO EM TEORIA, CRÍTICA E HISTÓRIA DA ARTE 12 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_136':'formulario:j_id_jsp_687993592_45j_id_136','id':'184196','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_136':'formulario:j_id_jsp_687993592_49j_id_136','idComponente':'184196'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0274 - SEMINÁRIO EM TEORIA, CRÍTICA E HISTÓRIA DA ARTE 13 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_137':'formulario:j_id_jsp_687993592_45j_id_137','id':'184198','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_137':'formulario:j_id_jsp_687993592_49j_id_137','idComponente':'184198'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0276 - SEMINÁRIO EM TEORIA, CRÍTICA E HISTÓRIA DA ARTE 14 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_138':'formulario:j_id_jsp_687993592_45j_id_138','id':'184200','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_138':'formulario:j_id_jsp_687993592_49j_id_138','idComponente':'184200'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0278 - SEMINÁRIO EM TEORIA, CRÍTICA E HISTÓRIA DA ARTE 15 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_139':'formulario:j_id_jsp_687993592_45j_id_139','id':'184202','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_139':'formulario:j_id_jsp_687993592_49j_id_139','idComponente':'184202'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0295 - ARTE E LITERATURA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_140':'formulario:j_id_jsp_687993592_45j_id_140','id':'189899','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_140':'formulario:j_id_jsp_687993592_49j_id_140','idComponente':'189899'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0296 - MATERIAIS EM ARTE 1 - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_141':'formulario:j_id_jsp_687993592_45j_id_141','id':'206387','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_141':'formulario:j_id_jsp_687993592_49j_id_141','idComponente':'206387'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+								
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 12690h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						</tbody></table>
+					
+					
+						<table>
+							<tbody><tr class="tituloRelatorio">
+								<td colspan="3">Complementares</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+							
+								<tr>
+									<td>Esta estrutura curricular não possui componentes complementares.</td>
+									<td width="8%">&nbsp;</td>
+									<td width="8%">&nbsp;</td>
+								</tr>
+								
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 0h &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						</tbody></table>
+						
+					
+					
+						<table>
+						
+							<tbody><tr class="tituloRelatorio">
+								<td colspan="3">1º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>VIS0061 - HISTORIA DA ARTE 1 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62':'formulario:j_id_jsp_687993592_62','id':'183388','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66':'formulario:j_id_jsp_687993592_66','idComponente':'183388'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0294 - TEORIA, CRÍTICA E HISTÓRIA DA ARTE 1 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_1':'formulario:j_id_jsp_687993592_62j_id_1','id':'189898','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_1':'formulario:j_id_jsp_687993592_66j_id_1','idComponente':'189898'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 120h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">2º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>VIS0001 - TEORIA, CRÍTICA E HISTÓRIA DA ARTE 2 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_2':'formulario:j_id_jsp_687993592_62j_id_2','id':'176358','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_2':'formulario:j_id_jsp_687993592_66j_id_2','idComponente':'176358'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0114 - HISTORIA DA ARTE 2 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_3':'formulario:j_id_jsp_687993592_62j_id_3','id':'183491','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_3':'formulario:j_id_jsp_687993592_66j_id_3','idComponente':'183491'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 120h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">3º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>VIS0005 - TEORIA, CRÍTICA E HISTÓRIA DA ARTE 3 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_4':'formulario:j_id_jsp_687993592_62j_id_4','id':'176635','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_4':'formulario:j_id_jsp_687993592_66j_id_4','idComponente':'176635'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0189 - HISTORIA DA ARTE 3 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_5':'formulario:j_id_jsp_687993592_62j_id_5','id':'183940','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_5':'formulario:j_id_jsp_687993592_66j_id_5','idComponente':'183940'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 120h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">4º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>VIS0006 - TEORIA, CRÍTICA E HISTÓRIA DA ARTE 4 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_6':'formulario:j_id_jsp_687993592_62j_id_6','id':'176774','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_6':'formulario:j_id_jsp_687993592_66j_id_6','idComponente':'176774'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0190 - HISTORIA DA ARTE 4 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_7':'formulario:j_id_jsp_687993592_62j_id_7','id':'183942','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_7':'formulario:j_id_jsp_687993592_66j_id_7','idComponente':'183942'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 120h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">5º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>VIS0008 - LABORATÓRIO DE TEORIA, CRÍTICA E HISTÓRIA DA ARTE 1 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_8':'formulario:j_id_jsp_687993592_62j_id_8','id':'177008','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_8':'formulario:j_id_jsp_687993592_66j_id_8','idComponente':'177008'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0011 - TEORIA, CRÍTICA E HISTÓRIA DA ARTE 5 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_9':'formulario:j_id_jsp_687993592_62j_id_9','id':'177066','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_9':'formulario:j_id_jsp_687993592_66j_id_9','idComponente':'177066'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 120h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">6º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>VIS0014 - LABORATÓRIO DE CRÍTICA,TEORIA E HISTÓRIA DA ARTE 2 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_10':'formulario:j_id_jsp_687993592_62j_id_10','id':'177238','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_10':'formulario:j_id_jsp_687993592_66j_id_10','idComponente':'177238'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>VIS0016 - TEORIA, CRÍTICA E HISTÓRIA DA ARTE 6 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_11':'formulario:j_id_jsp_687993592_62j_id_11','id':'177240','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_11':'formulario:j_id_jsp_687993592_66j_id_11','idComponente':'177240'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 120h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">7º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>VIS0018 - LABORATÓRIO DE TEORIA, CRÍTICA E HISTÓRIA DA ARTE 3 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_12':'formulario:j_id_jsp_687993592_62j_id_12','id':'177391','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_12':'formulario:j_id_jsp_687993592_66j_id_12','idComponente':'177391'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 60h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">8º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>VIS0023 - LABORATÓRIO DE TEORIA, CRÍTICA E HISTÓRIA DA ARTE 4 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_13':'formulario:j_id_jsp_687993592_62j_id_13','id':'177552','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_13':'formulario:j_id_jsp_687993592_66j_id_13','idComponente':'177552'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 60h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">9º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>VIS0024 - TRABALHO DE CONCLUSÃO DE CURSO EM TEORIA, CRÍTICA E HISTÓRIA DA ARTE - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_14':'formulario:j_id_jsp_687993592_62j_id_14','id':'177553','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_14':'formulario:j_id_jsp_687993592_66j_id_14','idComponente':'177553'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 90h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+						</tbody></table>
+						
+					</td>
+				</tr>
+				
+					<tr>
+						<td colspan="2">&nbsp;<br><br>
+							<table width="100%">
+							<tbody><tr class="tituloRelatorio"><td>Grupos de Componentes Optativos</td></tr>
+							
+							<tr class="header"><td>CADEIA 1</td></tr>
+							
+							<tr class="componentes"><td>VIS0244 - ANIMAÇÃO - 90h</td></tr>
+							
+							<tr class="componentes"><td>VIS0185 - ARTE ELETRONICA 1 - 90h</td></tr>
+							
+							<tr class="componentes"><td>VIS0246 - ARTE ELETRONICA 2 - 90h</td></tr>
+							
+							<tr class="componentes"><td>VIS0249 - CALCOGRAVURA - 90h</td></tr>
+							
+							<tr class="componentes"><td>VIS0063 - DESENHO 1 - 90h</td></tr>
+							
+							<tr class="componentes"><td>VIS0065 - DESENHO 2 - 90h</td></tr>
+							
+							<tr class="componentes"><td>VIS0212 - DESENHO 3 - 90h</td></tr>
+							
+							<tr class="componentes"><td>VIS0245 - DESENHO 4 - 90h</td></tr>
+							
+							<tr class="componentes"><td>VIS0067 - ESCULTURA 1 - 90h</td></tr>
+							
+							<tr class="componentes"><td>VIS0241 - ESCULTURA 2 - 90h</td></tr>
+							
+							<tr class="componentes"><td>VIS0230 - INTERVENCAO/PERFORMANCE/INSTALACAO - 90h</td></tr>
+							
+							<tr class="componentes"><td>VIS0188 - INTRODUCAO A GRAVURA - 90h</td></tr>
+							
+							<tr class="componentes"><td>VIS0248 - LITOGRAFIA - 90h</td></tr>
+							
+							<tr class="componentes"><td>VIS0296 - MATERIAIS EM ARTE 1 - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0088 - OFICINA DE FOTOGRAFIA 1 - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0187 - PINTURA 1 - 90h</td></tr>
+							
+							<tr class="componentes"><td>VIS0240 - PINTURA 2 - 90h</td></tr>
+							
+							<tr class="componentes"><td>VIS0239 - SERIGRAFIA - 90h</td></tr>
+							
+							<tr class="componentes"><td>VIS0247 - XILOGRAVURA - 90h</td></tr>
+							
+							<tr>
+								<td><b>CH Total:</b> 1650h &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+							<tr>
+								<td><b>CH Mínima:</b> 210h &nbsp;&nbsp;&nbsp;<br>&nbsp; </td>
+							</tr>
+							
+							<tr class="header"><td>CADEIA 2</td></tr>
+							
+							<tr class="componentes"><td>VIS0017 - TEORIA E HISTÓRIA DA ARTE E DA IMAGEM NO ESPAÇO/TEMPO 1 - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0009 - TEORIA E HISTÓRIA DA ARTE E DA IMAGEM NO ESPAÇO/TEMPO 2 - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0020 - TEORIA E HISTÓRIA DA ARTE E DA IMAGEM NO ESPAÇO/TEMPO 3 - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0013 - TEORIA E HISTÓRIA DA ARTE E DA IMAGEM NO ESPAÇO/TEMPO 4 - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0026 - TEORIA E HISTÓRIA DA ARTE E DA IMAGEM NO ESPAÇO/TEMPO 5 - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0027 - TEORIA E HISTÓRIA DA ARTE E DA IMAGEM NO ESPAÇO/TEMPO 6 - 60h</td></tr>
+							
+							<tr>
+								<td><b>CH Total:</b> 360h &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+							<tr>
+								<td><b>CH Mínima:</b> 180h &nbsp;&nbsp;&nbsp;<br>&nbsp; </td>
+							</tr>
+							
+							<tr class="header"><td>CADEIA 3</td></tr>
+							
+							<tr class="componentes"><td>VIS0012 - ARTE E ANTROPOLOGIA - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0004 - ARTE E CIÊNCIAS DA LINGUAGEM - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0295 - ARTE E LITERATURA - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0003 - ARTE E PENSAMENTO - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0007 - ARTE E PSICANÁLISE - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0002 - ARTE E SOCIOLOGIA - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0129 - FUNDAMENTOS DA LINGUAGEM VISUAL - 90h</td></tr>
+							
+							<tr>
+								<td><b>CH Total:</b> 450h &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+							<tr>
+								<td><b>CH Mínima:</b> 240h &nbsp;&nbsp;&nbsp;<br>&nbsp; </td>
+							</tr>
+							
+							<tr class="header"><td>CADEIA 4</td></tr>
+							
+							<tr class="componentes"><td>VIS0021 - CRÍTICA E HISTÓRIA DA ARTE NO BRASIL 1 - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0022 - CRÍTICA E HISTÓRIA DA ARTE NO BRASIL 2 - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0010 - CRÍTICA E HISTÓRIA DA ARTE NO BRASIL 3 - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0015 - CRÍTICA E HISTÓRIA DA ARTE NO BRASIL 4 - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0025 - HISTÓRIA DA ARTE NO BRASIL, MEMÓRIA E PATRIMÔNIO - 60h</td></tr>
+							
+							<tr class="componentes"><td>VIS0019 - INTRODUÇÃO A CURADORIA - 60h</td></tr>
+							
+							<tr>
+								<td><b>CH Total:</b> 360h &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+							<tr>
+								<td><b>CH Mínima:</b> 180h &nbsp;&nbsp;&nbsp;<br>&nbsp; </td>
+							</tr>
+							
+							</tbody></table>
+						</td>
+					</tr>
+				
+			
+			
+			</tbody><tfoot>
+				<tr>
+					<td colspan="2">&nbsp;</td>
+				</tr>
+			</tfoot>
+		</table>
+	<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id311">
+</form>
+	<br>
+	<center>
+	<a href="javascript: history.go(-1);"> &lt;&lt; Voltar </a>
+	</center>
+
+	
+	<div class="clear"></div>
+	</div>
+
+	<div id="rodape">
+		<p>	
+			SIGAA | Secretaria de Tecnologia da Informação - STI - (61)  3107-0102 | Copyright © 2006-2023 - UFRN - app22_Prod.sigaa16
+			 
+				<a onclick="javascript:versao();">v4.9.10.3</a>
+			
+		</p>
+	</div>
+
+	<!-- Fim dos containers -->
+	</div>
+	</div>
+	
+
+
+
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', '0', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>	
+
+
+<!-- MYFACES JAVASCRIPT -->
+
+
+
+
+
+ 
+	<script type="text/javascript" charset="UTF-8">
+		function versao(){
+			var msg='';
+			msg+='SIGAA 4.9.10.3,  publicado em: 30/06/2023 12:11\n\n';
+			msg+='Depend\u00eancias:\n';
+			msg+='Arquitetura 4.4.0\n';
+			msg+='Entidades Comuns 2.3.3\n';
+			msg+='Servicos Integrados 2.0.8\n';
+			msg+='SharedResources 2.1.2\n';
+			msg+='Servicos Remoto Biblioteca null\n';
+			msg+='SIGAA Mobile Objects 1.0.0\n\n';
+			msg+='Copyright SINFO/UFRN';
+			alert(msg);
+		}	
+	</script>
+
+<style>
+a.linkMobile:link {
+	color: #003395;
+	font-weight: bold;
+	font-size: inherit;
+	text-decoration: none;
+}
+
+a.linkMobile:visited {
+	color: #003390;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.linkMobile:active {
+	color: #444444;
+	text-decoration: none;
+	font-weight: bold;
+}
+</style>
+
+</body></html>

@@ -1,0 +1,1634 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class=" ext-strict"><head>
+	<meta http-equiv="Pragma" content="no-cache">
+	<title>SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</title>
+	<link class="component" href="/sigaa/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><link class="component" href="/sigaa/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js.jsf" type="text/javascript"></script><link rel="shortcut icon" href="/sigaa/img/sigaa.ico">
+	
+	<script type="text/javascript" src="/shared/jsBundles/jawr_loader.js"></script>
+	<script src="/sigaa/javascript/prevenir-duplo-clique.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		JAWR.loader.style('/javascript/ext-2.0.a.1/resources/css/ext-all.css', 'all');
+		JAWR.loader.style('/css/public.css','all');
+	 	JAWR.loader.script('/bundles/js/sigaa_base.js');
+	 	JAWR.loader.script('/bundles/js/ext2_all.js');
+
+	 	
+	</script> <link rel="stylesheet" type="text/css" media="all" href="/shared/cssBundles/gzip_086847611/javascript/ext-2.0.a.1/resources/css/ext-all.css">  <link rel="stylesheet" type="text/css" media="all" href="/shared/cssBundles/gzip_098577918/css/public.css">  <script type="text/javascript" src="/shared/jsBundles/gzip_404685069/bundles/js/sigaa_base.js"> </script>  <script type="text/javascript" src="/shared/jsBundles/gzip_203901949/bundles/js/ext2_all.js"> </script> 
+	<link rel="stylesheet" type="text/css" media="all" href="/sigaa/cssBundles/gzip_N1328554985/public/css/public.css">
+
+	
+	<link rel="stylesheet" type="text/css" href="/shared/beta/css/font-awesome.css" media="screen">
+	
+	<script src="/shared/javascript/STICookieConsent.js"></script>
+	<script>
+	    document.addEventListener("DOMContentLoaded", () => {
+	    	generateCookieConsentModal("SIGAA", "N&#243;s usamos cookies para melhorar sua experi&#234;ncia de navega&#231;&#227;o no portal. Ao utilizar o %sitename%, voc&#234; concorda com a pol&#237;tica de monitoramento de cookies. Para ter mais informa&#231;&#245;es sobre como isso &#233; feito e como remover, acesse a <a href=%cookie-policy%>Pol&#237;tica de Prote&#231;&#227;o de Dados Pessoais</a>. Para saber como a UnB trata os dados, acesse a <a href=%privacy-policy%> Pol&#237;tica de cookies</a>. Se voc&#234; concorda, clique em %button-text%.", "https://protecaodedados.unb.br", "https://sti.unb.br/doc-politicas");
+	    })
+	</script>
+	
+<style>
+.cookie-consent-modal {
+  /* Vars */
+  --background: #4e4e4e;
+  --link-color: #79cbf2;
+  --link-color-hover: #17e4ff;
+  --body-text-color: #fff;
+  --button-background: #fff;
+
+  box-shadow:0 0 10px rgba(0,0,0,.4);
+  position:fixed;
+  bottom:0;
+  margin-bottom:4.5rem;
+  z-index:10000;
+  width: 100vw;
+  max-width: 100%;
+  color:var(--body-text-color);
+  background:var(--background);
+  padding:2.5rem 0;
+  border: 0;
+}
+.cookie-consent-modal p{
+  width:inherit;
+  margin:auto
+}
+.cookie-consent-modal a{
+  color:var(--link-color);
+  text-decoration: none;
+}
+.cookie-consent-modal a:focus,.cookie-consent-modal a:hover{
+  text-decoration:underline
+}
+.cookie-consent-modal button{
+  cursor: pointer;
+  margin:1rem auto 0;
+  display:block;
+  font-weight:700;
+  color:var(--background);
+  background-color:var(--button-background);
+  border: 0;
+  padding: 8px 14px;
+  border-radius:4px;
+}
+.cookie-consent-modal button:active,.cookie-consent-modal button:focus,.cookie-consent-modal button:hover{
+  background-color:var(--link-color);
+}
+.cookie-consent-modal > .container {
+  margin:auto;
+  max-width:100%;
+  padding: 0 1.5em;
+}
+@media (min-width: 556px) {
+  .cookie-consent-modal > .container {
+    max-width:540px;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .cookie-consent-modal > .container {
+    max-width:720px;
+  }
+}
+@media (min-width: 992px) {
+  .cookie-consent-modal > .container {
+    max-width:960px;
+  }
+}
+@media (min-width: 1200px) {
+  .cookie-consent-modal > .container {
+    max-width:1140px;
+  }
+}
+</style></head>
+
+<body id="ext-gen6" class=" ext-gecko"><dialog open="true" class="cookie-consent-modal" id="sigaa-cookie-consent"><div class="container">Nós usamos cookies para melhorar sua experiência de navegação no portal. Ao utilizar o SIGAA, você concorda com a política de monitoramento de cookies. Para ter mais informações sobre como isso é feito e como remover, acesse a <a href="https://protecaodedados.unb.br">Política de Proteção de Dados Pessoais</a>. Para saber como a UnB trata os dados, acesse a <a href="https://sti.unb.br/doc-politicas"> Política de cookies</a>. Se você concorda, clique em Ciente.</div><button class="btn btn-primary">Ciente</button></dialog>
+	<div id="container">
+	
+
+	<div id="container-inner">
+
+	<div id="cabecalho">
+		<div id="logo">
+				<a href="/sigaa/public/"> <img src="https://sig.unb.br/shared/img/instituicao/brasao.png"> </a>		
+		</div>
+		<div id="identificacao">
+			<span class="ufrn"> Universidade de Brasília </span>
+			<span class="data">
+				 Brasília, 
+				 04 de Julho de 
+				 2023 
+			</span>
+			<a id="home" href="/sigaa/public/" title="Página inicial" style="width: 450px;"> </a>
+			<div id="menu_info">
+				<ul>
+					<li class="acessibilidade">
+						<a href="https://sigaa.unb.br/sigaa/verTelaLogin.do?acessibilidade=true" alt="Acessível para pessoas com deficiência visual" title="Acessível para pessoas com deficiência visual">
+							Acessível para pessoas com deficiência visual
+						</a>
+					</li>
+					
+					<li class="login">
+						<a href="/sigaa/" alt="Clique aqui para logar-se no SIGAA" title="Clique aqui para logar-se no SIGAA">
+							Login
+						<i class="fa fa-angle-right"></i></a>	
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<br clear="all">
+	</div>
+
+
+	<div id="corpo">
+	
+
+
+
+<style>
+	tr.tituloRelatorio td {padding: 19px 0 0; border-bottom: 1px solid #555 ; font-weight: bold; font-size: 13px; }
+	tr.header td {padding: 3px ; border-bottom: 1px solid #555; background-color: #eee;}
+	tr.componentes td {padding: 4px 2px 2px ; border-bottom: 1px dashed #888;}
+	.colCodigo{text-align:left !important;}
+</style>
+
+	
+
+	<!--  Scripts do YAHOO -->
+	<link rel="stylesheet" type="text/css" href="/shared/javascript/yui/tabview/assets/tabs.css">
+	<link rel="stylesheet" type="text/css" href="/shared/javascript/yui/tabview/assets/border_tabs.css">
+	<script type="text/javascript" src="/shared/javascript/yui/tabview-min.js"></script>
+
+	<style>
+		table.formulario th {
+			font-weight: bold;
+		}
+	</style>		
+	<script type="text/javascript">
+	var criarAbas = function() {
+	    var tabView = new YAHOO.widget.TabView('tabs-semestres');
+	};
+	criarAbas();
+	</script>
+	
+	
+	
+
+	
+	<h2 class="title">Estrutura Curricular </h2>
+
+	
+<form id="formulario" name="formulario" method="post" action="/sigaa/public/curso/relatorio_curriculo.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formulario" value="formulario">
+
+		<div class="legenda" style="width: 700px">
+			<img src="/sigaa/img/view.gif">:&nbsp;Visualizar Detalhes do Componente<img src="/sigaa/img/report.png">:&nbsp;Visualizar Programa
+			
+		</div>
+		<h3 class="tituloTabela" style="width: 700px">Estrutura Curricular</h3>
+		<table class="formulario" width="700px">
+			<tbody><tr>
+				<th>Código: </th>
+				<td>9628/1</td>
+			</tr>
+			
+				<tr>
+					<th>Matriz Curricular: </th>
+					<td>EDUCAÇÃO DO CAMPO - LINGUAGENS, ARTES E LITERATURA/FUP - Licenciado - Presencial - D</td>
+				</tr>
+			
+			
+			<tr>
+				<th>Período Letivo de Entrada em Vigor: </th>
+				<td>2019.1</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="subFormulario">
+				 	Prazos e Cargas Horárias
+				</td>
+			</tr>	
+			<tr>
+				<th>Total Mínima: </th>
+				<td>3510h</td>					
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center; background-color: #EEEEEE">
+					<b>Carga Horária Obrigatória</b>
+				</td>								
+			</tr>
+			<tr>
+				<th>Subtotal de CH de Aula: </th>
+				<td>
+					2610h 
+				</td>
+			</tr>
+			<tr>
+				<th>Subtotal de CH de Orientação Acadêmica/Profissional: </th>
+				<td>
+					0h 
+				</td>
+			</tr>
+			<tr style="border-bottom: 1px solid #DDDDDD;">
+				<th>Total:</th>
+				<td>
+					2610h 
+				</td>
+			</tr>
+			<tr>
+				<th width="48%">Carga Horária Optativa Mínima: </th>
+				<td>690h</td>
+			</tr><tr>
+			</tr><tr>
+				<th width="48%">Carga Horária Complementar Mínima: </th>
+				<td>210h</td>										
+			</tr>
+			<tr>
+				<th>Carga Horária Obrigatória Atividade Acadêmica Específica: </th>
+				<td>
+					0h
+				</td>
+			</tr>
+			<tr>
+				<th>Carga Horária Máxima de Componentes Eletivos: </th>
+				<td>360h</td>
+			</tr>
+			
+			<tr>
+				<th>Carga Horária Máxima por Período Letivo: </th>
+				<td>495h</td>							
+			</tr>
+			
+			
+			<tr style="border-bottom: 1px solid #DDDDDD;">
+				<th>Carga Horária Mínima por Período Letivo: </th>
+				<td>300h</td>							
+			</tr>
+			
+			
+			<tr style="border-bottom: 1px solid #DDDDDD;">
+				<th>Prazo Para Conclusão (em semestres): </th>				
+				<td>
+			  		<table>
+			  			<tbody><tr>
+				  									
+								<th>Mínimo: </th>
+								<td>
+									8 &nbsp;
+								</td>
+								<th>Médio: </th>
+								<td>
+									10  &nbsp;
+								</td>
+								<th>Máximo: </th>
+								<td>
+									12  &nbsp;
+								</td>						
+				  			
+				  			
+			  			</tr>
+					</tbody></table>
+				</td>
+			</tr>
+			
+				<tr>			
+					<td colspan="2">
+						<table style="width: 100%">
+							<tbody><tr class="tituloRelatorio">
+								<td colspan="3">Optativas</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>FUP0005 - CURRÍCULO E AVALIAÇÃO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											
+<script type="text/javascript" language="Javascript">function dpf(f) {var adp = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {f.removeChild(adp[i]);}}};function apf(f, pvp) {var adp = new Array();f.adp = adp;var i = 0;for (k in pvp) {var p = document.createElement("input");p.type = "hidden";p.name = k;p.value = pvp[k];f.appendChild(p);adp[i++] = p;}};function jsfcljs(f, pvp, t) {apf(f, pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>
+<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45':'formulario:j_id_jsp_687993592_45','id':'176658','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49':'formulario:j_id_jsp_687993592_49','idComponente':'176658'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0044 - LEITURA E PRODUÇÃO DE TEXTO 1 - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_1':'formulario:j_id_jsp_687993592_45j_id_1','id':'177493','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_1':'formulario:j_id_jsp_687993592_49j_id_1','idComponente':'177493'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0045 - MATEMÁTICA E SOCIEDADE - 45h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_2':'formulario:j_id_jsp_687993592_45j_id_2','id':'177494','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_2':'formulario:j_id_jsp_687993592_49j_id_2','idComponente':'177494'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0047 - PROMOÇÃO DA SAÚDE - 45h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_3':'formulario:j_id_jsp_687993592_45j_id_3','id':'177496','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_3':'formulario:j_id_jsp_687993592_49j_id_3','idComponente':'177496'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0050 - LEITURA E PRODUÇÃO DE TEXTO 2 - 15h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_4':'formulario:j_id_jsp_687993592_45j_id_4','id':'178242','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_4':'formulario:j_id_jsp_687993592_49j_id_4','idComponente':'178242'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0063 - LETRAMENTO CIENTÍFICO E DIGITAL - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_5':'formulario:j_id_jsp_687993592_45j_id_5','id':'178255','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_5':'formulario:j_id_jsp_687993592_49j_id_5','idComponente':'178255'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0074 - COMUNICAÇÃO E TECNOLOGIAS DA INFORMAÇÃO - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_6':'formulario:j_id_jsp_687993592_45j_id_6','id':'178455','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_6':'formulario:j_id_jsp_687993592_49j_id_6','idComponente':'178455'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0076 - LEITURA E PRODUÇÃO DE TEXTO 3 - 15h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_7':'formulario:j_id_jsp_687993592_45j_id_7','id':'178457','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_7':'formulario:j_id_jsp_687993592_49j_id_7','idComponente':'178457'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0080 - LEITURA E PRODUÇÃO DE TEXTO 4 - 15h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_8':'formulario:j_id_jsp_687993592_45j_id_8','id':'178897','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_8':'formulario:j_id_jsp_687993592_49j_id_8','idComponente':'178897'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0081 - MORFOSSINTAXE - 45h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_9':'formulario:j_id_jsp_687993592_45j_id_9','id':'178898','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_9':'formulario:j_id_jsp_687993592_49j_id_9','idComponente':'178898'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0096 - PESQUISA E MEMÓRIA 4 - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_10':'formulario:j_id_jsp_687993592_45j_id_10','id':'178942','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_10':'formulario:j_id_jsp_687993592_49j_id_10','idComponente':'178942'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0106 - CEBEP 5: DIVERSIDADE GERACIONAL NO CAMPO - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_11':'formulario:j_id_jsp_687993592_45j_id_11','id':'179054','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_11':'formulario:j_id_jsp_687993592_49j_id_11','idComponente':'179054'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0107 - LEITURA E PRODUÇÃO DE TEXTO 5 - 15h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_12':'formulario:j_id_jsp_687993592_45j_id_12','id':'179096','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_12':'formulario:j_id_jsp_687993592_49j_id_12','idComponente':'179096'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0108 - PESQUISA E MEMÓRIA 5 - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_13':'formulario:j_id_jsp_687993592_45j_id_13','id':'179097','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_13':'formulario:j_id_jsp_687993592_49j_id_13','idComponente':'179097'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0112 - DESENVOLVIMENTO HUMANO E APRENDIZAGEM NA ESCOLA - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_14':'formulario:j_id_jsp_687993592_45j_id_14','id':'179139','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_14':'formulario:j_id_jsp_687993592_49j_id_14','idComponente':'179139'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0119 - LITERATURA MUNDIAL ENTRE O CENTRO E A PERIFERIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_15':'formulario:j_id_jsp_687993592_45j_id_15','id':'179156','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_15':'formulario:j_id_jsp_687993592_49j_id_15','idComponente':'179156'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0126 - HISTÓRIA DOS MOVIMENTOS SOCIAIS NO CAMPO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_16':'formulario:j_id_jsp_687993592_45j_id_16','id':'179421','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_16':'formulario:j_id_jsp_687993592_49j_id_16','idComponente':'179421'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0130 - CEBEP: TÓPICOS ESPECIAIS - 15h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_17':'formulario:j_id_jsp_687993592_45j_id_17','id':'180140','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_17':'formulario:j_id_jsp_687993592_49j_id_17','idComponente':'180140'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0132 - PROCESSO EXPERIMENTAL EM TEATRO 1 - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_18':'formulario:j_id_jsp_687993592_45j_id_18','id':'180142','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_18':'formulario:j_id_jsp_687993592_49j_id_18','idComponente':'180142'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0133 - PROJETO EXPERIMENTAL EM AUDIOVISUAL: PRODUÇÃO E FINALIZAÇÃO - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_19':'formulario:j_id_jsp_687993592_45j_id_19','id':'180143','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_19':'formulario:j_id_jsp_687993592_49j_id_19','idComponente':'180143'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0142 - LITERATURA COMO FORMAÇÃO: FUNDAMENTOS HISTÓRICO ONTOLÓGICO E ESTÉTICO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_20':'formulario:j_id_jsp_687993592_45j_id_20','id':'180163','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_20':'formulario:j_id_jsp_687993592_49j_id_20','idComponente':'180163'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0146 - PROCESSO EXPERIMENTAL EM TEATRO 2 - 45h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_21':'formulario:j_id_jsp_687993592_45j_id_21','id':'180261','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_21':'formulario:j_id_jsp_687993592_49j_id_21','idComponente':'180261'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0148 - TÓPICOS EM ECOLINGUÍSTICA - 15h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_22':'formulario:j_id_jsp_687993592_45j_id_22','id':'180263','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_22':'formulario:j_id_jsp_687993592_49j_id_22','idComponente':'180263'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0149 - TEXTOS ACADÊMICOS: ATIVIDADES DE LEITURA, ESCRITA E REESCRITA - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_23':'formulario:j_id_jsp_687993592_45j_id_23','id':'180279','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_23':'formulario:j_id_jsp_687993592_49j_id_23','idComponente':'180279'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0150 - EDUCAÇÃO POPULAR E EDUCAÇÃO DE JOVENS E ADULTOS - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_24':'formulario:j_id_jsp_687993592_45j_id_24','id':'180280','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_24':'formulario:j_id_jsp_687993592_49j_id_24','idComponente':'180280'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0151 - EDUCAÇÃO DO CAMPO E DIREITOS HUMANOS - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_25':'formulario:j_id_jsp_687993592_45j_id_25','id':'180281','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_25':'formulario:j_id_jsp_687993592_49j_id_25','idComponente':'180281'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0152 - EDUCAÇÃO DO CAMPO SAÚDE E MEIO AMBIENTE - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_26':'formulario:j_id_jsp_687993592_45j_id_26','id':'180282','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_26':'formulario:j_id_jsp_687993592_49j_id_26','idComponente':'180282'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0153 - AGROBIODIVERSIDADE E SEGURANÇA ALIMENTAR E NUTRICIONAL - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_27':'formulario:j_id_jsp_687993592_45j_id_27','id':'180283','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_27':'formulario:j_id_jsp_687993592_49j_id_27','idComponente':'180283'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0154 - AGROECOLOGIA E ESCOLA DO CAMPO - 45h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_28':'formulario:j_id_jsp_687993592_45j_id_28','id':'180284','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_28':'formulario:j_id_jsp_687993592_49j_id_28','idComponente':'180284'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0155 - TÓPICOS ESPECIAIS EM EDUCAÇÃO DO CAMPO - 45h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_29':'formulario:j_id_jsp_687993592_45j_id_29','id':'180285','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_29':'formulario:j_id_jsp_687993592_49j_id_29','idComponente':'180285'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0156 - LABORATÓRIO DE DIREÇÃO E INTERPRETAÇÃO TEATRAL - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_30':'formulario:j_id_jsp_687993592_45j_id_30','id':'180433','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_30':'formulario:j_id_jsp_687993592_49j_id_30','idComponente':'180433'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0157 - EXPRESSÕES ESTÉTICA E CULTURA POLÍTICA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_31':'formulario:j_id_jsp_687993592_45j_id_31','id':'180434','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_31':'formulario:j_id_jsp_687993592_49j_id_31','idComponente':'180434'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0158 - LABORATÓRIO DE DRAMATURGIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_32':'formulario:j_id_jsp_687993592_45j_id_32','id':'180435','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_32':'formulario:j_id_jsp_687993592_49j_id_32','idComponente':'180435'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0159 - DOCUMENTÁRIO, TERRITÓRIO E EDUCAÇÃO DO CAMPO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_33':'formulario:j_id_jsp_687993592_45j_id_33','id':'180436','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_33':'formulario:j_id_jsp_687993592_49j_id_33','idComponente':'180436'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0163 - POLÍTICA EDUCACIONAL 2 - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_34':'formulario:j_id_jsp_687993592_45j_id_34','id':'188135','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_34':'formulario:j_id_jsp_687993592_49j_id_34','idComponente':'188135'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0171 - OUTRAS FORMAS DE ATIVIDADES ESPANHOL INSTRUMENTAL 1 - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_35':'formulario:j_id_jsp_687993592_45j_id_35','id':'188143','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_35':'formulario:j_id_jsp_687993592_49j_id_35','idComponente':'188143'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0205 - OUTRAS FORMAS DE ATIVIDADE: ESPANHOL INSTRUMENTAL 2 - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_36':'formulario:j_id_jsp_687993592_45j_id_36','id':'188403','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_36':'formulario:j_id_jsp_687993592_49j_id_36','idComponente':'188403'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0393 - MEDIAÇÕES ENTRE FORMA SOCIAL E ESTÉTICA - 45h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_37':'formulario:j_id_jsp_687993592_45j_id_37','id':'188820','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_37':'formulario:j_id_jsp_687993592_49j_id_37','idComponente':'188820'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0405 - OUTRAS FORMAS DE ATIVIDADES: OFICINA INFORMÁTICA 1 - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_38':'formulario:j_id_jsp_687993592_45j_id_38','id':'188832','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_38':'formulario:j_id_jsp_687993592_49j_id_38','idComponente':'188832'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0466 - FILOSOFIA 4 - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_39':'formulario:j_id_jsp_687993592_45j_id_39','id':'188969','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_39':'formulario:j_id_jsp_687993592_49j_id_39','idComponente':'188969'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0468 - FILOSOFIA 5 - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_40':'formulario:j_id_jsp_687993592_45j_id_40','id':'188971','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_40':'formulario:j_id_jsp_687993592_49j_id_40','idComponente':'188971'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0493 - ORGANIZAÇÃO ESCOLAR E MÉTODO DE TRABALHO PEDAGÓGICO 3 - 30h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_41':'formulario:j_id_jsp_687993592_45j_id_41','id':'188996','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_41':'formulario:j_id_jsp_687993592_49j_id_41','idComponente':'188996'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+								
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 1575h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						</tbody></table>
+					
+					
+						<table>
+							<tbody><tr class="tituloRelatorio">
+								<td colspan="3">Complementares</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+							
+								<tr>
+									<td>Esta estrutura curricular não possui componentes complementares.</td>
+									<td width="8%">&nbsp;</td>
+									<td width="8%">&nbsp;</td>
+								</tr>
+								
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 0h &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						</tbody></table>
+						
+					
+					
+						<table>
+						
+							<tbody><tr class="tituloRelatorio">
+								<td colspan="3">1º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>FUP0041 - CEBEP 1 - CONFLITOS ESTRUTURAIS BRASILEIROS E EDUCAÇÃO POPULAR - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62':'formulario:j_id_jsp_687993592_62','id':'177487','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66':'formulario:j_id_jsp_687993592_66','idComponente':'177487'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0043 - HISTÓRIA DA EDUCAÇÃO - 45h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_1':'formulario:j_id_jsp_687993592_62j_id_1','id':'177492','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_1':'formulario:j_id_jsp_687993592_66j_id_1','idComponente':'177492'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0374 - ECONOMIA POLÍTICA 1 - 45h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_2':'formulario:j_id_jsp_687993592_62j_id_2','id':'188785','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_2':'formulario:j_id_jsp_687993592_66j_id_2','idComponente':'188785'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0375 - FILOSOFIA 1 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_3':'formulario:j_id_jsp_687993592_62j_id_3','id':'188786','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_3':'formulario:j_id_jsp_687993592_66j_id_3','idComponente':'188786'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0377 - TEORIA PEDAGÓGICA 1 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_4':'formulario:j_id_jsp_687993592_62j_id_4','id':'188788','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_4':'formulario:j_id_jsp_687993592_66j_id_4','idComponente':'188788'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0381 - ESCOLA E EDUCAÇÃO DO CAMPO 1 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_5':'formulario:j_id_jsp_687993592_62j_id_5','id':'188792','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_5':'formulario:j_id_jsp_687993592_66j_id_5','idComponente':'188792'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0384 - PESQUISA E MEMÓRIA 1 - 15h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_6':'formulario:j_id_jsp_687993592_62j_id_6','id':'188795','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_6':'formulario:j_id_jsp_687993592_66j_id_6','idComponente':'188795'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0386 - PRÁTICAS PEDAGÓGICAS 1 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_7':'formulario:j_id_jsp_687993592_62j_id_7','id':'188797','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_7':'formulario:j_id_jsp_687993592_66j_id_7','idComponente':'188797'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0390 - ORGANIZAÇÃO ESCOLAR E MÉTODO DO TRABALHO PEDAGÓGICO 1 - 15h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_8':'formulario:j_id_jsp_687993592_62j_id_8','id':'188817','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_8':'formulario:j_id_jsp_687993592_66j_id_8','idComponente':'188817'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 270h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">2º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>FUP0049 - CEBEP 2 - FORMAÇÃO NACIONAL E IDENTID CAMPONESA INDÍGENA E QUILOMBOLA - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_9':'formulario:j_id_jsp_687993592_62j_id_9','id':'178241','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_9':'formulario:j_id_jsp_687993592_66j_id_9','idComponente':'178241'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0052 - FUNDAMENTOS BÁSICOS DAS ARTES PLÁSTICAS - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_10':'formulario:j_id_jsp_687993592_62j_id_10','id':'178244','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_10':'formulario:j_id_jsp_687993592_66j_id_10','idComponente':'178244'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0062 - PESQUISA E MEMÓRIA 2 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_11':'formulario:j_id_jsp_687993592_62j_id_11','id':'178254','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_11':'formulario:j_id_jsp_687993592_66j_id_11','idComponente':'178254'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0392 - TEORIA PEDAGÓGICA 2 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_12':'formulario:j_id_jsp_687993592_62j_id_12','id':'188819','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_12':'formulario:j_id_jsp_687993592_66j_id_12','idComponente':'188819'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0397 - ECONOMIA POLITICA 2 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_13':'formulario:j_id_jsp_687993592_62j_id_13','id':'188824','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_13':'formulario:j_id_jsp_687993592_66j_id_13','idComponente':'188824'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0400 - FILOSOFIA 2 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_14':'formulario:j_id_jsp_687993592_62j_id_14','id':'188827','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_14':'formulario:j_id_jsp_687993592_66j_id_14','idComponente':'188827'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0403 - PRÁTICAS PEDAGÓGICAS 2 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_15':'formulario:j_id_jsp_687993592_62j_id_15','id':'188830','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_15':'formulario:j_id_jsp_687993592_66j_id_15','idComponente':'188830'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0506 - FUNDAMENTOS DA LÍNGUÍSTICA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_16':'formulario:j_id_jsp_687993592_62j_id_16','id':'189015','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_16':'formulario:j_id_jsp_687993592_66j_id_16','idComponente':'189015'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0509 - ESTUDOS LITERÁRIOS 1: LITERATURA E NAÇÃO - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_17':'formulario:j_id_jsp_687993592_62j_id_17','id':'189018','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_17':'formulario:j_id_jsp_687993592_66j_id_17','idComponente':'189018'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 390h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">3º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>FUP0068 - TEORIA E HISTÓRIA DAS ARTES PLÁSTICAS E VISUAIS - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_18':'formulario:j_id_jsp_687993592_62j_id_18','id':'178372','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_18':'formulario:j_id_jsp_687993592_66j_id_18','idComponente':'178372'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0075 - PESQUISA E MEMÓRIA 3 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_19':'formulario:j_id_jsp_687993592_62j_id_19','id':'178456','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_19':'formulario:j_id_jsp_687993592_66j_id_19','idComponente':'178456'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0077 - CEBEP 3: RAÇA, GÊNERO E GERAÇÃO - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_20':'formulario:j_id_jsp_687993592_62j_id_20','id':'178458','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_20':'formulario:j_id_jsp_687993592_66j_id_20','idComponente':'178458'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0227 - FONÉTICA, FONOLOGIA E MORFOLOGIA DO PORTUGUÊS - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_21':'formulario:j_id_jsp_687993592_62j_id_21','id':'188619','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_21':'formulario:j_id_jsp_687993592_66j_id_21','idComponente':'188619'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0229 - ESTUDOS LITERÁRIOS 2 :CONSOLIDAÇÃO DO SIST LIT E DESAGREGAÇÃO NACIONAL - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_22':'formulario:j_id_jsp_687993592_62j_id_22','id':'188621','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_22':'formulario:j_id_jsp_687993592_66j_id_22','idComponente':'188621'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0379 - POLITICA EDUCACIONAL 1 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_23':'formulario:j_id_jsp_687993592_62j_id_23','id':'188790','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_23':'formulario:j_id_jsp_687993592_66j_id_23','idComponente':'188790'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0417 - PRÁTICAS PEDAGÓGICAS 3 - 45h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_24':'formulario:j_id_jsp_687993592_62j_id_24','id':'188848','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_24':'formulario:j_id_jsp_687993592_66j_id_24','idComponente':'188848'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0427 - ORGANIZAÇÃO ESCOLAR E MÉTODO DO TRABALHO PEDAGÓGICO 2 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_25':'formulario:j_id_jsp_687993592_62j_id_25','id':'188858','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_25':'formulario:j_id_jsp_687993592_66j_id_25','idComponente':'188858'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0429 - FILOSOFIA 3 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_26':'formulario:j_id_jsp_687993592_62j_id_26','id':'188860','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_26':'formulario:j_id_jsp_687993592_66j_id_26','idComponente':'188860'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0431 - TEORIA PEDAGÓGICA 3 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_27':'formulario:j_id_jsp_687993592_62j_id_27','id':'188862','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_27':'formulario:j_id_jsp_687993592_66j_id_27','idComponente':'188862'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 405h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">4º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>FUP0079 - CEBEP 4 - QUESTÃO SOCIAL E QUESTÃO AGRÁRIA NO BRASIL - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_28':'formulario:j_id_jsp_687993592_62j_id_28','id':'178896','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_28':'formulario:j_id_jsp_687993592_66j_id_28','idComponente':'178896'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0083 - OFICINA BÁSICA DE ARTES CÊNICAS OBAC - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_29':'formulario:j_id_jsp_687993592_62j_id_29','id':'178900','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_29':'formulario:j_id_jsp_687993592_66j_id_29','idComponente':'178900'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0084 - INTRODUÇÃO A LINGUAGEM AUDIOVISUAL - 15h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_30':'formulario:j_id_jsp_687993592_62j_id_30','id':'178901','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_30':'formulario:j_id_jsp_687993592_66j_id_30','idComponente':'178901'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0165 - TEORIA PEDAGÓGICA 4 - 15h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_31':'formulario:j_id_jsp_687993592_62j_id_31','id':'188137','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_31':'formulario:j_id_jsp_687993592_66j_id_31','idComponente':'188137'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0176 - ESTUDOS LITERÁRIOS 3: REPRESENTAÇÃO DO PERSONAGEM POPULAR BRASILEIRO - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_32':'formulario:j_id_jsp_687993592_62j_id_32','id':'188148','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_32':'formulario:j_id_jsp_687993592_66j_id_32','idComponente':'188148'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0458 - DESENVOLVIMENTO HUMANO E APRENDIZAGEM - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_33':'formulario:j_id_jsp_687993592_62j_id_33','id':'188961','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_33':'formulario:j_id_jsp_687993592_66j_id_33','idComponente':'188961'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0499 - PRÁTICAS PEDAGÓGICAS 4 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_34':'formulario:j_id_jsp_687993592_62j_id_34','id':'189002','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_34':'formulario:j_id_jsp_687993592_66j_id_34','idComponente':'189002'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 270h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">5º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>FUP0109 - AUDIOVISUAL ESTÉTICA POLÍTICA E EDUCAÇÃO - 15h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_35':'formulario:j_id_jsp_687993592_62j_id_35','id':'179098','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_35':'formulario:j_id_jsp_687993592_66j_id_35','idComponente':'179098'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0110 - PEDAGOGIA DO TEATRO - 45h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_36':'formulario:j_id_jsp_687993592_62j_id_36','id':'179099','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_36':'formulario:j_id_jsp_687993592_66j_id_36','idComponente':'179099'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0174 - SINTAXE DA LINGUA PORTUGUESA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_37':'formulario:j_id_jsp_687993592_62j_id_37','id':'188146','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_37':'formulario:j_id_jsp_687993592_66j_id_37','idComponente':'188146'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0193 - ESTUDOS LITERÁRIOS 4 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_38':'formulario:j_id_jsp_687993592_62j_id_38','id':'188165','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_38':'formulario:j_id_jsp_687993592_66j_id_38','idComponente':'188165'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0222 - PRÁTICA PEDAGÓGICA 5 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_39':'formulario:j_id_jsp_687993592_62j_id_39','id':'188614','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_39':'formulario:j_id_jsp_687993592_66j_id_39','idComponente':'188614'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0225 - ESTÁGIO CURRICULAR SUPERVISIONADO 1 - COMUNIDADE - 105h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_40':'formulario:j_id_jsp_687993592_62j_id_40','id':'188617','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_40':'formulario:j_id_jsp_687993592_66j_id_40','idComponente':'188617'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0460 - DESENVOLVIMENTO HUMANO E APRENDIZAGEM 2 - 45h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_41':'formulario:j_id_jsp_687993592_62j_id_41','id':'188963','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_41':'formulario:j_id_jsp_687993592_66j_id_41','idComponente':'188963'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 390h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">6º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>FUP0111 - CEBEP 6: SOBERANIA, SEGURANÇA ALIMENTAR E NUTRICIONAL - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_42':'formulario:j_id_jsp_687993592_62j_id_42','id':'179138','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_42':'formulario:j_id_jsp_687993592_66j_id_42','idComponente':'179138'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0113 - TEORIA PEDAGÓGICA 5 - 15h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_43':'formulario:j_id_jsp_687993592_62j_id_43','id':'179140','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_43':'formulario:j_id_jsp_687993592_66j_id_43','idComponente':'179140'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0120 - SEMÂNTICA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_44':'formulario:j_id_jsp_687993592_62j_id_44','id':'179157','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_44':'formulario:j_id_jsp_687993592_66j_id_44','idComponente':'179157'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0121 - TEORIA E HISTÓRIA DO TEATRO - 45h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_45':'formulario:j_id_jsp_687993592_62j_id_45','id':'179158','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_45':'formulario:j_id_jsp_687993592_66j_id_45','idComponente':'179158'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0122 - PROJETO EXPERIMENTAL EM AUDIOVISUAL 1 - 15h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_46':'formulario:j_id_jsp_687993592_62j_id_46','id':'179159','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_46':'formulario:j_id_jsp_687993592_66j_id_46','idComponente':'179159'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0166 - TRABALHO DE CONCLUSÃO 1 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_47':'formulario:j_id_jsp_687993592_62j_id_47','id':'188138','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_47':'formulario:j_id_jsp_687993592_66j_id_47','idComponente':'188138'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0167 - PRÁTICAS PEDAGÓGICAS 6 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_48':'formulario:j_id_jsp_687993592_62j_id_48','id':'188139','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_48':'formulario:j_id_jsp_687993592_66j_id_48','idComponente':'188139'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0169 - ESTÁGIO CURRICULAR SUPERVISIONADO 2: EJA - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_49':'formulario:j_id_jsp_687993592_62j_id_49','id':'188141','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_49':'formulario:j_id_jsp_687993592_66j_id_49','idComponente':'188141'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 345h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">7º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>FUP0129 - LÍNGUA BRASILEIRA DE SINAIS 1 - 15h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_50':'formulario:j_id_jsp_687993592_62j_id_50','id':'180139','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_50':'formulario:j_id_jsp_687993592_66j_id_50','idComponente':'180139'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0131 - TEORIA PEDAGÓGICA 6 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_51':'formulario:j_id_jsp_687993592_62j_id_51','id':'180141','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_51':'formulario:j_id_jsp_687993592_66j_id_51','idComponente':'180141'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0185 - TRABALHO DE CONCLUSÃO 2 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_52':'formulario:j_id_jsp_687993592_62j_id_52','id':'188157','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_52':'formulario:j_id_jsp_687993592_66j_id_52','idComponente':'188157'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0187 - PRÁTICAS PEDAGÓGICAS 7 - 45h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_53':'formulario:j_id_jsp_687993592_62j_id_53','id':'188159','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_53':'formulario:j_id_jsp_687993592_66j_id_53','idComponente':'188159'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0189 - ESTÁGIO C. S. 3 - GESTÃO DE DOCÊNCIA - 105h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_54':'formulario:j_id_jsp_687993592_62j_id_54','id':'188161','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_54':'formulario:j_id_jsp_687993592_66j_id_54','idComponente':'188161'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0191 - TÓPICOS AVANÇADOS EM LINGUÍSTICA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_55':'formulario:j_id_jsp_687993592_62j_id_55','id':'188163','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_55':'formulario:j_id_jsp_687993592_66j_id_55','idComponente':'188163'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 285h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">8º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>FUP0143 - ECOLOGIA POLÍTICA - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_56':'formulario:j_id_jsp_687993592_62j_id_56','id':'180258','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_56':'formulario:j_id_jsp_687993592_66j_id_56','idComponente':'180258'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0144 - LÍNGUA BRASILEIRA DE SINAIS 2 LIBRAS - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_57':'formulario:j_id_jsp_687993592_62j_id_57','id':'180259','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_57':'formulario:j_id_jsp_687993592_66j_id_57','idComponente':'180259'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0209 - ESCOLA E EDUCAÇÃO DO CAMPO 2 - 30h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_58':'formulario:j_id_jsp_687993592_62j_id_58','id':'188407','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_58':'formulario:j_id_jsp_687993592_66j_id_58','idComponente':'188407'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0210 - TRABALHO DE CONCLUSÃO 3 - 15h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_59':'formulario:j_id_jsp_687993592_62j_id_59','id':'188408','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_59':'formulario:j_id_jsp_687993592_66j_id_59','idComponente':'188408'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0212 - PRÁTICAS PEDAGÓGICAS 8 - 45h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_60':'formulario:j_id_jsp_687993592_62j_id_60','id':'188410','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_60':'formulario:j_id_jsp_687993592_66j_id_60','idComponente':'188410'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>FUP0214 - ESTÁGIO C. S. 4 - GESTÃO E DOCÊNCIA - 105h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_61':'formulario:j_id_jsp_687993592_62j_id_61','id':'188412','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_61':'formulario:j_id_jsp_687993592_66j_id_61','idComponente':'188412'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 255h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">9º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 0h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">10º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 0h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+						</tbody></table>
+						
+					</td>
+				</tr>
+				
+			
+			
+			</tbody><tfoot>
+				<tr>
+					<td colspan="2">&nbsp;</td>
+				</tr>
+			</tfoot>
+		</table>
+	<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id143">
+</form>
+	<br>
+	<center>
+	<a href="javascript: history.go(-1);"> &lt;&lt; Voltar </a>
+	</center>
+
+	
+	<div class="clear"></div>
+	</div>
+
+	<div id="rodape">
+		<p>	
+			SIGAA | Secretaria de Tecnologia da Informação - STI - (61)  3107-0102 | Copyright © 2006-2023 - UFRN - app22_Prod.sigaa16
+			 
+				<a onclick="javascript:versao();">v4.9.10.3</a>
+			
+		</p>
+	</div>
+
+	<!-- Fim dos containers -->
+	</div>
+	</div>
+	
+
+
+
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', '0', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>	
+
+
+<!-- MYFACES JAVASCRIPT -->
+
+
+
+
+
+ 
+	<script type="text/javascript" charset="UTF-8">
+		function versao(){
+			var msg='';
+			msg+='SIGAA 4.9.10.3,  publicado em: 30/06/2023 12:11\n\n';
+			msg+='Depend\u00eancias:\n';
+			msg+='Arquitetura 4.4.0\n';
+			msg+='Entidades Comuns 2.3.3\n';
+			msg+='Servicos Integrados 2.0.8\n';
+			msg+='SharedResources 2.1.2\n';
+			msg+='Servicos Remoto Biblioteca null\n';
+			msg+='SIGAA Mobile Objects 1.0.0\n\n';
+			msg+='Copyright SINFO/UFRN';
+			alert(msg);
+		}	
+	</script>
+
+<style>
+a.linkMobile:link {
+	color: #003395;
+	font-weight: bold;
+	font-size: inherit;
+	text-decoration: none;
+}
+
+a.linkMobile:visited {
+	color: #003390;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.linkMobile:active {
+	color: #444444;
+	text-decoration: none;
+	font-weight: bold;
+}
+</style>
+
+</body></html>

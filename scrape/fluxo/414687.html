@@ -1,0 +1,1006 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class=" ext-strict"><head>
+	<meta http-equiv="Pragma" content="no-cache">
+	<title>SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</title>
+	<link class="component" href="/sigaa/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><link class="component" href="/sigaa/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js.jsf" type="text/javascript"></script><link rel="shortcut icon" href="/sigaa/img/sigaa.ico">
+	
+	<script type="text/javascript" src="/shared/jsBundles/jawr_loader.js"></script>
+	<script src="/sigaa/javascript/prevenir-duplo-clique.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		JAWR.loader.style('/javascript/ext-2.0.a.1/resources/css/ext-all.css', 'all');
+		JAWR.loader.style('/css/public.css','all');
+	 	JAWR.loader.script('/bundles/js/sigaa_base.js');
+	 	JAWR.loader.script('/bundles/js/ext2_all.js');
+
+	 	
+	</script> <link rel="stylesheet" type="text/css" media="all" href="/shared/cssBundles/gzip_086847611/javascript/ext-2.0.a.1/resources/css/ext-all.css">  <link rel="stylesheet" type="text/css" media="all" href="/shared/cssBundles/gzip_098577918/css/public.css">  <script type="text/javascript" src="/shared/jsBundles/gzip_404685069/bundles/js/sigaa_base.js"> </script>  <script type="text/javascript" src="/shared/jsBundles/gzip_203901949/bundles/js/ext2_all.js"> </script> 
+	<link rel="stylesheet" type="text/css" media="all" href="/sigaa/cssBundles/gzip_N1328554985/public/css/public.css">
+
+	
+	<link rel="stylesheet" type="text/css" href="/shared/beta/css/font-awesome.css" media="screen">
+	
+	<script src="/shared/javascript/STICookieConsent.js"></script>
+	<script>
+	    document.addEventListener("DOMContentLoaded", () => {
+	    	generateCookieConsentModal("SIGAA", "N&#243;s usamos cookies para melhorar sua experi&#234;ncia de navega&#231;&#227;o no portal. Ao utilizar o %sitename%, voc&#234; concorda com a pol&#237;tica de monitoramento de cookies. Para ter mais informa&#231;&#245;es sobre como isso &#233; feito e como remover, acesse a <a href=%cookie-policy%>Pol&#237;tica de Prote&#231;&#227;o de Dados Pessoais</a>. Para saber como a UnB trata os dados, acesse a <a href=%privacy-policy%> Pol&#237;tica de cookies</a>. Se voc&#234; concorda, clique em %button-text%.", "https://protecaodedados.unb.br", "https://sti.unb.br/doc-politicas");
+	    })
+	</script>
+	
+<style>
+.cookie-consent-modal {
+  /* Vars */
+  --background: #4e4e4e;
+  --link-color: #79cbf2;
+  --link-color-hover: #17e4ff;
+  --body-text-color: #fff;
+  --button-background: #fff;
+
+  box-shadow:0 0 10px rgba(0,0,0,.4);
+  position:fixed;
+  bottom:0;
+  margin-bottom:4.5rem;
+  z-index:10000;
+  width: 100vw;
+  max-width: 100%;
+  color:var(--body-text-color);
+  background:var(--background);
+  padding:2.5rem 0;
+  border: 0;
+}
+.cookie-consent-modal p{
+  width:inherit;
+  margin:auto
+}
+.cookie-consent-modal a{
+  color:var(--link-color);
+  text-decoration: none;
+}
+.cookie-consent-modal a:focus,.cookie-consent-modal a:hover{
+  text-decoration:underline
+}
+.cookie-consent-modal button{
+  cursor: pointer;
+  margin:1rem auto 0;
+  display:block;
+  font-weight:700;
+  color:var(--background);
+  background-color:var(--button-background);
+  border: 0;
+  padding: 8px 14px;
+  border-radius:4px;
+}
+.cookie-consent-modal button:active,.cookie-consent-modal button:focus,.cookie-consent-modal button:hover{
+  background-color:var(--link-color);
+}
+.cookie-consent-modal > .container {
+  margin:auto;
+  max-width:100%;
+  padding: 0 1.5em;
+}
+@media (min-width: 556px) {
+  .cookie-consent-modal > .container {
+    max-width:540px;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .cookie-consent-modal > .container {
+    max-width:720px;
+  }
+}
+@media (min-width: 992px) {
+  .cookie-consent-modal > .container {
+    max-width:960px;
+  }
+}
+@media (min-width: 1200px) {
+  .cookie-consent-modal > .container {
+    max-width:1140px;
+  }
+}
+</style></head>
+
+<body id="ext-gen6" class=" ext-gecko"><dialog open="true" class="cookie-consent-modal" id="sigaa-cookie-consent"><div class="container">Nós usamos cookies para melhorar sua experiência de navegação no portal. Ao utilizar o SIGAA, você concorda com a política de monitoramento de cookies. Para ter mais informações sobre como isso é feito e como remover, acesse a <a href="https://protecaodedados.unb.br">Política de Proteção de Dados Pessoais</a>. Para saber como a UnB trata os dados, acesse a <a href="https://sti.unb.br/doc-politicas"> Política de cookies</a>. Se você concorda, clique em Ciente.</div><button class="btn btn-primary">Ciente</button></dialog>
+	<div id="container">
+	
+
+	<div id="container-inner">
+
+	<div id="cabecalho">
+		<div id="logo">
+				<a href="/sigaa/public/"> <img src="https://sig.unb.br/shared/img/instituicao/brasao.png"> </a>		
+		</div>
+		<div id="identificacao">
+			<span class="ufrn"> Universidade de Brasília </span>
+			<span class="data">
+				 Brasília, 
+				 04 de Julho de 
+				 2023 
+			</span>
+			<a id="home" href="/sigaa/public/" title="Página inicial" style="width: 450px;"> </a>
+			<div id="menu_info">
+				<ul>
+					<li class="acessibilidade">
+						<a href="https://sigaa.unb.br/sigaa/verTelaLogin.do?acessibilidade=true" alt="Acessível para pessoas com deficiência visual" title="Acessível para pessoas com deficiência visual">
+							Acessível para pessoas com deficiência visual
+						</a>
+					</li>
+					
+					<li class="login">
+						<a href="/sigaa/" alt="Clique aqui para logar-se no SIGAA" title="Clique aqui para logar-se no SIGAA">
+							Login
+						<i class="fa fa-angle-right"></i></a>	
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<br clear="all">
+	</div>
+
+
+	<div id="corpo">
+	
+
+
+
+<style>
+	tr.tituloRelatorio td {padding: 19px 0 0; border-bottom: 1px solid #555 ; font-weight: bold; font-size: 13px; }
+	tr.header td {padding: 3px ; border-bottom: 1px solid #555; background-color: #eee;}
+	tr.componentes td {padding: 4px 2px 2px ; border-bottom: 1px dashed #888;}
+	.colCodigo{text-align:left !important;}
+</style>
+
+	
+
+	<!--  Scripts do YAHOO -->
+	<link rel="stylesheet" type="text/css" href="/shared/javascript/yui/tabview/assets/tabs.css">
+	<link rel="stylesheet" type="text/css" href="/shared/javascript/yui/tabview/assets/border_tabs.css">
+	<script type="text/javascript" src="/shared/javascript/yui/tabview-min.js"></script>
+
+	<style>
+		table.formulario th {
+			font-weight: bold;
+		}
+	</style>		
+	<script type="text/javascript">
+	var criarAbas = function() {
+	    var tabView = new YAHOO.widget.TabView('tabs-semestres');
+	};
+	criarAbas();
+	</script>
+	
+	
+	
+
+	
+	<h2 class="title">Estrutura Curricular </h2>
+
+	
+<form id="formulario" name="formulario" method="post" action="/sigaa/public/curso/relatorio_curriculo.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formulario" value="formulario">
+
+		<div class="legenda" style="width: 700px">
+			<img src="/sigaa/img/view.gif">:&nbsp;Visualizar Detalhes do Componente<img src="/sigaa/img/report.png">:&nbsp;Visualizar Programa
+			
+		</div>
+		<h3 class="tituloTabela" style="width: 700px">Estrutura Curricular</h3>
+		<table class="formulario" width="700px">
+			<tbody><tr>
+				<th>Código: </th>
+				<td>3867/2</td>
+			</tr>
+			
+				<tr>
+					<th>Matriz Curricular: </th>
+					<td>GEOGRAFIA/ICH - Licenciado - A Distância - D</td>
+				</tr>
+			
+			
+			<tr>
+				<th>Período Letivo de Entrada em Vigor: </th>
+				<td>2020.1</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="subFormulario">
+				 	Prazos e Cargas Horárias
+				</td>
+			</tr>	
+			<tr>
+				<th>Total Mínima: </th>
+				<td>3300h</td>					
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center; background-color: #EEEEEE">
+					<b>Carga Horária Obrigatória</b>
+				</td>								
+			</tr>
+			<tr>
+				<th>Subtotal de CH de Aula: </th>
+				<td>
+					1680h 
+				</td>
+			</tr>
+			<tr>
+				<th>Subtotal de CH de Orientação Acadêmica/Profissional: </th>
+				<td>
+					0h 
+				</td>
+			</tr>
+			<tr style="border-bottom: 1px solid #DDDDDD;">
+				<th>Total:</th>
+				<td>
+					1680h 
+				</td>
+			</tr>
+			<tr>
+				<th width="48%">Carga Horária Optativa Mínima: </th>
+				<td>360h</td>
+			</tr><tr>
+			</tr><tr>
+				<th width="48%">Carga Horária Complementar Mínima: </th>
+				<td>210h</td>										
+			</tr>
+			<tr>
+				<th>Carga Horária Obrigatória Atividade Acadêmica Específica: </th>
+				<td>
+					0h
+				</td>
+			</tr>
+			<tr>
+				<th>Carga Horária Máxima de Componentes Eletivos: </th>
+				<td>420h</td>
+			</tr>
+			
+			<tr>
+				<th>Carga Horária Máxima por Período Letivo: </th>
+				<td>450h</td>							
+			</tr>
+			
+			
+			<tr style="border-bottom: 1px solid #DDDDDD;">
+				<th>Carga Horária Mínima por Período Letivo: </th>
+				<td>240h</td>							
+			</tr>
+			
+			
+			<tr style="border-bottom: 1px solid #DDDDDD;">
+				<th>Prazo Para Conclusão (em semestres): </th>				
+				<td>
+			  		<table>
+			  			<tbody><tr>
+				  									
+								<th>Mínimo: </th>
+								<td>
+									8 &nbsp;
+								</td>
+								<th>Médio: </th>
+								<td>
+									8  &nbsp;
+								</td>
+								<th>Máximo: </th>
+								<td>
+									14  &nbsp;
+								</td>						
+				  			
+				  			
+			  			</tr>
+					</tbody></table>
+				</td>
+			</tr>
+			
+				<tr>			
+					<td colspan="2">
+						<table style="width: 100%">
+							<tbody><tr class="tituloRelatorio">
+								<td colspan="3">Optativas</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>FED0168 - ORGANIZAÇÃO DA EDUCAÇÃO BRASILEIRA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											
+<script type="text/javascript" language="Javascript">function dpf(f) {var adp = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {f.removeChild(adp[i]);}}};function apf(f, pvp) {var adp = new Array();f.adp = adp;var i = 0;for (k in pvp) {var p = document.createElement("input");p.type = "hidden";p.name = k;p.value = pvp[k];f.appendChild(p);adp[i++] = p;}};function jsfcljs(f, pvp, t) {apf(f, pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>
+<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45':'formulario:j_id_jsp_687993592_45','id':'188899','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49':'formulario:j_id_jsp_687993592_49','idComponente':'188899'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0001 - PRÁTICAS INOVADORAS NO ENSINO DE GEOGRAFIA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_1':'formulario:j_id_jsp_687993592_45j_id_1','id':'177100','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_1':'formulario:j_id_jsp_687993592_49j_id_1','idComponente':'177100'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0008 - CULTURA E ESPAÇO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_2':'formulario:j_id_jsp_687993592_45j_id_2','id':'187935','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_2':'formulario:j_id_jsp_687993592_49j_id_2','idComponente':'187935'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0029 - ANÁLISES POLÍTICAS DO ESPAÇO GEOGRÁFICO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_3':'formulario:j_id_jsp_687993592_45j_id_3','id':'187960','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_3':'formulario:j_id_jsp_687993592_49j_id_3','idComponente':'187960'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0030 - POLÍTICAS PÚBLICAS E MEIO AMBIENTE - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_4':'formulario:j_id_jsp_687993592_45j_id_4','id':'187961','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_4':'formulario:j_id_jsp_687993592_49j_id_4','idComponente':'187961'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0031 - REGIONALIZAÇÃO DA AMÉRICA LATINA - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_5':'formulario:j_id_jsp_687993592_45j_id_5','id':'187962','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_5':'formulario:j_id_jsp_687993592_49j_id_5','idComponente':'187962'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0045 - PORTUGUÊS BÁSICO - 60h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_6':'formulario:j_id_jsp_687993592_45j_id_6','id':'188924','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_6':'formulario:j_id_jsp_687993592_49j_id_6','idComponente':'188924'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0059 - FUNDAMENTOS BÁSICOS DE FITOGEOGRAFIA - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_7':'formulario:j_id_jsp_687993592_45j_id_7','id':'252546','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_7':'formulario:j_id_jsp_687993592_49j_id_7','idComponente':'252546'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0060 - BASES FÍSICAS DO ESPAÇO BRASILEIRO - 90h</td>
+										<td width="8%"><i>Optativa</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_45j_id_8':'formulario:j_id_jsp_687993592_45j_id_8','id':'252547','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_49j_id_8':'formulario:j_id_jsp_687993592_49j_id_8','idComponente':'252547'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+								
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 600h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						</tbody></table>
+					
+					
+						<table>
+							<tbody><tr class="tituloRelatorio">
+								<td colspan="3">Complementares</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+							
+								<tr>
+									<td>Esta estrutura curricular não possui componentes complementares.</td>
+									<td width="8%">&nbsp;</td>
+									<td width="8%">&nbsp;</td>
+								</tr>
+								
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 0h &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						</tbody></table>
+						
+					
+					
+						<table>
+						
+							<tbody><tr class="tituloRelatorio">
+								<td colspan="3">1º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>ICH0040 - INICIAÇÃO À CIÊNCIA GEOGRAFICA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62':'formulario:j_id_jsp_687993592_62','id':'188919','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66':'formulario:j_id_jsp_687993592_66','idComponente':'188919'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0042 - FUNDAMENTOS BÁSICOS EM CLIMATOLOGIA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_1':'formulario:j_id_jsp_687993592_62j_id_1','id':'188921','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_1':'formulario:j_id_jsp_687993592_66j_id_1','idComponente':'188921'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0043 - FUNDAMENTOS BÁSICOS EM GEOLOGIA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_2':'formulario:j_id_jsp_687993592_62j_id_2','id':'188922','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_2':'formulario:j_id_jsp_687993592_66j_id_2','idComponente':'188922'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0044 - INFORMÁTICA BÁSICA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_3':'formulario:j_id_jsp_687993592_62j_id_3','id':'188923','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_3':'formulario:j_id_jsp_687993592_66j_id_3','idComponente':'188923'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 240h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">2º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>ICH0036 - PRÁTICA PEDAGÓGICA EM GEOGRAFIA 1 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_4':'formulario:j_id_jsp_687993592_62j_id_4','id':'188609','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_4':'formulario:j_id_jsp_687993592_66j_id_4','idComponente':'188609'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0048 - INTRODUÇÃO À GEOGRAFIA HUMANA - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_5':'formulario:j_id_jsp_687993592_62j_id_5','id':'252535','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_5':'formulario:j_id_jsp_687993592_66j_id_5','idComponente':'252535'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0049 - GEOGRAFIA DA POPULAÇÃO - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_6':'formulario:j_id_jsp_687993592_62j_id_6','id':'252536','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_6':'formulario:j_id_jsp_687993592_66j_id_6','idComponente':'252536'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0050 - FUNDAMENTOS BÁSICOS DE GEOMORFOLOGIA - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_7':'formulario:j_id_jsp_687993592_62j_id_7','id':'252537','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_7':'formulario:j_id_jsp_687993592_66j_id_7','idComponente':'252537'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0051 - CARTOGRAFIA E EDUCAÇÃO 1 - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_8':'formulario:j_id_jsp_687993592_62j_id_8','id':'252538','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_8':'formulario:j_id_jsp_687993592_66j_id_8','idComponente':'252538'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 420h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">3º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>ICH0007 - GEOGRAFIA RURAL - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_9':'formulario:j_id_jsp_687993592_62j_id_9','id':'187934','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_9':'formulario:j_id_jsp_687993592_66j_id_9','idComponente':'187934'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0010 - PRÁTICA PEDAGÓGICA EM GEOGRAFIA 2 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_10':'formulario:j_id_jsp_687993592_62j_id_10','id':'187937','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_10':'formulario:j_id_jsp_687993592_66j_id_10','idComponente':'187937'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0011 - INTRODUÇÃO AOS ESTUDOS REGIONAIS - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_11':'formulario:j_id_jsp_687993592_62j_id_11','id':'187938','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_11':'formulario:j_id_jsp_687993592_66j_id_11','idComponente':'187938'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0052 - CARTOGRAFIA E EDUCAÇÃO 2 - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_12':'formulario:j_id_jsp_687993592_62j_id_12','id':'252539','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_12':'formulario:j_id_jsp_687993592_66j_id_12','idComponente':'252539'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 270h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">4º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>FED0170 - PSICOLOGIA DA EDUCAÇÃO - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_13':'formulario:j_id_jsp_687993592_62j_id_13','id':'188915','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_13':'formulario:j_id_jsp_687993592_66j_id_13','idComponente':'188915'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0021 - PRÁTICA PEDAGÓGICA EM GEOGRAFIA 3 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_14':'formulario:j_id_jsp_687993592_62j_id_14','id':'187952','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_14':'formulario:j_id_jsp_687993592_66j_id_14','idComponente':'187952'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0053 - GEOGRAFIA DAS CIDADES - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_15':'formulario:j_id_jsp_687993592_62j_id_15','id':'252540','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_15':'formulario:j_id_jsp_687993592_66j_id_15','idComponente':'252540'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0054 - GEOMORFOLOGIA DAS ÁREAS INTERTROPICAIS - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_16':'formulario:j_id_jsp_687993592_62j_id_16','id':'252541','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_16':'formulario:j_id_jsp_687993592_66j_id_16','idComponente':'252541'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0055 - FUNDAMENTO E DESENVOLVIMENTO DA APRENDIZAGEM - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_17':'formulario:j_id_jsp_687993592_62j_id_17','id':'252542','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_17':'formulario:j_id_jsp_687993592_66j_id_17','idComponente':'252542'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 390h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">5º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>ICH0013 - PRÁTICA PEDAGÓGICA EM GEOGRAFIA 4 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_18':'formulario:j_id_jsp_687993592_62j_id_18','id':'187944','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_18':'formulario:j_id_jsp_687993592_66j_id_18','idComponente':'187944'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0014 - FUNDAMENTOS DE DIDÁTICA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_19':'formulario:j_id_jsp_687993592_62j_id_19','id':'187945','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_19':'formulario:j_id_jsp_687993592_66j_id_19','idComponente':'187945'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0026 - GEOGRAFIA HUMANA E ECONÔMICA DO BRASIL - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_20':'formulario:j_id_jsp_687993592_62j_id_20','id':'187957','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_20':'formulario:j_id_jsp_687993592_66j_id_20','idComponente':'187957'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0027 - REGIONALIZAÇÃO DO ESPAÇO MUNDIAL - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_21':'formulario:j_id_jsp_687993592_62j_id_21','id':'187958','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_21':'formulario:j_id_jsp_687993592_66j_id_21','idComponente':'187958'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 240h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">6º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>ICH0016 - ELEMENTOS BÁSICOS DE GEOGRAFIA BIOLÓGICA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_22':'formulario:j_id_jsp_687993592_62j_id_22','id':'187947','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_22':'formulario:j_id_jsp_687993592_66j_id_22','idComponente':'187947'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0046 - REGIONALIZAÇÃO HUMANA E ECONÔMICA DO ESPAÇO MUNDIAL - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_23':'formulario:j_id_jsp_687993592_62j_id_23','id':'189798','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_23':'formulario:j_id_jsp_687993592_66j_id_23','idComponente':'189798'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0047 - DIDÁTICA PARA O ENSINO DE GEOGRAFIA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_24':'formulario:j_id_jsp_687993592_62j_id_24','id':'189799','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_24':'formulario:j_id_jsp_687993592_66j_id_24','idComponente':'189799'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0056 - PRÁTICA PEDAGÓGICA EM GEOGRAFIA 5 - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_25':'formulario:j_id_jsp_687993592_62j_id_25','id':'252543','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_25':'formulario:j_id_jsp_687993592_66j_id_25','idComponente':'252543'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0057 - GEOGRAFIA REGIONAL DO BRASIL - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_26':'formulario:j_id_jsp_687993592_62j_id_26','id':'252544','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_26':'formulario:j_id_jsp_687993592_66j_id_26','idComponente':'252544'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0058 - MÉTODOS E TÉCNICAS DE PESQUISA EM GEOGRAFIA - 90h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_27':'formulario:j_id_jsp_687993592_62j_id_27','id':'252545','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_27':'formulario:j_id_jsp_687993592_66j_id_27','idComponente':'252545'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 450h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">7º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>ICH0015 - GEOGRAFIA ECONÔMICA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_28':'formulario:j_id_jsp_687993592_62j_id_28','id':'187946','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_28':'formulario:j_id_jsp_687993592_66j_id_28','idComponente':'187946'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0023 - ESTÁGIO SUPERVISIONADO EM GEOGRAFIA NO ENSINO FUNDAMENTAL - 210h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_29':'formulario:j_id_jsp_687993592_62j_id_29','id':'187954','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_29':'formulario:j_id_jsp_687993592_66j_id_29','idComponente':'187954'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0025 - TRABALHO FINAL EM GEOGRAFIA 1 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_30':'formulario:j_id_jsp_687993592_62j_id_30','id':'187956','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_30':'formulario:j_id_jsp_687993592_66j_id_30','idComponente':'187956'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0028 - GEOGRAFIA AFRICANA E AFRO-BRASILEIRA - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_31':'formulario:j_id_jsp_687993592_62j_id_31','id':'187959','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_31':'formulario:j_id_jsp_687993592_66j_id_31','idComponente':'187959'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ILD0001 - LÍNGUA DE SINAIS BRASILEIRA - BÁSICO - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_32':'formulario:j_id_jsp_687993592_62j_id_32','id':'176632','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_32':'formulario:j_id_jsp_687993592_66j_id_32','idComponente':'176632'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 450h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+							<tr class="tituloRelatorio">
+								<td colspan="3">8º Nível</td>
+							</tr>
+							<tr class="header">
+								<td>Estrutura Curricular</td>
+								<td>Natureza</td>
+								<td>&nbsp;</td>
+							</tr>
+							
+							
+								
+									
+									<tr class="componentes">
+										<td>ICH0032 - ESTÁGIO SUPERVISIONADO EM GEOGRAFIA NO ENSINO MÉDIO - 210h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_33':'formulario:j_id_jsp_687993592_62j_id_33','id':'187963','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_33':'formulario:j_id_jsp_687993592_66j_id_33','idComponente':'187963'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+									
+									<tr class="componentes">
+										<td>ICH0033 - TRABALHO FINAL EM GEOGRAFIA 2 - 60h</td>
+										<td width="8%"><i>Obrigatória</i></td>
+										<td width="8%" align="center">
+											<a href="#" title="Visualizar Detalhes do Componente Curricular" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_62j_id_34':'formulario:j_id_jsp_687993592_62j_id_34','id':'187964','publico':'public'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/view.gif"></a><a href="#" title="Visualizar Programa" onclick="var a=function(){return prevenirDuploClique();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formulario'),{'formulario:j_id_jsp_687993592_66j_id_34':'formulario:j_id_jsp_687993592_66j_id_34','idComponente':'187964'},'');}return false};return (a()==false) ? false : b();"><img src="/sigaa/img/report.png"></a>
+											
+										</td>
+									</tr>
+								
+							
+							<tr>
+								<td colspan="2"><b>CH Total:</b> 270h. &nbsp;&nbsp;&nbsp; </td>
+							</tr>
+						
+						</tbody></table>
+						
+					</td>
+				</tr>
+				
+			
+			
+			</tbody><tfoot>
+				<tr>
+					<td colspan="2">&nbsp;</td>
+				</tr>
+			</tfoot>
+		</table>
+	<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id171">
+</form>
+	<br>
+	<center>
+	<a href="javascript: history.go(-1);"> &lt;&lt; Voltar </a>
+	</center>
+
+	
+	<div class="clear"></div>
+	</div>
+
+	<div id="rodape">
+		<p>	
+			SIGAA | Secretaria de Tecnologia da Informação - STI - (61)  3107-0102 | Copyright © 2006-2023 - UFRN - app22_Prod.sigaa16
+			 
+				<a onclick="javascript:versao();">v4.9.10.3</a>
+			
+		</p>
+	</div>
+
+	<!-- Fim dos containers -->
+	</div>
+	</div>
+	
+
+
+
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', '0', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>	
+
+
+<!-- MYFACES JAVASCRIPT -->
+
+
+
+
+
+ 
+	<script type="text/javascript" charset="UTF-8">
+		function versao(){
+			var msg='';
+			msg+='SIGAA 4.9.10.3,  publicado em: 30/06/2023 12:11\n\n';
+			msg+='Depend\u00eancias:\n';
+			msg+='Arquitetura 4.4.0\n';
+			msg+='Entidades Comuns 2.3.3\n';
+			msg+='Servicos Integrados 2.0.8\n';
+			msg+='SharedResources 2.1.2\n';
+			msg+='Servicos Remoto Biblioteca null\n';
+			msg+='SIGAA Mobile Objects 1.0.0\n\n';
+			msg+='Copyright SINFO/UFRN';
+			alert(msg);
+		}	
+	</script>
+
+<style>
+a.linkMobile:link {
+	color: #003395;
+	font-weight: bold;
+	font-size: inherit;
+	text-decoration: none;
+}
+
+a.linkMobile:visited {
+	color: #003390;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.linkMobile:active {
+	color: #444444;
+	text-decoration: none;
+	font-weight: bold;
+}
+</style>
+
+</body></html>

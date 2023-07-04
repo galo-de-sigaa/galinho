@@ -1,0 +1,4546 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class=" ext-strict"><head>
+	<meta http-equiv="Pragma" content="no-cache">
+	<title>SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</title>
+	<link class="component" href="/sigaa/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><link class="component" href="/sigaa/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css"><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js.jsf" type="text/javascript"></script><link rel="shortcut icon" href="/sigaa/img/sigaa.ico">
+	
+	<script type="text/javascript" src="/shared/jsBundles/jawr_loader.js"></script>
+	<script src="/sigaa/javascript/prevenir-duplo-clique.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		JAWR.loader.style('/javascript/ext-2.0.a.1/resources/css/ext-all.css', 'all');
+		JAWR.loader.style('/css/public.css','all');
+	 	JAWR.loader.script('/bundles/js/sigaa_base.js');
+	 	JAWR.loader.script('/bundles/js/ext2_all.js');
+
+	 	
+	</script> <link rel="stylesheet" type="text/css" media="all" href="/shared/cssBundles/gzip_086847611/javascript/ext-2.0.a.1/resources/css/ext-all.css">  <link rel="stylesheet" type="text/css" media="all" href="/shared/cssBundles/gzip_098577918/css/public.css">  <script type="text/javascript" src="/shared/jsBundles/gzip_404685069/bundles/js/sigaa_base.js"> </script>  <script type="text/javascript" src="/shared/jsBundles/gzip_203901949/bundles/js/ext2_all.js"> </script> 
+	<link rel="stylesheet" type="text/css" media="all" href="/sigaa/cssBundles/gzip_N1328554985/public/css/public.css">
+
+	
+	<link rel="stylesheet" type="text/css" href="/shared/beta/css/font-awesome.css" media="screen">
+	
+	<script src="/shared/javascript/STICookieConsent.js"></script>
+	<script>
+	    document.addEventListener("DOMContentLoaded", () => {
+	    	generateCookieConsentModal("SIGAA", "N&#243;s usamos cookies para melhorar sua experi&#234;ncia de navega&#231;&#227;o no portal. Ao utilizar o %sitename%, voc&#234; concorda com a pol&#237;tica de monitoramento de cookies. Para ter mais informa&#231;&#245;es sobre como isso &#233; feito e como remover, acesse a <a href=%cookie-policy%>Pol&#237;tica de Prote&#231;&#227;o de Dados Pessoais</a>. Para saber como a UnB trata os dados, acesse a <a href=%privacy-policy%> Pol&#237;tica de cookies</a>. Se voc&#234; concorda, clique em %button-text%.", "https://protecaodedados.unb.br", "https://sti.unb.br/doc-politicas");
+	    })
+	</script>
+	
+<style>
+.cookie-consent-modal {
+  /* Vars */
+  --background: #4e4e4e;
+  --link-color: #79cbf2;
+  --link-color-hover: #17e4ff;
+  --body-text-color: #fff;
+  --button-background: #fff;
+
+  box-shadow:0 0 10px rgba(0,0,0,.4);
+  position:fixed;
+  bottom:0;
+  margin-bottom:4.5rem;
+  z-index:10000;
+  width: 100vw;
+  max-width: 100%;
+  color:var(--body-text-color);
+  background:var(--background);
+  padding:2.5rem 0;
+  border: 0;
+}
+.cookie-consent-modal p{
+  width:inherit;
+  margin:auto
+}
+.cookie-consent-modal a{
+  color:var(--link-color);
+  text-decoration: none;
+}
+.cookie-consent-modal a:focus,.cookie-consent-modal a:hover{
+  text-decoration:underline
+}
+.cookie-consent-modal button{
+  cursor: pointer;
+  margin:1rem auto 0;
+  display:block;
+  font-weight:700;
+  color:var(--background);
+  background-color:var(--button-background);
+  border: 0;
+  padding: 8px 14px;
+  border-radius:4px;
+}
+.cookie-consent-modal button:active,.cookie-consent-modal button:focus,.cookie-consent-modal button:hover{
+  background-color:var(--link-color);
+}
+.cookie-consent-modal > .container {
+  margin:auto;
+  max-width:100%;
+  padding: 0 1.5em;
+}
+@media (min-width: 556px) {
+  .cookie-consent-modal > .container {
+    max-width:540px;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .cookie-consent-modal > .container {
+    max-width:720px;
+  }
+}
+@media (min-width: 992px) {
+  .cookie-consent-modal > .container {
+    max-width:960px;
+  }
+}
+@media (min-width: 1200px) {
+  .cookie-consent-modal > .container {
+    max-width:1140px;
+  }
+}
+</style></head>
+
+<body id="ext-gen6" class=" ext-gecko"><dialog open="true" class="cookie-consent-modal" id="sigaa-cookie-consent"><div class="container">Nós usamos cookies para melhorar sua experiência de navegação no portal. Ao utilizar o SIGAA, você concorda com a política de monitoramento de cookies. Para ter mais informações sobre como isso é feito e como remover, acesse a <a href="https://protecaodedados.unb.br">Política de Proteção de Dados Pessoais</a>. Para saber como a UnB trata os dados, acesse a <a href="https://sti.unb.br/doc-politicas"> Política de cookies</a>. Se você concorda, clique em Ciente.</div><button class="btn btn-primary">Ciente</button></dialog>
+	<div id="container">
+	
+
+	<div id="container-inner">
+
+	<div id="cabecalho">
+		<div id="logo">
+				<a href="/sigaa/public/"> <img src="https://sig.unb.br/shared/img/instituicao/brasao.png"> </a>		
+		</div>
+		<div id="identificacao">
+			<span class="ufrn"> Universidade de Brasília </span>
+			<span class="data">
+				 Brasília, 
+				 04 de Julho de 
+				 2023 
+			</span>
+			<a id="home" href="/sigaa/public/" title="Página inicial" style="width: 450px;"> </a>
+			<div id="menu_info">
+				<ul>
+					<li class="acessibilidade">
+						<a href="https://sigaa.unb.br/sigaa/verTelaLogin.do?acessibilidade=true" alt="Acessível para pessoas com deficiência visual" title="Acessível para pessoas com deficiência visual">
+							Acessível para pessoas com deficiência visual
+						</a>
+					</li>
+					
+					<li class="login">
+						<a href="/sigaa/" alt="Clique aqui para logar-se no SIGAA" title="Clique aqui para logar-se no SIGAA">
+							Login
+						<i class="fa fa-angle-right"></i></a>	
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<br clear="all">
+	</div>
+
+
+	<div id="corpo">
+	
+
+
+
+
+
+<script>
+	var marcar = function(idCheck) {
+		$(idCheck).checked = true;
+	}
+</script>
+<style>
+	table.listagem  tr.agrupador {background: #C8D5EC;font-weight: bold;padding-left: 20px;}
+</style>
+
+
+
+
+
+
+	<h2 class="title">Ensino &gt; Consulta de Turmas</h2>
+	
+	
+	
+	<div class="descricaoOperacao">
+	Caro usuário,
+	<p>esta página permite consultar as turmas
+	oferecidas pela instituição.</p>
+	<p>Utilize o formulário abaixo para filtrar as turmas de acordo com
+	os critérios desejados.</p>
+	</div>
+		
+<form id="formTurma" name="formTurma" method="post" action="/sigaa/public/turmas/listar.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formTurma" value="formTurma">
+
+				<table class="formulario" width="80%">
+					<caption>Informe os critérios de busca das turmas</caption>
+					<tbody>
+						<tr>
+							<th width="15%" align="left">Nível de Ensino:</th>
+							<td colspan="2" align="left">
+								<select id="formTurma:inputNivel" name="formTurma:inputNivel" size="1">	<option value=""> -- SELECIONE -- </option>
+	<option value="F">FORMAÇÃO COMPLEMENTAR</option>
+	<option value="G" selected="selected">GRADUAÇÃO</option>
+	<option value="L">LATO SENSU - ESPECIALIZAÇÃO</option>
+	<option value="R">LATO SENSU - RESIDÊNCIA</option>
+	<option value="S">STRICTO SENSU</option>
+	<option value="E">MESTRADO</option>
+	<option value="D">DOUTORADO</option>
+</select>
+							</td>
+						</tr>
+						<tr>
+							<th class="required" align="left">Unidade:</th>
+							<td colspan="2" align="left">
+								<select id="formTurma:inputDepto" name="formTurma:inputDepto" size="1">	<option value="0"> -- SELECIONE -- </option>
+	<option value="643">CENTRO DE APOIO AO DESENVOLVIMENTO TECNOLÓGICO - BRASÍLIA</option>
+	<option value="640">CENTRO DE DESENVOLVIMENTO SUSTENTÁVEL - BRASÍLIA</option>
+	<option value="314">CENTRO DE EXCELÊNCIA EM TURISMO - BRASÍLIA</option>
+	<option value="650">CENTRO ESTUDOS AVANÇADOS MULTIDISCIPLIN - BRASÍLIA</option>
+	<option value="316">CENTRO INTEGRADO ORDENAMENTO TERRITORIAL - BRASÍLIA</option>
+	<option value="1448">CENTRO INTERNACIONAL DE BIOÉTICA E HUMANIDADES - BRASÍLIA</option>
+	<option value="677">CENTRO UNB CERRADO - BRASÍLIA</option>
+	<option value="130">DECANATO DE ENSINO DE GRADUACAO / DEG - BRASÍLIA</option>
+	<option value="170">DECANATO DE PÓS-GRADUAÇÃO / DPG - BRASÍLIA</option>
+	<option value="158">DECANATO EXTENSÃO - BRASÍLIA</option>
+	<option value="351">DEPARTAMENTO DE AUDIOVISUAIS E PUBLICIDADE/DAP - BRASÍLIA</option>
+	<option value="345">DEPARTAMENTO DE COMUNICAÇÃO ORGANIZACIONAL/COM - BRASÍLIA</option>
+	<option value="660">DEPARTAMENTO DE DESIGN (11.01.01.14.04) - BRASÍLIA</option>
+	<option value="449">DEPARTAMENTO DE ENGENHARIA MECANICA - BRASÍLIA</option>
+	<option value="479">DEPARTAMENTO DE ESTUDOS LATINO AMERICANO - BRASÍLIA</option>
+	<option value="678">DEPARTAMENTO DE FARMACIA - BRASÍLIA</option>
+	<option value="791">DEPARTAMENTO DE GESTAO DE POLITICAS PUBL - BRASÍLIA</option>
+	<option value="352">DEPARTAMENTO DE JORNALISMO/JOR - BRASÍLIA</option>
+	<option value="518">DEPARTAMENTO DE MATEMÁTICA - BRASÍLIA</option>
+	<option value="390">DEPARTAMENTO DE MÉTODOS E TÉCNICAS - BRASÍLIA</option>
+	<option value="391">DEPARTAMENTO DE POLÍTICAS PÚBLICAS E GESTÃO DA EDUCAÇÃO - BRASÍLIA</option>
+	<option value="592">DEPARTAMENTO DE PSICOLOGIA CLÍNICA - BRASÍLIA</option>
+	<option value="483">DEPARTAMENTO DE SOCIOLOGIA - BRASÍLIA</option>
+	<option value="392">DEPARTAMENTO DE TEORIA E FUNDAMENTOS - BRASÍLIA</option>
+	<option value="327">DEPTO ADMINISTRAÇÃO - BRASÍLIA</option>
+	<option value="481">DEPTO ANTROPOLOGIA - BRASÍLIA</option>
+	<option value="492">DEPTO ARTES CÊNICAS - BRASÍLIA</option>
+	<option value="498">DEPTO ARTES VISUAIS - BRASÍLIA</option>
+	<option value="464">DEPTO BIOLOGIA CELULAR - BRASÍLIA</option>
+	<option value="462">DEPTO BOTÂNICA - BRASÍLIA</option>
+	<option value="333">DEPTO CIÊNCIAS CONTÁBEIS ATUARIAIS - BRASÍLIA</option>
+	<option value="508">DEPTO CIÊNCIAS DA COMPUTAÇÃO - BRASÍLIA</option>
+	<option value="466">DEPTO CIÊNCIAS FISIOLÓGICAS - BRASÍLIA</option>
+	<option value="337">DEPTO CIÊNCIAS INFORMAÇÃO DOCUMENTAÇÃO - BRASÍLIA</option>
+	<option value="467">DEPTO ECOLOGIA - BRASÍLIA</option>
+	<option value="548">DEPTO ECONOMIA - BRASÍLIA</option>
+	<option value="422">DEPTO ENFERMAGEM - BRASÍLIA</option>
+	<option value="437">DEPTO ENGENHARIA CIVIL E AMBIENTAL - BRASÍLIA</option>
+	<option value="760">DEPTO ENGENHARIA DE PRODUCAO - BRASÍLIA</option>
+	<option value="443" selected="selected">DEPTO ENGENHARIA ELETRICA - BRASÍLIA</option>
+	<option value="433">DEPTO ENGENHARIA FLORESTAL - BRASÍLIA</option>
+	<option value="514">DEPTO ESTATÍSTICA - BRASÍLIA</option>
+	<option value="552">DEPTO FILOSOFIA - BRASÍLIA</option>
+	<option value="469">DEPTO FITOPATOLOGIA - BRASÍLIA</option>
+	<option value="471">DEPTO GENÉTICA E MORFOLOGIA - BRASÍLIA</option>
+	<option value="555">DEPTO GEOGRAFIA - BRASÍLIA</option>
+	<option value="539">DEPTO GEOLOGIA GERAL APLICADA - BRASÍLIA</option>
+	<option value="541">DEPTO GEOQUÍMICA E RECURSOS MINERAIS - BRASÍLIA</option>
+	<option value="559">DEPTO HISTÓRIA - BRASÍLIA</option>
+	<option value="578">DEPTO LINGUISTICA, PORT. LING. CLASSICAS - BRASÍLIA</option>
+	<option value="574">DEPTO LÍNGUAS ESTRANGEIRAS E TRADUÇÃO - BRASÍLIA</option>
+	<option value="540">DEPTO MINERALOGIA E PETROLOGIA - BRASÍLIA</option>
+	<option value="495">DEPTO MÚSICA - BRASÍLIA</option>
+	<option value="424">DEPTO NUTRICAO - BRASÍLIA</option>
+	<option value="427">DEPTO ODONTOLOGIA - BRASÍLIA</option>
+	<option value="594">DEPTO PROCESSOS PSICOLÓGICOS BÁSICOS - BRASÍLIA</option>
+	<option value="360">DEPTO PROJETOS EXPRES REPRES ARQ E URBAN - BRASÍLIA</option>
+	<option value="593">DEPTO PSICOLOGIA ESCOLAR DESENVOLVIMENTO - BRASÍLIA</option>
+	<option value="596">DEPTO PSICOLOGIA SOCIAL E DO TRABALHO - BRASÍLIA</option>
+	<option value="420">DEPTO SAUDE COLETIVA - BRASÍLIA</option>
+	<option value="563">DEPTO SERVIÇO SOCIAL - BRASÍLIA</option>
+	<option value="361">DEPTO TECNOLOGIA ARQUITETURA URBANISMO - BRASÍLIA</option>
+	<option value="362">DEPTO TEORIA HISTORIA ARQUIT E URBANISM - BRASÍLIA</option>
+	<option value="580">DEPTO TEORIA LITERÁRIA E LITERATURA - BRASÍLIA</option>
+	<option value="472">DEPTO ZOOLOGIA - BRASÍLIA</option>
+	<option value="410">FACULDADE DE  CIÊNCIAS DA SAÚDE - BRASÍLIA</option>
+	<option value="363">FACULDADE DE AGRONOMIA E MEDICINA VETERINÁRIA - BRASÍLIA</option>
+	<option value="353">FACULDADE DE ARQUITETURA E URBANISMO - BRASÍLIA</option>
+	<option value="672">FACULDADE DE CEILÂNDIA - BRASÍLIA</option>
+	<option value="674">FACULDADE DE CIÊNCIA DA INFORMAÇÃO - BRASÍLIA</option>
+	<option value="343">FACULDADE DE COMUNICAÇÃO - BRASÍLIA</option>
+	<option value="370">FACULDADE DE DIREITO - BRASÍLIA</option>
+	<option value="381">FACULDADE DE EDUCAÇÃO - BRASÍLIA</option>
+	<option value="393">FACULDADE DE EDUCAÇÃO FÍSICA - BRASÍLIA</option>
+	<option value="402">FACULDADE DE MEDICINA - BRASÍLIA</option>
+	<option value="666">FACULDADE DE PLANALTINA - BRASÍLIA</option>
+	<option value="429">FACULDADE DE TECNOLOGIA - BRASÍLIA</option>
+	<option value="673">FACULDADE DO GAMA - BRASÍLIA</option>
+	<option value="323">FACULDADE ECONOMIA,  ADMINISTRAÇÃO,  CONTABILIDADE E  GEST POL PÚBLICAS - BRASÍLIA</option>
+	<option value="1201">GRADUAÇÃO EM ADMINISTRAÇÃO - BACHARELADO - BRASÍLIA</option>
+	<option value="288">HOSP-HOSPITAL UNIVERSITÁRIO DE BRASÍLIA - BRASÍLIA</option>
+	<option value="485">INSTITUTO DE ARTES - BRASÍLIA</option>
+	<option value="668">INSTITUTO DE CIÊNCIA POLÍTICA - BRASÍLIA</option>
+	<option value="455">INSTITUTO DE CIÊNCIAS BIOLÓGICAS - BRASÍLIA</option>
+	<option value="504">INSTITUTO DE CIÊNCIAS EXATAS - BRASÍLIA</option>
+	<option value="544">INSTITUTO DE CIÊNCIAS HUMANAS - BRASÍLIA</option>
+	<option value="473">INSTITUTO DE CIÊNCIAS SOCIAIS - BRASÍLIA</option>
+	<option value="524">INSTITUTO DE FÍSICA - BRASÍLIA</option>
+	<option value="533">INSTITUTO DE GEOCIÊNCIAS - BRASÍLIA</option>
+	<option value="567">INSTITUTO DE LETRAS - BRASÍLIA</option>
+	<option value="583">INSTITUTO DE PSICOLOGIA - BRASÍLIA</option>
+	<option value="610">INSTITUTO DE QUÍMICA - BRASÍLIA</option>
+	<option value="669">INSTITUTO DE RELAÇÕES INTERNACIONAIS - BRASÍLIA</option>
+	<option value="542">OBSERVATÓRIO SISMOLÓGICO - BRASÍLIA</option>
+	<option value="1080">PARQUE CIENTÍFICO E TECNOLÓGICO DA UNB - BRASÍLIA</option>
+	<option value="1615">PARQUE DE INOVAÇÃO E SUSTENTABILIDADE DO AMBIENTE CONSTRUÍDO - BRASÍLIA</option>
+	<option value="1617">PROGRAMA DE PÓS-GRADUAÇÃO EM ADMINISTRAÇÃO (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="664">PROGRAMA DE PÓS-GRADUAÇÃO EM ADMINISTRAÇÃO - BRASÍLIA</option>
+	<option value="853">PROGRAMA DE PÓS-GRADUAÇÃO EM AGRONEGÓCIOS - BRASÍLIA</option>
+	<option value="854">PROGRAMA DE PÓS-GRADUAÇÃO EM AGRONOMIA - BRASÍLIA</option>
+	<option value="855">PROGRAMA DE PÓS-GRADUAÇÃO EM ANTROPOLOGIA - BRASÍLIA</option>
+	<option value="927">PROGRAMA DE PÓS-GRADUAÇÃO EM ARQUITETURA E URBANISMO - BRASÍLIA</option>
+	<option value="842">PROGRAMA DE PÓS-GRADUAÇÃO EM ARTES CÊNICAS - BRASÍLIA</option>
+	<option value="911">PROGRAMA DE PÓS-GRADUAÇÃO EM ARTES VISUAIS - BRASÍLIA</option>
+	<option value="1491">PROGRAMA DE PÓS-GRADUAÇÃO EM BIOLOGIA ANIMAL - BRASÍLIA</option>
+	<option value="1501">PROGRAMA DE PÓS-GRADUAÇÃO EM BIOLOGIA MICROBIANA - BRASÍLIA</option>
+	<option value="1492">PROGRAMA DE PÓS-GRADUAÇÃO EM BIOTECNOLOGIA E BIODIVERSIDADE - REDE PRÓ-CENTRO-OESTE - BRASÍLIA</option>
+	<option value="831">PROGRAMA DE PÓS-GRADUAÇÃO EM BIOÉTICA - BRASÍLIA</option>
+	<option value="1489">PROGRAMA DE PÓS-GRADUAÇÃO EM BOTÂNICA - BRASÍLIA</option>
+	<option value="900">PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIA POLÍTICA - BRASÍLIA</option>
+	<option value="995">PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS AMBIENTAIS - BRASÍLIA</option>
+	<option value="909">PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS ANIMAIS - BRASÍLIA</option>
+	<option value="1488">PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS BIOLÓGICAS (BIOLOGIA MOLECULAR) - BRASÍLIA</option>
+	<option value="896">PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS CONTÁBEIS - BRASÍLIA</option>
+	<option value="946">PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS DA INFORMAÇÃO - BRASÍLIA</option>
+	<option value="898">PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS DA REABILITAÇÃO - BRASÍLIA</option>
+	<option value="902">PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS DA SAÚDE - BRASÍLIA</option>
+	<option value="988">PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS DE MATERIAIS - BRASÍLIA</option>
+	<option value="903">PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS DO COMPORTAMENTO - BRASÍLIA</option>
+	<option value="897">PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS E TECNOLOGIAS EM SAÚDE - BRASÍLIA</option>
+	<option value="906">PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS FARMACÊUTICAS - BRASÍLIA</option>
+	<option value="997">PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS FLORESTAIS - BRASÍLIA</option>
+	<option value="904">PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS MECÂNICAS - BRASÍLIA</option>
+	<option value="845">PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS MÉDICAS - BRASÍLIA</option>
+	<option value="840">PROGRAMA DE PÓS-GRADUAÇÃO EM COMPUTAÇÃO APLICADA (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="841">PROGRAMA DE PÓS-GRADUAÇÃO EM COMUNICAÇÃO/PPGCOM - BRASÍLIA</option>
+	<option value="929">PROGRAMA DE PÓS-GRADUAÇÃO EM DESENVOLVIMENTO E COOPERAÇÃO INTERNACIONAL - BRASÍLIA</option>
+	<option value="1487">PROGRAMA DE PÓS-GRADUAÇÃO EM DESENVOLVIMENTO SUSTENTÁVEL - BRASÍLIA</option>
+	<option value="875">PROGRAMA DE PÓS-GRADUAÇÃO EM DESIGN - BRASÍLIA</option>
+	<option value="914">PROGRAMA DE PÓS-GRADUAÇÃO EM DIREITO - BRASÍLIA</option>
+	<option value="1505">PROGRAMA DE PÓS-GRADUAÇÃO EM DIREITO, REGULAÇÃO E POLÍTICAS PÚBLICAS - BRASÍLIA</option>
+	<option value="916">PROGRAMA DE PÓS-GRADUAÇÃO EM DIREITOS HUMANOS E CIDADANIA - BRASÍLIA</option>
+	<option value="1490">PROGRAMA DE PÓS-GRADUAÇÃO EM ECOLOGIA - BRASÍLIA</option>
+	<option value="1619">PROGRAMA DE PÓS-GRADUAÇÃO EM ECONOMIA (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="1198">PROGRAMA DE PÓS-GRADUAÇÃO EM ECONOMIA - BRASÍLIA</option>
+	<option value="1620">PROGRAMA DE PÓS-GRADUAÇÃO EM EDUCAÇÃO (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="977">PROGRAMA DE PÓS-GRADUAÇÃO EM EDUCAÇÃO - BRASÍLIA</option>
+	<option value="1185">PROGRAMA DE PÓS-GRADUAÇÃO EM EDUCAÇÃO EM CIÊNCIAS - BRASÍLIA</option>
+	<option value="1625">PROGRAMA DE PÓS-GRADUAÇÃO EM EDUCAÇÃO FÍSICA (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="910">PROGRAMA DE PÓS-GRADUAÇÃO EM EDUCAÇÃO FÍSICA - BRASÍLIA</option>
+	<option value="843">PROGRAMA DE PÓS-GRADUAÇÃO EM ENFERMAGEM - BRASÍLIA</option>
+	<option value="959">PROGRAMA DE PÓS-GRADUAÇÃO EM ENGENHARIA BIOMÉDICA - BRASÍLIA</option>
+	<option value="949">PROGRAMA DE PÓS-GRADUAÇÃO EM ENGENHARIA DE SISTEMAS ELETRÔNICOS E AUTOMAÇÃO - BRASÍLIA</option>
+	<option value="948">PROGRAMA DE PÓS-GRADUAÇÃO EM ENGENHARIA ELÉTRICA - BRASÍLIA</option>
+	<option value="1186">PROGRAMA DE PÓS-GRADUAÇÃO EM ENSINO DE CIÊNCIAS (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="1506">PROGRAMA DE PÓS-GRADUAÇÃO EM ENSINO DE FÍSICA (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="1613">PROGRAMA DE PÓS-GRADUAÇÃO EM ENSINO DE GEOGRAFIA EM REDE (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="876">PROGRAMA DE PÓS-GRADUAÇÃO EM ESTATÍSTICA - BRASÍLIA</option>
+	<option value="829">PROGRAMA DE PÓS-GRADUAÇÃO EM ESTRUTURAS E CONSTRUÇÃO CIVIL - BRASÍLIA</option>
+	<option value="1225">PROGRAMA DE PÓS-GRADUAÇÃO EM ESTUDOS COMPARADOS SOBRE AS AMÉRICAS - BRASÍLIA</option>
+	<option value="1494">PROGRAMA DE PÓS-GRADUAÇÃO EM ESTUDOS DA TRADUÇÃO - BRASÍLIA</option>
+	<option value="1664">PROGRAMA DE PÓS-GRADUAÇÃO EM FILOSOFIA (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="917">PROGRAMA DE PÓS-GRADUAÇÃO EM FILOSOFIA - BRASÍLIA</option>
+	<option value="947">PROGRAMA DE PÓS-GRADUAÇÃO EM FITOPATOLOGIA - BRASÍLIA</option>
+	<option value="985">PROGRAMA DE PÓS-GRADUAÇÃO EM FÍSICA - BRASÍLIA</option>
+	<option value="932">PROGRAMA DE PÓS-GRADUAÇÃO EM GEOCIÊNCIAS APLICADAS E GEODINÂMICA - BRASÍLIA</option>
+	<option value="1493">PROGRAMA DE PÓS-GRADUAÇÃO EM GEOGRAFIA - BRASÍLIA</option>
+	<option value="931">PROGRAMA DE PÓS-GRADUAÇÃO EM GEOLOGIA - BRASÍLIA</option>
+	<option value="901">PROGRAMA DE PÓS-GRADUAÇÃO EM GEOTECNIA - BRASÍLIA</option>
+	<option value="1503">PROGRAMA DE PÓS-GRADUAÇÃO EM GESTÃO E REGULAÇÃO DE RECURSOS HÍDRICOS - PROFÁGUA (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="933">PROGRAMA DE PÓS-GRADUAÇÃO EM GESTÃO PÚBLICA (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="1616">PROGRAMA DE PÓS-GRADUAÇÃO EM GOVERNANÇA E INOVAÇÃO EM POLÍTICAS PÚBLICAS (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="928">PROGRAMA DE PÓS-GRADUAÇÃO EM HISTÓRIA - BRASÍLIA</option>
+	<option value="895">PROGRAMA DE PÓS-GRADUAÇÃO EM INFORMÁTICA - BRASÍLIA</option>
+	<option value="960">PROGRAMA DE PÓS-GRADUAÇÃO EM INTEGRIDADE DE MATERIAIS DA ENGENHARIA - BRASÍLIA</option>
+	<option value="1495">PROGRAMA DE PÓS-GRADUAÇÃO EM LINGUÍSTICA - BRASÍLIA</option>
+	<option value="1203">PROGRAMA DE PÓS-GRADUAÇÃO EM LINGUÍSTICA APLICADA - BRASÍLIA</option>
+	<option value="987">PROGRAMA DE PÓS-GRADUAÇÃO EM LITERATURA - BRASÍLIA</option>
+	<option value="983">PROGRAMA DE PÓS-GRADUAÇÃO EM MATEMÁTICA - BRASÍLIA</option>
+	<option value="990">PROGRAMA DE PÓS-GRADUAÇÃO EM MATEMÁTICA EM REDE NACIONAL (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="874">PROGRAMA DE PÓS-GRADUAÇÃO EM MEDICINA TROPICAL - BRASÍLIA</option>
+	<option value="996">PROGRAMA DE PÓS-GRADUAÇÃO EM MEIO AMBIENTE EM DESENVOLVIMENTO RURAL - BRASÍLIA</option>
+	<option value="926">PROGRAMA DE PÓS-GRADUAÇÃO EM METAFÍSICA - BRASÍLIA</option>
+	<option value="873">PROGRAMA DE PÓS-GRADUAÇÃO EM MÚSICA - BRASÍLIA</option>
+	<option value="1502">PROGRAMA DE PÓS-GRADUAÇÃO EM NANOCIÊNCIA E NANOBIOTECNOLOGIA - BRASÍLIA</option>
+	<option value="899">PROGRAMA DE PÓS-GRADUAÇÃO EM NUTRIÇÃO HUMANA - BRASÍLIA</option>
+	<option value="907">PROGRAMA DE PÓS-GRADUAÇÃO EM ODONTOLOGIA - BRASÍLIA</option>
+	<option value="1496">PROGRAMA DE PÓS-GRADUAÇÃO EM PATOLOGIA MOLECULAR - BRASÍLIA</option>
+	<option value="1499">PROGRAMA DE PÓS-GRADUAÇÃO EM POLÍTICA SOCIAL - BRASÍLIA</option>
+	<option value="1624">PROGRAMA DE PÓS-GRADUAÇÃO EM POLÍTICAS PÚBLICAS PARA INFÂNCIA E JUVENTUDE (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="982">PROGRAMA DE PÓS-GRADUAÇÃO EM PROCESSOS DE DESENVOLVIMENTO HUMANO E SAÚDE - BRASÍLIA</option>
+	<option value="1618">PROGRAMA DE PÓS-GRADUAÇÃO EM PROFARTES (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="1545">PROGRAMA DE PÓS-GRADUAÇÃO EM PROFARTES - BRASÍLIA</option>
+	<option value="978">PROGRAMA DE PÓS-GRADUAÇÃO EM PROFNIT - PROPRIEDADE INTELECTUAL E TRANSFERÊNCIA DE TECNOLOGIA PARA A INOVAÇÃO (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="986">PROGRAMA DE PÓS-GRADUAÇÃO EM PSICOLOGIA CLÍNICA E CULTURA - BRASÍLIA</option>
+	<option value="1497">PROGRAMA DE PÓS-GRADUAÇÃO EM PSICOLOGIA DO DESENVOLVIMENTO E ESCOLAR - BRASÍLIA</option>
+	<option value="913">PROGRAMA DE PÓS-GRADUAÇÃO EM PSICOLOGIA SOCIAL, DO TRABALHO E DAS ORGANIZAÇÕES (PSTO) - BRASÍLIA</option>
+	<option value="844">PROGRAMA DE PÓS-GRADUAÇÃO EM QUÍMICA - BRASÍLIA</option>
+	<option value="1622">PROGRAMA DE PÓS-GRADUAÇÃO EM REDE NACIONAL PARA ENSINO DAS CIÊNCIAS AMBIENTAIS (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="1546">PROGRAMA DE PÓS-GRADUAÇÃO EM REDE NACIONAL PARA ENSINO DAS CIÊNCIAS AMBIENTAIS - BRASÍLIA</option>
+	<option value="1498">PROGRAMA DE PÓS-GRADUAÇÃO EM RELAÇÕES INTERNACIONAIS - BRASÍLIA</option>
+	<option value="872">PROGRAMA DE PÓS-GRADUAÇÃO EM SAÚDE ANIMAL - BRASÍLIA</option>
+	<option value="1623">PROGRAMA DE PÓS-GRADUAÇÃO EM SAÚDE COLETIVA (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="908">PROGRAMA DE PÓS-GRADUAÇÃO EM SAÚDE COLETIVA - BRASÍLIA</option>
+	<option value="912">PROGRAMA DE PÓS-GRADUAÇÃO EM SISTEMAS MECATRÔNICOS - BRASÍLIA</option>
+	<option value="915">PROGRAMA DE PÓS-GRADUAÇÃO EM SOCIOLOGIA - BRASÍLIA</option>
+	<option value="1504">PROGRAMA DE PÓS-GRADUAÇÃO EM SUSTENTABILIDADE JUNTO A POVOS E TERRITÓRIOS TRADICIONAIS - BRASÍLIA</option>
+	<option value="830">PROGRAMA DE PÓS-GRADUAÇÃO EM TECNOLOGIA AMBIENTAL E RECURSOS HÍDRICOS - BRASÍLIA</option>
+	<option value="930">PROGRAMA DE PÓS-GRADUAÇÃO EM TECNOLOGIAS QUÍMICA E BIOLÓGICA - BRASÍLIA</option>
+	<option value="828">PROGRAMA DE PÓS-GRADUAÇÃO EM TRANSPORTES - BRASÍLIA</option>
+	<option value="1500">PROGRAMA DE PÓS-GRADUAÇÃO EM ZOOLOGIA - BRASÍLIA</option>
+	<option value="1543">PROGRAMA DE PÓS-GRADUAÇÃO PROFBIO ENSINO DE BIOLOGIA EM REDE NACIONAL (PROFISSIONAL) - BRASÍLIA</option>
+	<option value="1621">PROGRAMA DE PÓS-GRADUAÇÃO PROFISSIONAL EM ENGENHARIA ELÉTRICA - BRASÍLIA</option>
+	<option value="69">REITORIA - BRASÍLIA</option>
+	<option value="140">SECRETARIA DE ADMINISTRACAO ACADEMICA - BRASÍLIA</option>
+</select>
+							</td>
+						</tr>
+						<tr>
+							<th class="required" align="left">Ano - Período:</th>
+							<td colspan="2" width="5%" nowrap="nowrap" align="left">
+								<input id="formTurma:inputAno" type="text" name="formTurma:inputAno" value="2023" maxlength="4" onkeyup="return formatarInteiro(this,event);" size="4" style="padding:1px;border-color:#888;"> -
+ 								<select id="formTurma:inputPeriodo" name="formTurma:inputPeriodo" size="1">	<option value="1">1</option>
+	<option value="2" selected="selected">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+</select>
+							</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="3">
+								<input type="submit" name="formTurma:j_id_jsp_1370969402_11" value="Buscar" style="padding: 1px;"> &nbsp;
+								<input type="submit" name="formTurma:j_id_jsp_1370969402_12" value="Cancelar" style="padding: 1px;">
+							</td>
+						</tr>	
+					</tfoot>
+						
+					</table>
+				
+				<br clear="all">
+					
+			
+				<div class="infoAltRem">
+					<img src="/sigaa/img/view.gif">
+					:Visualizar Detalhes do Componente Curricular<br>
+				</div>
+					
+				<div id="turmasAbertas">
+					<table class="listagem" width="95%">
+					<caption> turmas encontrada(s)</caption>
+						<thead>
+							<tr>
+								<th width="50px">Código</th>
+								<th style="text-align: center;" width="80px">Ano-Período</th>
+								<th>Docente</th>
+								<th colspan="2" width="80px">Horário</th>
+								<th width="80px">Qtde Vagas Ofertadas</th>
+								<th width="80px">Qtde Vagas Ocupadas</th>
+								<th style="text-align: center;" width="50px;">Local</th>
+							</tr>
+						</thead>
+						<tbody>
+							
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										
+<script type="text/javascript" language="Javascript">function dpf(f) {var adp = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {f.removeChild(adp[i]);}}};function apf(f, pvp) {var adp = new Array();f.adp = adp;var i = 0;for (k in pvp) {var p = document.createElement("input");p.type = "hidden";p.name = k;p.value = pvp[k];f.appendChild(p);adp[i++] = p;}};function jsfcljs(f, pvp, t) {apf(f, pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>
+<a id="formTurma:aqui" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aqui':'formTurma:aqui','id':'176373','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0001 - ELETRICIDADE BÁSICA</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">FRANCISCO DAMASCENO FREITAS (60h)</td>
+									<td> 35M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda729094').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda729094').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda729094').style.visibility = 'hidden';" id="ajuda729094">
+		
+
+											Terça-feira 08:00 às 09:50<br>Quinta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-52/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">FERNANDO CARDOSO MELO (60h)</td>
+									<td> 24T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda184977').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda184977').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda184977').style.visibility = 'hidden';" id="ajuda184977">
+		
+
+											Segunda-feira 14:00 às 15:50<br>Quarta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-52/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 03</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">RAFAEL AMARAL SHAYANI (60h)</td>
+									<td> 35M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda894311').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda894311').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda894311').style.visibility = 'hidden';" id="ajuda894311">
+		
+
+											Terça-feira 10:00 às 11:50<br>Quinta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-34/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_1" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_1':'formTurma:aquij_id_1','id':'176374','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0002 - LABORATÓRIO DE ELETRICIDADE BÁSICA</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ALCIDES LEANDRO DA SILVA (30h)</td>
+									<td> 2T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda619096').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda619096').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda619096').style.visibility = 'hidden';" id="ajuda619096">
+		
+
+											Segunda-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">16</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Instalações Elétricas</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ALCIDES LEANDRO DA SILVA (30h)</td>
+									<td> 2T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda791907').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda791907').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda791907').style.visibility = 'hidden';" id="ajuda791907">
+		
+
+											Segunda-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">16</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Instalações Elétricas</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 03</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ALCIDES LEANDRO DA SILVA (30h)</td>
+									<td> 3T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda150924').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda150924').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda150924').style.visibility = 'hidden';" id="ajuda150924">
+		
+
+											Terça-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">16</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Instalações Elétricas</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 04</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ALCIDES LEANDRO DA SILVA (30h)</td>
+									<td> 3T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda506943').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda506943').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda506943').style.visibility = 'hidden';" id="ajuda506943">
+		
+
+											Terça-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">16</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Instalações Elétricas</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_2" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_2':'formTurma:aquij_id_2','id':'177085','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0004 - CONTROLE DE PROCESSOS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">HENRIQUE CEZAR FERREIRA (60h)</td>
+									<td> 24M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda684807').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda684807').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda684807').style.visibility = 'hidden';" id="ajuda684807">
+		
+
+											Segunda-feira 08:00 às 09:50<br>Quarta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-34/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_3" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_3':'formTurma:aquij_id_3','id':'177086','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0005 - INSTRUMENTAÇÃO DE CONTROLE DE PROCESSOS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LELIO RIBEIRO SOARES JUNIOR (60h)</td>
+									<td> 35T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda427305').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda427305').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda427305').style.visibility = 'hidden';" id="ajuda427305">
+		
+
+											Terça-feira 14:00 às 15:50<br>Quinta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-57/12 (Auditório)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_4" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_4':'formTurma:aquij_id_4','id':'177087','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0006 - LABORATÓRIO DE CONTROLE DE PROCESSOS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">EDUARDO STOCKLER TOGNETTI (30h)</td>
+									<td> 2M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda886504').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda886504').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda886504').style.visibility = 'hidden';" id="ajuda886504">
+		
+
+											Segunda-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">16</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 AT-31/12 (Lab. de Controle de Processos)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">EDUARDO STOCKLER TOGNETTI (30h)</td>
+									<td> 3T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda350004').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda350004').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda350004').style.visibility = 'hidden';" id="ajuda350004">
+		
+
+											Terça-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">16</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 AT-31/12 (Lab. de Controle de Processos)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_5" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_5':'formTurma:aquij_id_5','id':'177194','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0011 - LABORATÓRIO DE REDES</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">FABIO LUCIO LOPES DE MENDONCA (30h)</td>
+									<td> 6M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda164561').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda164561').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda164561').style.visibility = 'hidden';" id="ajuda164561">
+		
+
+											Sexta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">30</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT A1-24/25 (LabRedes)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_6" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_6':'formTurma:aquij_id_6','id':'177196','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0013 - ALGORITMOS E ESTRUTURA DE DADOS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LUCIANO MAURO ARLEY SUP (60h)</td>
+									<td> 35M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda305852').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda305852').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda305852').style.visibility = 'hidden';" id="ajuda305852">
+		
+
+											Terça-feira 10:00 às 11:50<br>Quinta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">35</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> LCCC - ULEG</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_7" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_7':'formTurma:aquij_id_7','id':'177199','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0016 - GERÊNCIA DE REDES E SISTEMAS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">GEORGES DANIEL AMVAME NZE (60h)</td>
+									<td> 24M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda988606').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda988606').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda988606').style.visibility = 'hidden';" id="ajuda988606">
+		
+
+											Segunda-feira 08:00 às 09:50<br>Quarta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">30</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT A1-24/25 (LabRedes)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_8" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_8':'formTurma:aquij_id_8','id':'177200','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0017 - AVALIAÇÃO DE DESEMPENHO DE REDES E SISTEMAS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">WILLIAM FERREIRA GIOZZA (30h)</td>
+									<td> 46M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda830393').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda830393').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda830393').style.visibility = 'hidden';" id="ajuda830393">
+		
+
+											Quarta-feira 10:00 às 11:50<br>Sexta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">30</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-16/15 (qua) / FT A1-24/25 (LabRedes) (sex)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">FABIO LUCIO LOPES DE MENDONCA (30h)</td>
+									<td> 46M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda826311').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda826311').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda826311').style.visibility = 'hidden';" id="ajuda826311">
+		
+
+											Quarta-feira 10:00 às 11:50<br>Sexta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">30</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-16/15 (qua) / FT A1-24/25 (LabRedes) (sex)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_9" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_9':'formTurma:aquij_id_9','id':'177306','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0021 - TÓPICOS EM REDES DE COMUNICAÇÃO 3</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">VINICIUS PEREIRA GONCALVES (30h)</td>
+									<td> 5T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda115915').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda115915').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda115915').style.visibility = 'hidden';" id="ajuda115915">
+		
+
+											Quinta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">30</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT A1-24/25 (LabRedes)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_10" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_10':'formTurma:aquij_id_10','id':'177307','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0022 - PROJETO TRANSVERSAL EM REDES DE COMUNICAÇÃO 1</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">UGO SILVA DIAS (60h)</td>
+									<td> 24M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda985281').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda985281').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda985281').style.visibility = 'hidden';" id="ajuda985281">
+		
+
+											Segunda-feira 10:00 às 11:50<br>Quarta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">30</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT A1-24/25 (LabRedes)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_11" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_11':'formTurma:aquij_id_11','id':'177590','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0025 - PROTOCOLOS DE TRANSPORTE E ROTEAMENTO</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">GEORGES DANIEL AMVAME NZE (60h)</td>
+									<td> 24T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda363598').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda363598').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda363598').style.visibility = 'hidden';" id="ajuda363598">
+		
+
+											Segunda-feira 14:00 às 15:50<br>Quarta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">30</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT A1-24/25 (LabRedes)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_12" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_12':'formTurma:aquij_id_12','id':'177591','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0026 - INTRODUÇÃO A ENGENHARIA DE REDES DE COMUNICACÃO</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">VINICIUS PEREIRA GONCALVES (30h)</td>
+									<td> 2T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda174052').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda174052').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda174052').style.visibility = 'hidden';" id="ajuda174052">
+		
+
+											Segunda-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> LCCC - ULEG</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_13" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_13':'formTurma:aquij_id_13','id':'177606','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0039 - SISTEMAS DIGITAIS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">GUILHERME DE SOUSA TORRES (60h)</td>
+									<td> 24M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda662719').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda662719').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda662719').style.visibility = 'hidden';" id="ajuda662719">
+		
+
+											Segunda-feira 10:00 às 11:50<br>Quarta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">60</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-13/15 (Auditório)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">EDSON MINTSU HUNG (60h)</td>
+									<td> 24T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda508203').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda508203').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda508203').style.visibility = 'hidden';" id="ajuda508203">
+		
+
+											Segunda-feira 16:00 às 17:50<br>Quarta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">60</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-13/15 (Auditório)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 03</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">JOSE EDIL GUIMARAES DE MEDEIROS (60h)</td>
+									<td> 35T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda692177').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda692177').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda692177').style.visibility = 'hidden';" id="ajuda692177">
+		
+
+											Terça-feira 16:00 às 17:50<br>Quinta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">60</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-13/15 (Auditório)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_14" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_14':'formTurma:aquij_id_14','id':'177607','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0040 - LABORATÓRIO DE SISTEMAS DIGITAIS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LUIS FERNANDO RAMOS MOLINARO (30h)</td>
+									<td> 2M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda359220').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda359220').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda359220').style.visibility = 'hidden';" id="ajuda359220">
+		
+
+											Segunda-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Técnicas Digitais</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LUIS FERNANDO RAMOS MOLINARO (30h)</td>
+									<td> 2T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda446033').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda446033').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda446033').style.visibility = 'hidden';" id="ajuda446033">
+		
+
+											Segunda-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Técnicas Digitais</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 03</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">GUILHERME DE SOUSA TORRES (30h)</td>
+									<td> 3T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda16809').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda16809').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda16809').style.visibility = 'hidden';" id="ajuda16809">
+		
+
+											Terça-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Técnicas Digitais</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 04</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">GUILHERME DE SOUSA TORRES (30h)</td>
+									<td> 5T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda397341').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda397341').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda397341').style.visibility = 'hidden';" id="ajuda397341">
+		
+
+											Quinta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Técnicas Digitais</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 05</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LUIS FERNANDO RAMOS MOLINARO (30h)</td>
+									<td> 6M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda767075').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda767075').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda767075').style.visibility = 'hidden';" id="ajuda767075">
+		
+
+											Sexta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Técnicas Digitais</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 06</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LUIS FERNANDO RAMOS MOLINARO (30h)</td>
+									<td> 6M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda42204').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda42204').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda42204').style.visibility = 'hidden';" id="ajuda42204">
+		
+
+											Sexta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Técnicas Digitais</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_15" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_15':'formTurma:aquij_id_15','id':'177612','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0045 - ELETRÔNICA</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">GEOVANY ARAUJO BORGES (60h)</td>
+									<td> 24T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda102212').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda102212').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda102212').style.visibility = 'hidden';" id="ajuda102212">
+		
+
+											Segunda-feira 14:00 às 15:50<br>Quarta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-13/15 (Auditório)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ALEXANDRE RICARDO SOARES ROMARIZ (60h)</td>
+									<td> 35T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda508008').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda508008').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda508008').style.visibility = 'hidden';" id="ajuda508008">
+		
+
+											Terça-feira 16:00 às 17:50<br>Quinta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-57/12 (Auditório)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_16" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_16':'formTurma:aquij_id_16','id':'177613','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0046 - LABORATÓRIO DE ELETRÔNICA</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">MARCELO LOPES PEREIRA JUNIOR (30h)</td>
+									<td> 4M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda310549').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda310549').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda310549').style.visibility = 'hidden';" id="ajuda310549">
+		
+
+											Quarta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Circuitos Elétricos</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">MARCELO LOPES PEREIRA JUNIOR (30h)</td>
+									<td> 6M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda906288').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda906288').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda906288').style.visibility = 'hidden';" id="ajuda906288">
+		
+
+											Sexta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Circuitos Elétricos</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 03</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ADSON FERREIRA DA ROCHA (30h)</td>
+									<td> 6T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda353090').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda353090').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda353090').style.visibility = 'hidden';" id="ajuda353090">
+		
+
+											Sexta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Circuitos Elétricos</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 04</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ADSON FERREIRA DA ROCHA (30h)</td>
+									<td> 6T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda792289').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda792289').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda792289').style.visibility = 'hidden';" id="ajuda792289">
+		
+
+											Sexta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Circuitos Elétricos</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_17" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_17':'formTurma:aquij_id_17','id':'177614','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0047 - CONVERSÃO ELETROMECÂNICA DE ENERGIA</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">FRANCIS ARODY MORENO VASQUEZ (60h)</td>
+									<td> 35T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda433800').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda433800').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda433800').style.visibility = 'hidden';" id="ajuda433800">
+		
+
+											Terça-feira 14:00 às 15:50<br>Quinta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-16/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_18" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_18':'formTurma:aquij_id_18','id':'177615','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0048 - LABORATÓRIO DE CONVERSÃO ELETROMECÂNICA DE ENERGIA</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ANESIO DE LELES FERREIRA FILHO (30h)</td>
+									<td> 3T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda531319').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda531319').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda531319').style.visibility = 'hidden';" id="ajuda531319">
+		
+
+											Terça-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">8</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 AT-47/14 (Lab. de Conversão de Energia)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ANESIO DE LELES FERREIRA FILHO (30h)</td>
+									<td> 3T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda1124').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda1124').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda1124').style.visibility = 'hidden';" id="ajuda1124">
+		
+
+											Terça-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">8</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 AT-47/14 (Lab. de Conversão de Energia)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_19" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_19':'formTurma:aquij_id_19','id':'177616','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0049 - MATERIAIS ELÉTRICOS E MAGNÉTICOS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ARTEMIS MARTI CESCHIN (60h)</td>
+									<td> 24M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda528321').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda528321').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda528321').style.visibility = 'hidden';" id="ajuda528321">
+		
+
+											Segunda-feira 10:00 às 11:50<br>Quarta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-43/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_20" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_20':'formTurma:aquij_id_20','id':'177617','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0050 - LABORATÓRIO DE MATERIAIS ELÉTRICOS E MAGNÉTICOS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ARTEMIS MARTI CESCHIN (30h)</td>
+									<td> 2T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda578675').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda578675').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda578675').style.visibility = 'hidden';" id="ajuda578675">
+		
+
+											Segunda-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">16</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-29/15 (Lab. de Materiais)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ARTEMIS MARTI CESCHIN (30h)</td>
+									<td> 4T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda254305').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda254305').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda254305').style.visibility = 'hidden';" id="ajuda254305">
+		
+
+											Quarta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">16</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-29/15 (Lab. de Materiais)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_21" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_21':'formTurma:aquij_id_21','id':'177632','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0053 - ELETROMAGNETISMO 2</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">JOAO PAULO LEITE (60h)</td>
+									<td> 35T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda80130').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda80130').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda80130').style.visibility = 'hidden';" id="ajuda80130">
+		
+
+											Terça-feira 14:00 às 15:50<br>Quinta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-52/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_22" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_22':'formTurma:aquij_id_22','id':'177633','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0054 - LABORATÓRIO DE ELETROMAGNETISMO 2</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LEONARDO RODRIGUES ARAUJO XAVIER DE MENEZES (30h)</td>
+									<td> 6M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda294526').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda294526').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda294526').style.visibility = 'hidden';" id="ajuda294526">
+		
+
+											Sexta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">10</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-34/15 (Lab. de Eletromagnetismo)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LEONARDO RODRIGUES ARAUJO XAVIER DE MENEZES (30h)</td>
+									<td> 6M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda399507').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda399507').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda399507').style.visibility = 'hidden';" id="ajuda399507">
+		
+
+											Sexta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">10</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-34/15 (Lab. de Eletromagnetismo)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_23" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_23':'formTurma:aquij_id_23','id':'177635','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0056 - SISTEMAS MICROPROCESSADOS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">RICARDO ZELENOVSKY (60h)</td>
+									<td> 24M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda382311').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda382311').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda382311').style.visibility = 'hidden';" id="ajuda382311">
+		
+
+											Segunda-feira 08:00 às 09:50<br>Quarta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">60</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-13/15 (Auditório)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">DANIEL CHAVES CAFE (60h)</td>
+									<td> 35M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda630922').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda630922').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda630922').style.visibility = 'hidden';" id="ajuda630922">
+		
+
+											Terça-feira 10:00 às 11:50<br>Quinta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">60</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-13/15 (Auditório)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_24" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_24':'formTurma:aquij_id_24','id':'177680','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0058 - LABORATÓRIO DE SISTEMAS MICROPROCESSADOS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">RICARDO ZELENOVSKY (30h)</td>
+									<td> 2T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda593762').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda593762').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda593762').style.visibility = 'hidden';" id="ajuda593762">
+		
+
+											Segunda-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Técnicas Digitais</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">DANIEL CHAVES CAFE (30h)</td>
+									<td> 3M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda325160').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda325160').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda325160').style.visibility = 'hidden';" id="ajuda325160">
+		
+
+											Terça-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Técnicas Digitais</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 03</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">GUILHERME DE SOUSA TORRES (30h)</td>
+									<td> 3T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda727047').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda727047').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda727047').style.visibility = 'hidden';" id="ajuda727047">
+		
+
+											Terça-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Técnicas Digitais</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 04</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">RICARDO ZELENOVSKY (30h)</td>
+									<td> 4M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda562990').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda562990').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda562990').style.visibility = 'hidden';" id="ajuda562990">
+		
+
+											Quarta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Técnicas Digitais</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 05</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">DANIEL CHAVES CAFE (30h)</td>
+									<td> 5M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda931532').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda931532').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda931532').style.visibility = 'hidden';" id="ajuda931532">
+		
+
+											Quinta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Técnicas Digitais</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 06</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">GUILHERME DE SOUSA TORRES (30h)</td>
+									<td> 5T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda161950').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda161950').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda161950').style.visibility = 'hidden';" id="ajuda161950">
+		
+
+											Quinta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Técnicas Digitais</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_25" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_25':'formTurma:aquij_id_25','id':'177908','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0064 - REDES SEM FIO</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">PAULO ROBERTO DE LIRA GONDIM (60h)</td>
+									<td> 24T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda82654').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda82654').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda82654').style.visibility = 'hidden';" id="ajuda82654">
+		
+
+											Segunda-feira 14:00 às 15:50<br>Quarta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">30</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-16/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_26" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_26':'formTurma:aquij_id_26','id':'178030','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0066 - INTRODUÇÃO AOS CIRCUITOS ELÉTRICOS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">DANIEL ORQUIZA DE CARVALHO (30h)</td>
+									<td> 3M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda144485').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda144485').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda144485').style.visibility = 'hidden';" id="ajuda144485">
+		
+
+											Terça-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-16/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">MARCELO LOPES PEREIRA JUNIOR (30h)</td>
+									<td> 4T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda305297').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda305297').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda305297').style.visibility = 'hidden';" id="ajuda305297">
+		
+
+											Quarta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-34/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 03</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">MARCELO LOPES PEREIRA JUNIOR (30h)</td>
+									<td> 6M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda307062').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda307062').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda307062').style.visibility = 'hidden';" id="ajuda307062">
+		
+
+											Sexta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-16/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 04</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">HUMBERTO ABDALLA JUNIOR (30h)</td>
+									<td> 6M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda658932').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda658932').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda658932').style.visibility = 'hidden';" id="ajuda658932">
+		
+
+											Sexta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-34/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 05</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">HUMBERTO ABDALLA JUNIOR (30h)</td>
+									<td> 6M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda733563').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda733563').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda733563').style.visibility = 'hidden';" id="ajuda733563">
+		
+
+											Sexta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-34/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_27" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_27':'formTurma:aquij_id_27','id':'178048','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0067 - SINAIS E SISTEMAS EM TEMPO CONTÍNUO</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">HUGERLES SALES SILVA (60h)</td>
+									<td> 24M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda930129').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda930129').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda930129').style.visibility = 'hidden';" id="ajuda930129">
+		
+
+											Segunda-feira 10:00 às 11:50<br>Quarta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-25/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">JOAO LUIZ AZEVEDO DE CARVALHO (60h)</td>
+									<td> 24T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda799286').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda799286').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda799286').style.visibility = 'hidden';" id="ajuda799286">
+		
+
+											Segunda-feira 16:00 às 17:50<br>Quarta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-57/12 (Auditório)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 03</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LELIO RIBEIRO SOARES JUNIOR (60h)</td>
+									<td> 35M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda991024').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda991024').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda991024').style.visibility = 'hidden';" id="ajuda991024">
+		
+
+											Terça-feira 10:00 às 11:50<br>Quinta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-52/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 04</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">FLAVIA MARIA GUERRA DE SOUSA ARANHA OLIVEIRA (60h)</td>
+									<td> 35T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda287020').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda287020').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda287020').style.visibility = 'hidden';" id="ajuda287020">
+		
+
+											Terça-feira 14:00 às 15:50<br>Quinta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-25/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_28" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_28':'formTurma:aquij_id_28','id':'178049','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0068 - SINAIS E SISTEMAS EM TEMPO DISCRETO</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">FRANCISCO ASSIS DE OLIVEIRA NASCIMENTO (60h)</td>
+									<td> 24M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda425338').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda425338').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda425338').style.visibility = 'hidden';" id="ajuda425338">
+		
+
+											Segunda-feira 10:00 às 11:50<br>Quarta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-34/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">RENATO ALVES BORGES (60h)</td>
+									<td> 35M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda872401').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda872401').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda872401').style.visibility = 'hidden';" id="ajuda872401">
+		
+
+											Terça-feira 08:00 às 09:50<br>Quinta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-25/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 03</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">EDUARDO PEIXOTO FERNANDES DA SILVA (60h)</td>
+									<td> 35M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda386638').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda386638').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda386638').style.visibility = 'hidden';" id="ajuda386638">
+		
+
+											Terça-feira 10:00 às 11:50<br>Quinta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">60</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-57/12 (Auditório)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_29" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_29':'formTurma:aquij_id_29','id':'178052','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0071 - INSTALAÇÕES ELÉTRICAS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">AMAURI GUTIERREZ MARTINS BRITTO (60h)</td>
+									<td> 24T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda386221').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda386221').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda386221').style.visibility = 'hidden';" id="ajuda386221">
+		
+
+											Segunda-feira 16:00 às 17:50<br>Quarta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> LCCC - ULEG</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_30" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_30':'formTurma:aquij_id_30','id':'178053','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0072 - LABORATÓRIO DE INSTALAÇÕES ELÉTRICAS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">FERNANDO CARDOSO MELO (30h)</td>
+									<td> 5T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda617384').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda617384').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda617384').style.visibility = 'hidden';" id="ajuda617384">
+		
+
+											Quinta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">24</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Instalações Elétricas</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">FERNANDO CARDOSO MELO (30h)</td>
+									<td> 5T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda896235').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda896235').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda896235').style.visibility = 'hidden';" id="ajuda896235">
+		
+
+											Quinta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">24</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Instalações Elétricas</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_31" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_31':'formTurma:aquij_id_31','id':'179308','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0073 - LABORATÓRIO DE SISTEMAS ELÉTRICOS DE POTÊNCIA</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">PABLO EDUARDO CUERVO FRANCO (30h)</td>
+									<td> 2T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda543152').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda543152').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda543152').style.visibility = 'hidden';" id="ajuda543152">
+		
+
+											Segunda-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">8</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 AT-47/14 (Lab. de Conversão de Energia)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">KLEBER MELO E SILVA (30h)</td>
+									<td> 3M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda5714').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda5714').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda5714').style.visibility = 'hidden';" id="ajuda5714">
+		
+
+											Terça-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">8</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 AT-47/14 (Lab. de Conversão de Energia)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 03</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">PABLO EDUARDO CUERVO FRANCO (30h)</td>
+									<td> 4T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda576285').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda576285').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda576285').style.visibility = 'hidden';" id="ajuda576285">
+		
+
+											Quarta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">8</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 AT-47/14 (Lab. de Conversão de Energia)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 04</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">KLEBER MELO E SILVA (30h)</td>
+									<td> 5M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda591422').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda591422').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda591422').style.visibility = 'hidden';" id="ajuda591422">
+		
+
+											Quinta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">8</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 AT-47/14 (Lab. de Conversão de Energia)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_32" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_32':'formTurma:aquij_id_32','id':'179309','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0074 - LABORATÓRIO DE CONVERSÃO DE ENERGIA</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">GERSON HENRIQUE PFITSCHER (30h)</td>
+									<td> 2M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda569492').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda569492').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda569492').style.visibility = 'hidden';" id="ajuda569492">
+		
+
+											Segunda-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">8</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 AT-47/14 (Lab. de Conversão de Energia)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">GERSON HENRIQUE PFITSCHER (30h)</td>
+									<td> 4T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda16492').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda16492').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda16492').style.visibility = 'hidden';" id="ajuda16492">
+		
+
+											Quarta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">8</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 AT-47/14 (Lab. de Conversão de Energia)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 03</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">GERSON HENRIQUE PFITSCHER (30h)</td>
+									<td> 5T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda495903').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda495903').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda495903').style.visibility = 'hidden';" id="ajuda495903">
+		
+
+											Quinta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">8</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 AT-47/14 (Lab. de Conversão de Energia)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 04</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">GERSON HENRIQUE PFITSCHER (30h)</td>
+									<td> 6M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda186111').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda186111').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda186111').style.visibility = 'hidden';" id="ajuda186111">
+		
+
+											Sexta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">8</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 AT-47/14 (Lab. de Conversão de Energia)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_33" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_33':'formTurma:aquij_id_33','id':'180176','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0077 - CONTROLE DE SISTEMAS DINÂMICOS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">RENATO ALVES BORGES (60h)</td>
+									<td> 35M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda281477').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda281477').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda281477').style.visibility = 'hidden';" id="ajuda281477">
+		
+
+											Terça-feira 10:00 às 11:50<br>Quinta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-43/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ADOLFO BAUCHSPIESS (60h)</td>
+									<td> 46M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda463730').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda463730').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda463730').style.visibility = 'hidden';" id="ajuda463730">
+		
+
+											Quarta-feira 08:00 às 09:50<br>Sexta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-25/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_34" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_34':'formTurma:aquij_id_34','id':'180177','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0078 - LABORATÓRIO DE CONTROLE DE SISTEMAS DINÂMICOS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ADOLFO BAUCHSPIESS (30h)</td>
+									<td> 3T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda552912').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda552912').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda552912').style.visibility = 'hidden';" id="ajuda552912">
+		
+
+											Terça-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">18</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-24/11 (Lab. de Controle)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ADOLFO BAUCHSPIESS (30h)</td>
+									<td> 3T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda746318').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda746318').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda746318').style.visibility = 'hidden';" id="ajuda746318">
+		
+
+											Terça-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">18</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-24/11 (Lab. de Controle)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 03</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ALEX DA ROSA (30h)</td>
+									<td> 5T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda304350').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda304350').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda304350').style.visibility = 'hidden';" id="ajuda304350">
+		
+
+											Quinta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">18</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-24/11 (Lab. de Controle)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 04</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ALEX DA ROSA (30h)</td>
+									<td> 5T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda987925').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda987925').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda987925').style.visibility = 'hidden';" id="ajuda987925">
+		
+
+											Quinta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">18</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-24/11 (Lab. de Controle)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_35" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_35':'formTurma:aquij_id_35','id':'180290','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0079 - CONTROLE NO ESPAÇO DE ESTADOS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">JOAO YOSHIYUKI ISHIHARA (60h)</td>
+									<td> 24T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda934899').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda934899').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda934899').style.visibility = 'hidden';" id="ajuda934899">
+		
+
+											Segunda-feira 16:00 às 17:50<br>Quarta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-57/12 (Auditório)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_36" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_36':'formTurma:aquij_id_36','id':'180518','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0082 - NOÇÕES DE INTELIGÊNCIA ARTIFICIAL</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ALEXANDRE RICARDO SOARES ROMARIZ (60h)</td>
+									<td> 35T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda256403').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda256403').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda256403').style.visibility = 'hidden';" id="ajuda256403">
+		
+
+											Terça-feira 14:00 às 15:50<br>Quinta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-43/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_37" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_37':'formTurma:aquij_id_37','id':'184261','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0088 - SISTEMAS DE INFORMAÇÃO DISTRIBUÍDOS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">RICARDO STACIARINI PUTTINI (60h)</td>
+									<td> 24T6  24N1
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda212492').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda212492').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda212492').style.visibility = 'hidden';" id="ajuda212492">
+		
+
+											Segunda-feira 18:00 às 19:50<br>Quarta-feira 18:00 às 19:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">30</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT A1-24/25 (LabRedes)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_38" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_38':'formTurma:aquij_id_38','id':'184262','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0089 - CABEAMENTO ESTRUTURADO</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">FABIO LUCIO LOPES DE MENDONCA (60h)</td>
+									<td> 35M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda368722').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda368722').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda368722').style.visibility = 'hidden';" id="ajuda368722">
+		
+
+											Terça-feira 08:00 às 09:50<br>Quinta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">30</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT A1-24/25 (LabRedes)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_39" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_39':'formTurma:aquij_id_39','id':'184263','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0090 - SEGURANÇA DE REDES</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">RAFAEL TIMOTEO DE SOUSA JUNIOR (60h)</td>
+									<td> 35T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda814978').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda814978').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda814978').style.visibility = 'hidden';" id="ajuda814978">
+		
+
+											Terça-feira 16:00 às 17:50<br>Quinta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">30</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT A1-24/25 (LabRedes)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_40" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_40':'formTurma:aquij_id_40','id':'184264','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0091 - SISTEMAS OPERACIONAIS DE REDES</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">DANIEL GUERREIRO E SILVA (60h)</td>
+									<td> 35M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda152069').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda152069').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda152069').style.visibility = 'hidden';" id="ajuda152069">
+		
+
+											Terça-feira 10:00 às 11:50<br>Quinta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">30</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT A1-24/25 (LabRedes)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_41" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_41':'formTurma:aquij_id_41','id':'184568','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0155 - INTRODUCAO A ENGENHARIA ELETRICA</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">EDUARDO PEIXOTO FERNANDES DA SILVA (30h)</td>
+									<td> 5M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda663891').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda663891').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda663891').style.visibility = 'hidden';" id="ajuda663891">
+		
+
+											Quinta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-16/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_42" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_42':'formTurma:aquij_id_42','id':'184645','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0167 - CONTROLE DIGITAL</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">HENRIQUE CEZAR FERREIRA (60h)</td>
+									<td> 35M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda62294').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda62294').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda62294').style.visibility = 'hidden';" id="ajuda62294">
+		
+
+											Terça-feira 08:00 às 09:50<br>Quinta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-34/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_43" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_43':'formTurma:aquij_id_43','id':'184725','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0170 - TÓPICOS ESPECIAIS EM ENGENHARIA BIOMÉDICA</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ADSON FERREIRA DA ROCHA (60h)</td>
+									<td> 24M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda168454').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda168454').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda168454').style.visibility = 'hidden';" id="ajuda168454">
+		
+
+											Segunda-feira 08:00 às 09:50<br>Quarta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-43/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_44" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_44':'formTurma:aquij_id_44','id':'184861','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0177 - ELETROMAGNETISMO 1</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ADONIRAN JUDSON DE BARROS BRAGA (60h)</td>
+									<td> 35T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda915543').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda915543').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda915543').style.visibility = 'hidden';" id="ajuda915543">
+		
+
+											Terça-feira 16:00 às 17:50<br>Quinta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-52/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ACHILES FONTANA DA MOTA (60h)</td>
+									<td> 24T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda245690').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda245690').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda245690').style.visibility = 'hidden';" id="ajuda245690">
+		
+
+											Segunda-feira 16:00 às 17:50<br>Quarta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-52/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_45" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_45':'formTurma:aquij_id_45','id':'184870','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0186 - CONVERSÃO DE ENERGIA E MÁQUINAS ELÉTRICAS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">FRANCIS ARODY MORENO VASQUEZ (60h)</td>
+									<td> 24T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda776022').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda776022').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda776022').style.visibility = 'hidden';" id="ajuda776022">
+		
+
+											Segunda-feira 14:00 às 15:50<br>Quarta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-25/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_46" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_46':'formTurma:aquij_id_46','id':'184886','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0202 - SISTEMAS DE COMUNICACOES 1</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">MARCO ANTONIO BRASIL TERADA (60h)</td>
+									<td> 35T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda976488').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda976488').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda976488').style.visibility = 'hidden';" id="ajuda976488">
+		
+
+											Terça-feira 16:00 às 17:50<br>Quinta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-39/12 (Sala de Aula)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_47" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_47':'formTurma:aquij_id_47','id':'184893','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0209 - PROCESSAMENTO DIGITAL DE IMAGENS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">EDSON MINTSU HUNG (60h)</td>
+									<td> 24T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda31060').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda31060').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda31060').style.visibility = 'hidden';" id="ajuda31060">
+		
+
+											Segunda-feira 14:00 às 15:50<br>Quarta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-28/11 (Sala de Aula)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_48" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_48':'formTurma:aquij_id_48','id':'184895','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0211 - TEORIA DA INFORMACAO</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">DANIEL GUERREIRO E SILVA (60h)</td>
+									<td> 35T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda537199').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda537199').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda537199').style.visibility = 'hidden';" id="ajuda537199">
+		
+
+											Terça-feira 16:00 às 17:50<br>Quinta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">30</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-34/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_49" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_49':'formTurma:aquij_id_49','id':'184947','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0251 - TRANSMISSAO DE ENERGIA ELETRICA</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">PABLO EDUARDO CUERVO FRANCO (60h)</td>
+									<td> 35M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda578301').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda578301').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda578301').style.visibility = 'hidden';" id="ajuda578301">
+		
+
+											Terça-feira 08:00 às 09:50<br>Quinta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-57/12 (Auditório)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_50" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_50':'formTurma:aquij_id_50','id':'184958','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0262 - COMUNICACOES DIGITAIS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">PAULO HENRIQUE PORTELA DE CARVALHO (60h)</td>
+									<td> 24T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda542379').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda542379').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda542379').style.visibility = 'hidden';" id="ajuda542379">
+		
+
+											Segunda-feira 16:00 às 17:50<br>Quarta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-25/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_51" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_51':'formTurma:aquij_id_51','id':'184970','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0274 - FUNDAMENTOS DE REDES</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">PAULO ROBERTO DE LIRA GONDIM (60h)</td>
+									<td> 24T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda68519').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda68519').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda68519').style.visibility = 'hidden';" id="ajuda68519">
+		
+
+											Segunda-feira 16:00 às 17:50<br>Quarta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-16/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_52" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_52':'formTurma:aquij_id_52','id':'184972','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0276 - METODOLOGIA E DESENVOLVIMENTO DE SOFTWARE</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">RICARDO STACIARINI PUTTINI (60h)</td>
+									<td> 24T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda718031').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda718031').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda718031').style.visibility = 'hidden';" id="ajuda718031">
+		
+
+											Segunda-feira 16:00 às 17:50<br>Quarta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">30</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT A1-24/25 (LabRedes)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_53" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_53':'formTurma:aquij_id_53','id':'185062','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0282 - LABORATÓRIO DE CIRCUITOS ELÉTRICOS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ADONIRAN JUDSON DE BARROS BRAGA (30h)</td>
+									<td> 2T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda776652').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda776652').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda776652').style.visibility = 'hidden';" id="ajuda776652">
+		
+
+											Segunda-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Circuitos Elétricos</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ADONIRAN JUDSON DE BARROS BRAGA (30h)</td>
+									<td> 2T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda358000').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda358000').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda358000').style.visibility = 'hidden';" id="ajuda358000">
+		
+
+											Segunda-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Circuitos Elétricos</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 03</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">DANIEL ORQUIZA DE CARVALHO (30h)</td>
+									<td> 3M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda914113').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda914113').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda914113').style.visibility = 'hidden';" id="ajuda914113">
+		
+
+											Terça-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Circuitos Elétricos</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 04</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LEONARDO RODRIGUES ARAUJO XAVIER DE MENEZES (30h)</td>
+									<td> 5M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda901578').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda901578').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda901578').style.visibility = 'hidden';" id="ajuda901578">
+		
+
+											Quinta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Circuitos Elétricos</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 05</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LEONARDO RODRIGUES ARAUJO XAVIER DE MENEZES (30h)</td>
+									<td> 5T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda813940').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda813940').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda813940').style.visibility = 'hidden';" id="ajuda813940">
+		
+
+											Quinta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> ULEG FT - Lab. de Circuitos Elétricos</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_54" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_54':'formTurma:aquij_id_54','id':'185069','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0289 - CIRCUITOS POLIFASICOS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">KLEBER MELO E SILVA (60h)</td>
+									<td> 35M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda201071').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda201071').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda201071').style.visibility = 'hidden';" id="ajuda201071">
+		
+
+											Terça-feira 10:00 às 11:50<br>Quinta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-25/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_55" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_55':'formTurma:aquij_id_55','id':'185075','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0295 - LABORATÓRIO DE PRINCÍPIOS DE COMUNICAÇÃO</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LEONARDO AGUAYO (30h)</td>
+									<td> 2M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda199010').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda199010').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda199010').style.visibility = 'hidden';" id="ajuda199010">
+		
+
+											Segunda-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">12</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-09/12 (Lab. de Princípios de Comunicação)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LEONARDO AGUAYO (30h)</td>
+									<td> 2M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda257815').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda257815').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda257815').style.visibility = 'hidden';" id="ajuda257815">
+		
+
+											Segunda-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">12</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-09/12 (Lab. de Princípios de Comunicação)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 03</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LEONARDO AGUAYO (30h)</td>
+									<td> 2T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda730319').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda730319').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda730319').style.visibility = 'hidden';" id="ajuda730319">
+		
+
+											Segunda-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">12</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-09/12 (Lab. de Princípios de Comunicação)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 04</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LEONARDO AGUAYO (30h)</td>
+									<td> 2T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda918389').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda918389').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda918389').style.visibility = 'hidden';" id="ajuda918389">
+		
+
+											Segunda-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">12</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-09/12 (Lab. de Princípios de Comunicação)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_56" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_56':'formTurma:aquij_id_56','id':'185084','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0304 - CIRCUITOS ELÉTRICOS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">HUMBERTO ABDALLA JUNIOR (60h)</td>
+									<td> 35T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda790616').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda790616').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda790616').style.visibility = 'hidden';" id="ajuda790616">
+		
+
+											Terça-feira 14:00 às 15:50<br>Quinta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-13/15 (Auditório)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ALEX DA ROSA (60h)</td>
+									<td> 46M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda904471').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda904471').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda904471').style.visibility = 'hidden';" id="ajuda904471">
+		
+
+											Quarta-feira 08:00 às 09:50<br>Sexta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-57/12 (Auditório)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_57" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_57':'formTurma:aquij_id_57','id':'185086','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0306 - PRINCÍPIOS DE COMUNICAÇÃO</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">HUGERLES SALES SILVA (60h)</td>
+									<td> 35M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda317661').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda317661').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda317661').style.visibility = 'hidden';" id="ajuda317661">
+		
+
+											Terça-feira 08:00 às 09:50<br>Quinta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-13/15 (Auditório)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">JOAO PAULO LEITE (60h)</td>
+									<td> 35T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda655782').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda655782').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda655782').style.visibility = 'hidden';" id="ajuda655782">
+		
+
+											Terça-feira 16:00 às 17:50<br>Quinta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">50</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-43/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_58" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_58':'formTurma:aquij_id_58','id':'185138','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0329 - COMUNICACOES OPTICAS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">ACHILES FONTANA DA MOTA (60h)</td>
+									<td> 24T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda805665').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda805665').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda805665').style.visibility = 'hidden';" id="ajuda805665">
+		
+
+											Segunda-feira 14:00 às 15:50<br>Quarta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-39/12 (Sala de Aula)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_59" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_59':'formTurma:aquij_id_59','id':'185141','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0332 - TOPICOS EM ENGENHARIA</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">PAULO HENRIQUE PORTELA DE CARVALHO (60h)</td>
+									<td> 35T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda491885').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda491885').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda491885').style.visibility = 'hidden';" id="ajuda491885">
+		
+
+											Terça-feira 14:00 às 15:50<br>Quinta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-28/11 (Sala de Aula)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">JOSE EDIL GUIMARAES DE MEDEIROS (60h)</td>
+									<td> 35T6  35N1
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda953547').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda953547').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda953547').style.visibility = 'hidden';" id="ajuda953547">
+		
+
+											Terça-feira 18:00 às 19:50<br>Quinta-feira 18:00 às 19:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">20</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-13/15 (Auditório)</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 03</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">FLAVIA MARIA GUERRA DE SOUSA ARANHA OLIVEIRA (60h)</td>
+									<td> 35T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda132472').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda132472').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda132472').style.visibility = 'hidden';" id="ajuda132472">
+		
+
+											Terça-feira 16:00 às 17:50<br>Quinta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-25/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 04</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">HENRIQUE CEZAR FERREIRA (60h)</td>
+									<td> 35T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda980389').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda980389').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda980389').style.visibility = 'hidden';" id="ajuda980389">
+		
+
+											Terça-feira 16:00 às 17:50<br>Quinta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> SG-11 A1-28/11 (Sala de Aula)</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_60" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_60':'formTurma:aquij_id_60','id':'185147','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0334 - COMPUTACAO PARA ENGENHARIA</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LUCIANO MAURO ARLEY SUP (60h)</td>
+									<td> 46M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda384415').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda384415').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda384415').style.visibility = 'hidden';" id="ajuda384415">
+		
+
+											Quarta-feira 10:00 às 11:50<br>Sexta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> LCCC - ULEG</td>
+								</tr>
+								
+							  
+							
+		
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 02</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">LUCIANO MAURO ARLEY SUP (60h)</td>
+									<td> 46T23
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda243514').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda243514').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda243514').style.visibility = 'hidden';" id="ajuda243514">
+		
+
+											Quarta-feira 14:00 às 15:50<br>Sexta-feira 14:00 às 15:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">25</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> LCCC - ULEG</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_61" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_61':'formTurma:aquij_id_61','id':'190008','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0352 - REDES LOCAIS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">WILLIAM FERREIRA GIOZZA (60h)</td>
+									<td> 46M12
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda925705').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda925705').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda925705').style.visibility = 'hidden';" id="ajuda925705">
+		
+
+											Quarta-feira 08:00 às 09:50<br>Sexta-feira 08:00 às 09:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">30</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-16/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_62" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_62':'formTurma:aquij_id_62','id':'190009','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0353 - ANTENAS EM REDES DE COMUNICAÇÕES</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">MARCO ANTONIO BRASIL TERADA (60h)</td>
+									<td> 24T45
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda390215').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda390215').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda390215').style.visibility = 'hidden';" id="ajuda390215">
+		
+
+											Segunda-feira 16:00 às 17:50<br>Quarta-feira 16:00 às 17:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-43/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_63" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_63':'formTurma:aquij_id_63','id':'254628','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0355 - INSTRUMENTAÇÃO ELETRÔNICA E SENSORES</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaPar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">GEOVANY ARAUJO BORGES (60h)</td>
+									<td> 35M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda350052').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda350052').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda350052').style.visibility = 'hidden';" id="ajuda350052">
+		
+
+											Terça-feira 10:00 às 11:50<br>Quinta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-16/15</td>
+								</tr>
+								
+							  
+							
+		
+								
+									<tr class="agrupador">
+										<td colspan="8">
+										<a id="formTurma:aquij_id_64" href="#" title="Visualizar Detalhes do Componente Curricular" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:aquij_id_64':'formTurma:aquij_id_64','id':'313919','publico':'public'},'');}return false"><img src="/sigaa/img/view.gif">								
+											
+											
+																		
+											<span class="tituloDisciplina">ENE0459 - ENGENHARIA E MUDANÇAS CLIMÁTICAS</span>
+										</a>
+										</td>
+									</tr>
+								
+								
+								<tr class="linhaImpar">
+									<td class="turma" align="center"> 01</td>
+									<td class="anoPeriodo" align="center">2023.2</td>
+									<td class="nome">RAFAEL AMARAL SHAYANI (30h)</td>
+									<td> 6M34
+											<img src="/shared/img/geral/ajuda.gif" onmouseover="document.getElementById('ajuda23111').style.visibility = 'visible';" onmouseout="document.getElementById('ajuda23111').style.visibility = 'hidden';" border="0">
+<span style="position: absolute;">
+	<div class="popUp" style="width: 190px; " onmouseout="document.getElementById('ajuda23111').style.visibility = 'hidden';" id="ajuda23111">
+		
+
+											Sexta-feira 10:00 às 11:50  <br>
+											</div>
+</span>
+
+									</td>
+									<td> </td>
+									<td style="text-align: center;">40</td>
+									<td style="text-align: center;">0</td>
+									<td nowrap="nowrap" align="center"> FT BT-52/15</td>
+								</tr>
+								
+							  
+							
+						</tbody>
+						<tfoot>
+							<tr>
+							<td colspan="4" align="center"> <b>126 turmas encontrada(s) </b></td>
+							</tr>
+						</tfoot>
+				</table>
+			</div>	
+		
+		
+	<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id80">
+</form>		
+		<br clear="all">
+	<center>
+	  <img src="/sigaa/img/required.gif" style="vertical-align: top;"> <span class="fontePequena"> Campos de preenchimento obrigatório. </span>
+	</center>
+	<br>
+	<div style="width: 80%; text-align: center; margin: 0 auto;">
+		<a href="/sigaa/public/home.jsf" style="color: #404E82;">&lt;&lt; Voltar ao menu principal</a>
+	</div>
+<br>
+
+	
+	<div class="clear"></div>
+	</div>
+
+	<div id="rodape">
+		<p>	
+			SIGAA | Secretaria de Tecnologia da Informação - STI - (61)  3107-0102 | Copyright © 2006-2023 - UFRN - app20_Prod.sigaa14
+			 
+				<a onclick="javascript:versao();">v4.9.10.3</a>
+			
+		</p>
+	</div>
+
+	<!-- Fim dos containers -->
+	</div>
+	</div>
+	
+
+
+
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', '0', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>	
+
+
+<!-- MYFACES JAVASCRIPT -->
+
+
+
+
+
+ 
+	<script type="text/javascript" charset="UTF-8">
+		function versao(){
+			var msg='';
+			msg+='SIGAA 4.9.10.3,  publicado em: 30/06/2023 12:11\n\n';
+			msg+='Depend\u00eancias:\n';
+			msg+='Arquitetura 4.4.0\n';
+			msg+='Entidades Comuns 2.3.3\n';
+			msg+='Servicos Integrados 2.0.8\n';
+			msg+='SharedResources 2.1.2\n';
+			msg+='Servicos Remoto Biblioteca null\n';
+			msg+='SIGAA Mobile Objects 1.0.0\n\n';
+			msg+='Copyright SINFO/UFRN';
+			alert(msg);
+		}	
+	</script>
+
+<style>
+a.linkMobile:link {
+	color: #003395;
+	font-weight: bold;
+	font-size: inherit;
+	text-decoration: none;
+}
+
+a.linkMobile:visited {
+	color: #003390;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.linkMobile:active {
+	color: #444444;
+	text-decoration: none;
+	font-weight: bold;
+}
+</style>
+
+</body></html>
