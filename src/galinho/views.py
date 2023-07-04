@@ -1,25 +1,91 @@
 from django.views import View
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 import json
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
 
 @csrf_exempt
 @require_http_methods(["GET", "POST"])
 def turmas(request, id):
     if request.method == 'GET':
-        return HttpResponse("GET para turmas" + str(id))
+        texto = [{"id": 4, "semestre": 1, "obrigatoria": True, "cargaHoraria": 30, "turma": "A",
+                  "disciplina": {"codigo": "CIC025", "nome": "Software Básico"},
+                  "professor": "Fulano de tal",
+                  "datas": [
+                      {
+                          "diaSemana": 2,
+                          "horario": "14:00 - 15:50"
+                      },
+                      {
+                          "diaSemana": 4,
+                          "horario": "14:00 - 15:50"
+                      }
+                  ],
+                  "local": "bloco b - sala x - campus I",
+                  "preRequisitos": ["CIC013", "CIC20"]
+                  }]
+
+        return JsonResponse(texto, safe=False)
+        #return HttpResponse("GET para turmas" + str(id))
     elif request.method == 'POST':
         return HttpResponse("POST para turmas" + str(id))
 
 @require_http_methods(["GET"])
 def turmas_disponiveis(request, id):
-    return HttpResponse("GET para turmas disponíveis" + str(id))
+    texto = [{
+        "id": 4,
+        "semestre": 1,
+        "obrigatoria": True,
+        "cargaHoraria": 30,
+        "turma": "A",
+        "disciplina": {
+          "codigo": "CIC025",
+          "nome": "Software Básico"
+        },
+        "professor": "Fulano de tal",
+        "datas": [
+          {
+            "diaSemana": 2,
+            "horario": "14:00 - 15:50"
+          },
+          {
+            "diaSemana": 4,
+            "horario": "14:00 - 15:50"
+          }
+        ],
+        "local": "bloco b - sala x - campus I",
+        "preRequisitos": ["CIC013","CIC20"]
+        },
+
+        {
+            "id": 5,
+            "semestre": 2,
+            "obrigatoria": False,
+            "cargaHoraria": 60,
+            "turma": "B",
+            "disciplina": {
+              "codigo": "CIC023",
+              "nome": "Sistemas de informação"
+            },
+            "professor": "Fulano de tal",
+            "datas": [
+              {
+                "diaSemana": 2,
+                "horario": "09:00 - 10:50"
+              },
+              {
+                "diaSemana": 4,
+                "horario": "09:00 - 10:50"
+              }
+            ],
+            "local": "bloco b - sala x - campus I",
+            "preRequisitos": []
+        }]
+
+    return JsonResponse(texto, safe=False)
 
 
 @csrf_exempt
@@ -35,11 +101,10 @@ def login(request):
     driver.find_element(By.XPATH, "//input[@value='Entrar']").click()
     profile = driver.page_source
 
-    driver.find_element(By.XPATH, "//img[@src='/sigaa/img/icones/ensino_menu.gif']").click()
+    driver.find_element(By.XPATH, "//span[text()='Ensino']").click()
     driver.find_element(By.XPATH, "//td[text()='Consultar Minhas Notas']").click()
 
     source = driver.page_source
     driver.close()
     # return (profile, driver.page_source)
-
     return HttpResponse(source)
