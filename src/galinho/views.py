@@ -1,7 +1,7 @@
 from django.views import View
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 import json
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -13,7 +13,25 @@ def index(request):
 @require_http_methods(["GET", "POST"])
 def turmas(request, id):
     if request.method == 'GET':
-        return HttpResponse("GET para turmas" + str(id))
+        texto = [{"id": 4, "semestre": 1, "obrigatoria": True, "cargaHoraria": 30, "turma": "A",
+                  "disciplina": {"codigo": "CIC025", "nome": "Software Básico"},
+                  "professor": "Fulano de tal",
+                  "datas": [
+                      {
+                          "diaSemana": 2,
+                          "horario": "14:00 - 15:50"
+                      },
+                      {
+                          "diaSemana": 4,
+                          "horario": "14:00 - 15:50"
+                      }
+                  ],
+                  "local": "bloco b - sala x - campus I",
+                  "preRequisitos": ["CIC013", "CIC20"]
+                  }]
+
+        return JsonResponse(texto, safe=False)
+        #return HttpResponse("GET para turmas" + str(id))
     elif request.method == 'POST':
         return HttpResponse("POST para turmas" + str(id))
 
