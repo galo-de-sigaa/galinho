@@ -104,6 +104,4 @@ def print_result(result):
                 print('          ' + str(o))
     return None
 
-print_result(execute_auth('200067184', 'Arroz1001farofa!'))
-
-# execute_auth('200067184', 'Arroz1001farofa!')
+print_result(execute_auth('', ''))
